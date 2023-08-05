@@ -1,9 +1,11 @@
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .navList {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -12,7 +14,7 @@ ul {
 .navContainer {
   width: 100%;
   height: 80px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .navLink {
@@ -49,4 +51,14 @@ ul {
 .navButton:hover {
    margin-bottom: 20px;
    box-shadow: rgba(240, 230, 230, 0.903) 0px 20px 70px;
+}
+
+@media screen and (max-width: 500px) {
+  .navContainer {
+   margin: auto;
+  }
+  
+   .navList {
+      flex-direction: column;
+   }
 }

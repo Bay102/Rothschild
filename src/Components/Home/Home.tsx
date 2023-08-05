@@ -5,8 +5,9 @@ export const Home = () => {
 
    return (
      <div className={styles.homeContainer}>
-      <Navbar />
-
+      <div><Navbar /></div>
+      
+      <h1>THE ROTHSCHILD TRUST</h1>
      </div>
    )
 }
