@@ -1,0 +1,10 @@
+:root {
+   --primaryBlue: rgb(8, 13, 26)
+}
+
+.homeContainer {
+   width: 100%;
+   height: 100vh;
+   background-color: var(--primaryBlue);
+   border: 2px solid white;
+}
