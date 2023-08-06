@@ -1,29 +1,49 @@
 :root {
-   --primaryBlue: rgb(8, 13, 26)
+  --primaryBlue: rgb(8, 13, 26);
 }
 
 .homeContainer {
-   width: 100%;
-   height: 100vh;
-   background-color: var(--primaryBlue);
-   border: 2px solid white;
+  /* width: 100%; */
+  height: 100vh;
+  background-color: var(--primaryBlue);
+  border: 2px solid white;
 }
 
-.homeContainer h1 {
-   font-size: 50px;
-   font-family: copperplate;
-   text-align: center;
-   margin: 150px auto auto auto;
-   border-top: 3px solid white;
-   border-bottom: 3px solid white;
-   padding: 50px;
-   width: 60%;
-
+.sectionOne h1 {
+  font-size: 60px;
+  font-family: copperplate;
+  text-align: center;
+  margin: 150px auto auto auto;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  padding: 50px;
+  width: 60%;
 }
 
-@media screen and (max-width: 500px) {
-   .homeContainer h1 {
-      margin: auto;
-      font-size: 30px;
-   }
+.sectionOne h3 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.learnMore {
+  text-align: center;
+  background-color: bisque;
+  width: 140px;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 8px;
+  color: black;
+  margin: 140px auto 0 auto;
+}
+
+.learnMore:hover {
+  box-shadow: rgba(240, 230, 230, 0.903) 0px 20px 70px;
+}
+
+@media (max-width: 500px) {
+  .homeContainer h1 {
+    margin: auto;
+    font-size: 20px;
+  }
 }
