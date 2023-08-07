@@ -1,9 +1,4 @@
 #root {
-  /* max-width: 1280px; */
-  /* margin: 0 auto; */
-
+  --primaryBlue: rgb(8, 13, 26); 
 }
 
-/* @media screen and (max-width: 500px) {
-
-} */
