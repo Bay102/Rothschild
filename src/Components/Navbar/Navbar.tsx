@@ -24,7 +24,7 @@ export const Navbar = () => {
           </NavLink>
         </li>
         <li onMouseEnter={() => toggleDropdown(setShowAboutDropdown)}>
-          <NavLink to="/" className={styles.navLink}>
+          <NavLink to="/about-us" className={styles.navLink}>
             ABOUT US
           </NavLink>
           {showAboutDropdown && (
@@ -45,17 +45,17 @@ export const Navbar = () => {
           )}
         </li>
         <li>
-          <NavLink to="/" className={styles.navLink}>
+          <NavLink to="/our-work" className={styles.navLink}>
             OUR WORK
           </NavLink>
         </li>
         <li>
-          <NavLink to="/" className={styles.navLink}>
+          <NavLink to="/grants" className={styles.navLink}>
             GRANTS
           </NavLink>
         </li>
         <li onMouseEnter={() => toggleDropdown(setShowInvolvedDropdown)}>
-          <NavLink to="/" className={styles.navLink}>
+          <NavLink to="/get-involved" className={styles.navLink}>
             GET INVOLVED
           </NavLink>
           {showInvolvedDropdown && (
@@ -76,7 +76,7 @@ export const Navbar = () => {
           )}
         </li>
         <li>
-          <NavLink to="/" className={styles.navLink}>
+          <NavLink to="/news" className={styles.navLink}>
             NEWS
           </NavLink>
         </li>

@@ -56,6 +56,9 @@ ul {
 /* Drop Downs */
 .dropDown {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   background-color: bisque;
   margin-top: 5px;
   padding: 5px 10px;
@@ -67,11 +70,11 @@ ul {
   color: rgb(8, 13, 26);
 }
 
-.dropDown li :nth-child(1){
-   font-weight: 700;
-  margin: 8px auto;
+.dropDown li :nth-child(1) {
+  font-weight: 700;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 @media (max-width: 500px) {
   .navContainer {
