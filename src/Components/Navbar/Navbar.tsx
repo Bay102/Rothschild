@@ -6,17 +6,12 @@ export const Navbar = () => {
   const [showAboutDropdown, setShowAboutDropdown] = useState(false);
   const [showInvolvedDropdown, setShowInvolvedDropdown] = useState(false);
 
-  const toggleAboutDropdown = () => {
-    setShowAboutDropdown(true);
+  const toggleDropdown = (
+    dropdown: React.Dispatch<React.SetStateAction<boolean>>
+  ) => {
+    dropdown(true);
     setTimeout(() => {
-      setShowAboutDropdown(false);
-    }, 4500);
-  };
-
-  const toggleInvolvedDropdown = () => {
-    setShowInvolvedDropdown(true);
-    setTimeout(() => {
-      setShowInvolvedDropdown(false);
+      dropdown(false);
     }, 4500);
   };
 
@@ -28,7 +23,7 @@ export const Navbar = () => {
             HOME
           </NavLink>
         </li>
-        <li onMouseEnter={toggleAboutDropdown}>
+        <li onMouseEnter={() => toggleDropdown(setShowAboutDropdown)}>
           <NavLink to="/" className={styles.navLink}>
             ABOUT US
           </NavLink>
@@ -59,10 +54,7 @@ export const Navbar = () => {
             GRANTS
           </NavLink>
         </li>
-        <li
-          onMouseEnter={toggleInvolvedDropdown}
-          // onMouseLeave={toggleInvolvedDropdown}
-        >
+        <li onMouseEnter={() => toggleDropdown(setShowInvolvedDropdown)}>
           <NavLink to="/" className={styles.navLink}>
             GET INVOLVED
           </NavLink>
