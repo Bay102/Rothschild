@@ -16,6 +16,8 @@ export const Home = () => {
           </NavLink>
         </div>
       </section>
+      <section></section>
+      <section></section>
     </div>
   );
 };

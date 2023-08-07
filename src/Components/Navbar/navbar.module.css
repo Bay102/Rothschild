@@ -8,13 +8,13 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
 }
 
 .navContainer {
   width: 100%;
   height: 80px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .navLink {
@@ -23,59 +23,75 @@ ul {
 }
 
 .pushRight {
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .navButton {
-   border: 1px solid black;
-   border-radius: 8px;
-   padding: 15px;
-   width: 140px;
-   text-align: center;
-   color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  width: 140px;
+  text-align: center;
+  color: black;
 }
 
 .contact {
-   background-color: bisque;
+  background-color: bisque;
 }
 
 .donate {
-   background-color: rgb(185, 231, 185);
+  background-color: rgb(185, 231, 185);
 }
 
 .black {
-   font-weight: 650;
-   color: black;
+  font-weight: 650;
+  color: black;
 }
 
 .navButton:hover {
-   margin-bottom: 20px;
-   box-shadow: rgba(240, 230, 230, 0.903) 0px 20px 70px;
+  margin-bottom: 20px;
+  box-shadow: rgba(240, 230, 230, 0.903) 0px 20px 70px;
+}
+
+/* Drop Downs */
+.dropDown {
+   position: absolute;
+
+  background-color: bisque;
+  padding: 5px;
+}
+
+.dropDown a {
+  color: rgb(8, 13, 26);
+}
+
+.dropDown li {
+  margin: 10px auto;
 }
 
 @media (max-width: 500px) {
   .navContainer {
-   margin: auto;
-   height: max-content;
+    margin: auto;
+    height: max-content;
   }
-  
-   .navList {
-      flex-direction: column;
-      flex-wrap: nowrap;
-      gap: 10px;
-   }
 
-   .navLink {
-      font-size: 15px;
-   }
+  .navList {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
 
-   .navButton {
-      font-size: 16px;
-      width: 100px;
-      padding: 5px;
-   }
+  .navLink {
+    font-size: 15px;
+  }
 
-   .pushRight {
-      margin: 0;
-   }
+  .navButton {
+    font-size: 16px;
+    width: 100px;
+    padding: 5px;
+  }
+
+  .pushRight {
+    margin: 0;
+  }
 }
