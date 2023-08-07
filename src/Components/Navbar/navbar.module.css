@@ -5,7 +5,7 @@ ul {
 
 .navList {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   gap: 40px;
@@ -55,19 +55,23 @@ ul {
 
 /* Drop Downs */
 .dropDown {
-   position: absolute;
-
+  position: absolute;
   background-color: bisque;
-  padding: 5px;
+  margin-top: 5px;
+  padding: 5px 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .dropDown a {
   color: rgb(8, 13, 26);
 }
 
-.dropDown li {
-  margin: 10px auto;
+.dropDown li :nth-child(1){
+   font-weight: 700;
+  margin: 8px auto;
 }
+
 
 @media (max-width: 500px) {
   .navContainer {

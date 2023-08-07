@@ -7,11 +7,17 @@ export const Navbar = () => {
   const [showInvolvedDropdown, setShowInvolvedDropdown] = useState(false);
 
   const toggleAboutDropdown = () => {
-    setShowAboutDropdown(!showAboutDropdown);
+    setShowAboutDropdown(true);
+    setTimeout(() => {
+      setShowAboutDropdown(false);
+    }, 4500);
   };
 
   const toggleInvolvedDropdown = () => {
-    setShowInvolvedDropdown(!showInvolvedDropdown);
+    setShowInvolvedDropdown(true);
+    setTimeout(() => {
+      setShowInvolvedDropdown(false);
+    }, 4500);
   };
 
   return (
@@ -22,7 +28,7 @@ export const Navbar = () => {
             HOME
           </NavLink>
         </li>
-        <li onMouseEnter={toggleAboutDropdown} onMouseLeave={toggleAboutDropdown}>
+        <li onMouseEnter={toggleAboutDropdown}>
           <NavLink to="/" className={styles.navLink}>
             ABOUT US
           </NavLink>
@@ -55,7 +61,7 @@ export const Navbar = () => {
         </li>
         <li
           onMouseEnter={toggleInvolvedDropdown}
-          onMouseLeave={toggleInvolvedDropdown}
+          // onMouseLeave={toggleInvolvedDropdown}
         >
           <NavLink to="/" className={styles.navLink}>
             GET INVOLVED
@@ -63,16 +69,16 @@ export const Navbar = () => {
           {showInvolvedDropdown && (
             <ul className={styles.dropDown}>
               <li>
-                <a href="#">SUPPORT US</a>
+                <NavLink to="/">SUPPORT US</NavLink>
               </li>
               <li>
-                <a href="#">MENTORING</a>
+                <NavLink to="/">MENTORING</NavLink>
               </li>
               <li>
-                <a href="#">JOIN OUR BOARD</a>
+                <NavLink to="/">JOIN OUR BOARD</NavLink>
               </li>
               <li>
-                <a href="#">CAREERS</a>
+                <NavLink to="/">CAREERS</NavLink>
               </li>
             </ul>
           )}
