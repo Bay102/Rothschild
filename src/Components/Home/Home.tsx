@@ -16,8 +16,13 @@ export const Home = () => {
           </NavLink>
         </div>
       </section>
-      <section></section>
-      <section></section>
+      <section className={styles.ourMission}>
+
+      </section>
+      <section className={styles.supportUs}>
+
+      </section>
+      <footer></footer>
     </div>
   );
 };
