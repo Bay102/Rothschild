@@ -24,12 +24,12 @@ export const Home = () => {
         <div className={styles.ourFocusContainer}>
           <h3>Our Focus</h3>
           <div className={styles.focusCards}>
-            <CardItem imageSrc="public/Group 139.svg" title="Education" description="We fund projects focusing on early childhood education, K-12 education, higher education, and vocational and technical training." />
-            <CardItem imageSrc="public/Group 144.svg" title="Community" description="Through our grants, we strive to create opportunities for individuals and groups to unite." />
-            <CardItem imageSrc="public/Group 143.svg" title="Healthcare" description="We prioritize funding towards enhancing primary care, behavioral health, and critical emergency care services." />
-            <CardItem imageSrc="public/Group 139.svg" title="Nutrition" description="Our focus is on funding projects that adopt a comprehensive approach to nutrition, considering food security and other social determinants of health, including poverty." />
-            <CardItem imageSrc="public/Group 145.svg" title="Justice" description="We are committed to forging a path towards a more egalitarian and nonviolent society, both within the United States and internationally." />
-            <CardItem imageSrc="public/Group 146.svg" title="Innovation" description=" Our grants empower organizations to conduct cutting-edge research and development, experiment with new and innovative approaches, and expand successful models." />
+            <CardItem imageSrc="/Group 139.svg" title="Education" description="We fund projects focusing on early childhood education, K-12 education, higher education, and vocational and technical training." />
+            <CardItem imageSrc="/Group 144.svg" title="Community" description="Through our grants, we strive to create opportunities for individuals and groups to unite." />
+            <CardItem imageSrc="/Group 143.svg" title="Healthcare" description="We prioritize funding towards enhancing primary care, behavioral health, and critical emergency care services." />
+            <CardItem imageSrc="/Group 139.svg" title="Nutrition" description="Our focus is on funding projects that adopt a comprehensive approach to nutrition, considering food security and other social determinants of health, including poverty." />
+            <CardItem imageSrc="/Group 145.svg" title="Justice" description="We are committed to forging a path towards a more egalitarian and nonviolent society, both within the United States and internationally." />
+            <CardItem imageSrc="/Group 146.svg" title="Innovation" description=" Our grants empower organizations to conduct cutting-edge research and development, experiment with new and innovative approaches, and expand successful models." />
           </div>
         </div>
       </section>
