@@ -1,0 +1,10 @@
+
+.cardContainer {
+   /* border: 1px solid black; */
+   width: 200px;
+   height: 275px;
+   color: black;
+   text-align: center;
+   font-size: 15px;
+   margin: 20px auto;
+}

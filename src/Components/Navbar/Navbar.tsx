@@ -12,12 +12,13 @@ export const Navbar = () => {
     dropdown(true);
     setTimeout(() => {
       dropdown(false);
-    }, 4500);
+    }, 3500);
   };
 
   return (
     <nav className={styles.navContainer}>
       <ul className={styles.navList}>
+        <div className={styles.logo}>THE ROTHSCHILD TRUST</div>
         <li>
           <NavLink to="/" className={styles.navLink}>
             HOME
@@ -80,7 +81,7 @@ export const Navbar = () => {
             NEWS
           </NavLink>
         </li>
-        <li className={`${styles.pushRight} ${styles.navButton} ${styles.contact}`}>
+        {/* <li className={`${styles.pushRight} ${styles.navButton} ${styles.contact}`}>
           <NavLink to="/" className={`${styles.navLink} ${styles.black}`}>
             CONTACT
           </NavLink>
@@ -89,7 +90,7 @@ export const Navbar = () => {
           <NavLink to="/" className={`${styles.navLink} ${styles.black}`}>
             DONATE
           </NavLink>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

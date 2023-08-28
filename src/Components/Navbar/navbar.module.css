@@ -4,18 +4,26 @@ ul {
   margin: 0;
 }
 
+.logo {
+  font-size: 30px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  margin-right: auto;
+}
+
 .navList {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 40px;
 }
 
 .navContainer {
   width: 100%;
   height: 80px;
-  padding: 30px 10px;
+  padding: 30px 40px;
+  box-sizing: border-box;
 }
 
 .navLink {
