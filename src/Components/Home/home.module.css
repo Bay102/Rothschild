@@ -8,7 +8,7 @@
 }
 
 .section {
-  background-image: url('src/assets/HeroImageHome.png');
+  background-image: url('src/public/assets/HeroImageHome.png');
   /* background-position: 100; */
   background-size: auto;
   background-repeat: no-repeat;
