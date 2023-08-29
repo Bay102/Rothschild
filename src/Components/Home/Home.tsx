@@ -94,6 +94,24 @@ export const Home = () => {
         <div className={styles.supportContentContainer}>
           <div className={styles.supportLeft}>
             <h3>Support Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
+              habitant nulla vel ac est. Tincidunt egestas lorem turpis aliquet metus
+              tristique cursus vitae sed. Hendrerit adipiscing metus quis integer
+              ipsum tristique. Mollis varius mattis non sagittis libero.
+              <br />
+              <br />
+              Aliquet metus tristique cursus vitae sed. Hendrerit adipiscing metus
+              quis integer ipsum tristique. Mollis varius mattis non sagittis libero.
+              Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
+              habitant nulla vel ac est. Tincidunt egestas lorem turpis aliquet metus
+              tristique cursus vitae sed. Hendrerit adipiscing metus quis integer
+              ipsum tristique. Mollis varius mattis non sagittis libero.
+              <br />
+              <br />
+              Aliquet metus tristique cursus vitae sed. Hendrerit adipiscing metus
+              quis integer ipsum tristique. Mollis varius mattis non sagittis libero.
+            </p>
           </div>
           <div className={styles.supportRight}></div>
         </div>

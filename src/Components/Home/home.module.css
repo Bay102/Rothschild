@@ -68,11 +68,11 @@
   /* border: 1px solid black; */
   width: 48%;
   /* height: 100%; */
-  background-image: url('/public/Rectangle22.png');
+  background-image: url('/Rectangle22.png');
   border-radius: 5px;
 }
 
-.topRight{
+.topRight {
   /* border: 1px solid black; */
   color: black;
   width: 50%;
@@ -108,9 +108,8 @@
   width: 820px;
 }
 
-
 .supportUsContainer {
-  height: 1000px;
+  /* height: 1000px; */
   background-color: #b8ac92;
   position: relative;
   display: flex;
@@ -122,12 +121,19 @@
 .supportContentContainer {
   display: flex;
   gap: 10px;
+  height: 700px;
+  margin-top: 100px;
 }
 
 .supportLeft {
   /* border: 1px solid black; */
   width: 400px;
-  height: 500px;
+  /* height: 700px; */
+}
+
+.supportLeft p {
+  color: black;
+  font-size: 17px;
 }
 
 .supportLeft h3 {
@@ -136,11 +142,12 @@
 }
 
 .supportRight {
-  background-image: url('/public/Rectangle75.png');
+  background-image: url('/Rectangle75.png');
   /* border: 1px solid black; */
   width: 400px;
-  height: 500px;
+  height: 570px;
   border-radius: 10px;
+  margin-top: 20px;
 }
 
 .newsLetterContainer {
@@ -167,7 +174,7 @@
 .newsLetterContainer button {
   width: 150px;
   margin: 20px auto;
-  background-color: #CE392C;
+  background-color: #ce392c;
 }
 
 .donateButton {
