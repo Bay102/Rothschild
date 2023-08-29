@@ -2,6 +2,8 @@
   height: 350px;
   background: #2c231f;
   display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 
 .one {
@@ -19,17 +21,35 @@
    width: 240px;
    padding: 10px;
    text-align: center;
-   margin: 50px auto;
+   margin: 70px auto;
 }
 
 
 .two {
-   width: 60%;
+   width: 50%;
    /* border: 1px solid white; */
+
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   justify-content: center;
+   align-content: space-evenly;
+}
+
+.two li {
+   width: 220px;
+
 }
 
 
 .three {
-   width: 10%;
+   width: 20%;
+   display: flex;
    /* border: 1px solid white; */
 }
+
+.donateButton {
+   background: rgb(206, 57, 44);
+   margin-bottom: 180px;
+   align-self: center;
+ }

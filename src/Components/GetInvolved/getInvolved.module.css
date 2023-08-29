@@ -2,3 +2,12 @@
    background-color: rgb(8, 13, 26);
    height: 100vh;
 }
+
+.section {
+   background-image: url('/public/getInvolved.png');
+   /* background-position: 100; */
+   background-size: auto;
+   background-repeat: no-repeat;
+   height: 863px;
+   border: 2px solid white;
+}
