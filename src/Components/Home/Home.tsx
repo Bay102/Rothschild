@@ -15,7 +15,7 @@ export const Home = () => {
             <br /> Building a stronger you.
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa minima
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. I grus ahe pepe Culpa minima
             jufuea
           </p>
           <div className={styles.buttons}>
@@ -24,7 +24,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <section className={styles.sectionOne}></section>
+      {/* <section className={styles.sectionOne}></section> */}
       <section className={styles.ourMissionContainer}>
         <div className={styles.topContainer}>
           <div className={styles.topLeft}></div>
