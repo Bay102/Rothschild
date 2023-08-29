@@ -27,18 +27,16 @@
 
 .two {
    width: 50%;
-   /* border: 1px solid white; */
-
    display: flex;
    flex-wrap: wrap;
    list-style: none;
    justify-content: center;
-   align-content: space-evenly;
+   align-content: center;
 }
 
 .two li {
    width: 220px;
-
+   margin: 20px auto;
 }
 
 

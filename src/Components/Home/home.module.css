@@ -9,7 +9,6 @@
 
 .section {
   background-image: url('/HeroImageHome.png');
-  /* background-position: 100; */
   background-size: auto;
   background-repeat: no-repeat;
   height: 863px;
@@ -17,7 +16,6 @@
 }
 
 .sectionOne {
-  /* height: 650px; */
   flex-shrink: 0;
 }
 
@@ -43,12 +41,10 @@
   width: 600px;
   margin-top: 190px;
   margin-left: 150px;
-  /* border: 1px solid white; */
 }
 
 .buttons {
   display: flex;
-  /* justify-content: center; */
   gap: 50px;
   margin-top: 100px;
   margin-left: 50px;
@@ -59,6 +55,34 @@
   box-shadow: rgba(240, 230, 230, 0.903) 0px 20px 70px;
 }
 
+.topContainer {
+  /* border: 1px solid black; */
+  height: 573px;
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  gap: 25px;
+}
+
+.topLeft {
+  /* border: 1px solid black; */
+  width: 48%;
+  /* height: 100%; */
+  background-image: url('/public/Rectangle22.png');
+  border-radius: 5px;
+}
+
+.topRight{
+  /* border: 1px solid black; */
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.topRight p {
+  font-size: 16px;
+}
+
 .ourMissionContainer {
   height: 1450px;
   background-color: white;
@@ -67,7 +91,6 @@
 .ourFocusContainer {
   width: 90%;
   height: max-content;
-  /* border: 1px solid black; */
   margin: 80px auto;
 }
 
@@ -85,12 +108,6 @@
   width: 820px;
 }
 
-.topContainer {
-  border: 1px solid black;
-  height: 500px;
-  width: 900px;
-  margin: 100px auto;
-}
 
 .supportUsContainer {
   height: 1000px;
@@ -104,20 +121,26 @@
 
 .supportContentContainer {
   display: flex;
-  /* flex-direction: column; */
   gap: 10px;
 }
 
 .supportLeft {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 400px;
   height: 500px;
 }
 
+.supportLeft h3 {
+  color: black;
+  text-align: left;
+}
+
 .supportRight {
-  border: 1px solid black;
+  background-image: url('/public/Rectangle75.png');
+  /* border: 1px solid black; */
   width: 400px;
   height: 500px;
+  border-radius: 10px;
 }
 
 .newsLetterContainer {
@@ -145,6 +168,14 @@
   width: 150px;
   margin: 20px auto;
   background-color: #CE392C;
+}
+
+.donateButton {
+  background: rgb(206, 57, 44);
+  margin-bottom: 180px;
+  margin-top: 40px;
+  align-self: center;
+  color: white;
 }
 
 @media (max-width: 500px) {

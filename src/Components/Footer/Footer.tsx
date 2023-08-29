@@ -22,8 +22,6 @@ export const Footer = ( ) => {
       <div className={styles.three}>
          <button className={styles.donateButton}>Donate</button>
       </div>
-      <br />
-      <hr />
     </div>
    )
 }
