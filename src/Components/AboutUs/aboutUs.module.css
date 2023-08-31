@@ -1,7 +1,15 @@
 .container {
 }
 
-.section {
+.learnButton {
+  background: rgb(206, 57, 44);
+  /* margin-bottom: 40px; */
+  /* margin-top: 40px; */
+  align-self: center;
+  color: white;
+}
+
+.heroSection {
   background-image: url('/aboutHero.png');
   background-size: auto;
   background-repeat: no-repeat;
@@ -12,7 +20,7 @@
   text-align: center;
 }
 
-.section p {
+.heroSection p {
   margin: 0;
   margin-bottom: 80px;
   width: 70%;
@@ -31,3 +39,55 @@
   background-color: #dfd8c8;
   height: 1500px;
 }
+
+.storyContainer {
+  height: 573px;
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  gap: 25px;
+}
+
+.storyLeft {
+  width: 48%;
+  /* height: 100%; */
+  background-image: url('/Rectangle22.png');
+  border-radius: 5px;
+}
+
+.storyRight {
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.storyRight p {
+  font-size: 16px;
+}
+
+.visionContainer {
+  height: 573px;
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  gap: 25px;
+}
+
+.visionLeft {
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.visionRight {
+  width: 48%;
+  /* height: 100%; */
+  background-image: url('/visionPic.png');
+  border-radius: 5px;
+}
+
+.visionContainer p {
+  font-size: 16px;
+}
+
+
