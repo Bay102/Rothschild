@@ -5,8 +5,8 @@ import styles from './aboutUs.module.css';
 export const AboutUs = () => {
   return (
     <div className={styles.container}>
+      <Navbar />
       <div className={styles.section}>
-        <Navbar />
         <p>
           <q>
             {' '}
@@ -16,13 +16,9 @@ export const AboutUs = () => {
           </q>
         </p>
       </div>
-      <div className={styles.sectionTwo}>
+      <div className={styles.sectionTwo}></div>
 
-      </div>
-
-      <div className={styles.sectionThree}>
-         
-      </div>
+      <div className={styles.sectionThree}></div>
       <Footer />
     </div>
   );

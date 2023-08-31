@@ -86,7 +86,11 @@
 }
 
 .ourMissionContainer {
-  height: 1450px;
+  /* height: 1450px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: center;
   background-color: white;
 }
 

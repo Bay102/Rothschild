@@ -1,24 +1,23 @@
 .container {
-  background-image: url('/public/aboutHero.png');
-  /* height: 100vh; */
 }
 
 .section {
-  background-image: url('/public/aboutHero.png');
-  /* background-position: 100; */
+  background-image: url('/aboutHero.png');
   background-size: auto;
   background-repeat: no-repeat;
   height: 863px;
-  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .section p {
-  margin: 300px auto;
+  margin: 0;
+  margin-bottom: 80px;
   width: 70%;
   font-size: 42px;
-  text-align: center;
   line-height: 1.5;
-  background-color: rgba(128, 128, 128, 0.199);
   border-radius: 15px;
   font-weight: 500;
 }

@@ -15,8 +15,8 @@ export const Home = () => {
             <br /> Building a stronger you.
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. I grus ahe pepe Culpa minima
-            jufuea
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. I grus ahe pepe
+            Culpa minima jufuea
           </p>
           <div className={styles.buttons}>
             <button style={{ background: '#CE392C' }}>Donate</button>
