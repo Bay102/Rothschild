@@ -1,3 +1,4 @@
+import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import styles from './aboutUs.module.css';
@@ -16,7 +17,7 @@ export const AboutUs = () => {
           </q>
         </p>
       </section>
-      <div className={styles.sectionTwo}>
+      <section className={styles.sectionTwo}>
         <div className={styles.storyContainer}>
           <div className={styles.storyLeft}></div>
           <div className={styles.storyRight}>
@@ -31,7 +32,8 @@ export const AboutUs = () => {
               Through the years, its reputation grew through word-of-mouth and the
               unwavering excellence of its offerings, solidifying its place as a
               beloved fixture in the community.
-              <br /><br />
+              <br />
+              <br />
               Fueled by their entrepreneurial spirit, the Rothschilds extended their
               reach, establishing a series of restaurants and catering businesses on
               the outskirts of Philadelphia. Each venue exuded a unique charm,
@@ -66,12 +68,64 @@ export const AboutUs = () => {
             </p>
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
-
-          <div className={styles.visionRight}> </div>
+          <div className={styles.visionRight}></div>
         </div>
-      </div>
+      </section>
 
-      <div className={styles.sectionThree}></div>
+      <section className={styles.sectionThree}>
+        <div className={styles.coreValuesContainer}>
+          <h3>Core Values</h3>
+          <div className={styles.valueCards}>
+            <CardItem
+              imageSrc="/Group 129.svg"
+              title="Service"
+              description="This value extends beyond the mere provision of goods and services; it encompasses the deeper meaning of serving others and contributing to the greater good."
+            />
+            <CardItem
+              imageSrc="/Group 130.svg"
+              title="Hospitality"
+              description="Hospitality encompasses more than just courteousness and attentiveness; it involves creating a comfortable and welcoming atmosphere."
+            />
+            <CardItem
+              imageSrc="/Group 131.svg"
+              title="Passion"
+              description="Passion is the driving force that fuels the desire to create and innovate. It involves being authentic, driven and committed to one's craft."
+            />
+            <CardItem
+              imageSrc="/Group 134.svg"
+              title="Fun"
+              description="Promoting a sense of playfulness and levity, creating an enjoyable and engaging environment is crucial in any line of work."
+            />
+            <CardItem
+              imageSrc="/Group 133.svg"
+              title="integrity"
+              description="Honesty, transparency, and accountability are the cornerstones of our work. The Rothschilds had a reputation for being forthright and ethical."
+            />
+          </div>
+        </div>
+        <div className={styles.whoWeAreContainer}>
+          <h2>Who We Are</h2>
+          <div className={styles.peoplePicsContainer}>
+            <div className={styles.personWrapper}>
+              <img src="/Rectangle 111.png" alt="" />
+              <h3>Carmen Facciolo</h3>
+              <p>Executive Director</p>
+            </div>
+            <div className={styles.personWrapper}>
+              <img src="/Rectangle 112.png" alt="" />
+              <h3>Frances Lopez</h3>
+              <p>General Council</p>
+              <p>Board Member</p>
+            </div>
+            <div className={styles.personWrapper}>
+              <img src="/Rectangle 113.png" alt="" />
+              <h3>Lenore Lebron</h3>
+              <p>Chief Impact Officer</p>
+              <p>Board Member</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <Footer />
     </div>
   );

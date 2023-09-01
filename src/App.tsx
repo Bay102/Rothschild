@@ -8,6 +8,7 @@ import { AboutUs } from './Components/AboutUs/AboutUs';
 import { OurWork } from './Components/OurWork/OurWork';
 import { GetInvolved } from './Components/GetInvolved/GetInvolved';
 import { News } from './Components/News/News';
+import { Grants } from './Components/Grants/Grants';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Route index path="/" element={<Home />} />
             <Route index path="/about-us" element={<AboutUs />} />
             <Route index path="/our-work" element={<OurWork />} />
-            {/* <Route index path="/grants" element={<Grants />} /> */}
+            <Route index path="/grants" element={<Grants />} />
             <Route index path="/get-involved" element={<GetInvolved />} />
             <Route index path="/news" element={<News />} />
           </Routes>

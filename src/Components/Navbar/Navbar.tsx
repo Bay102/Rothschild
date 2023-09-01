@@ -50,11 +50,11 @@ export const Navbar = () => {
             OUR WORK
           </NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink to="/grants" className={styles.navLink}>
             GRANTS
           </NavLink>
-        </li> */}
+        </li>
         <li onMouseEnter={() => toggleDropdown(setShowInvolvedDropdown)}>
           <NavLink to="/get-involved" className={styles.navLink}>
             GET INVOLVED

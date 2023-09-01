@@ -179,8 +179,9 @@
 
 .newsLetterContainer button {
   width: 150px;
-  margin: 20px auto;
+  margin: 20px auto 80px auto;
   background-color: #ce392c;
+  color: white;
 }
 
 .donateButton {
