@@ -1,11 +1,37 @@
 .container {
-   background-color: rgb(8, 13, 26);
-   height: 100vh;
+  /* background-color: rgb(8, 13, 26);
+   height: 100vh; */
 }
 
-.section {
-   background-image: url('/getInvolved.png');
-   background-size: auto;
-   background-repeat: no-repeat;
-   height: 863px;
+.sectionOne {
+  background-image: url('/getInvolved.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 863px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sectionOne p {
+  font-size: 42px;
+  font-weight: 500;
+  padding: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  margin-bottom: 100px;
+  width: 70%;
+  line-height: 1.2;
+  border-radius: 15px;
+  background-color: rgba(188, 177, 154, 0.534);
+}
+
+.sectionTwo {
+   height: 1400px;
+}
+
+.sectionThree {
+   height: 1400px;
+   background: #DFD8C8;
 }

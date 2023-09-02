@@ -12,7 +12,7 @@ export const AboutUs = () => {
           <q>
             {' '}
             The Rothschild Trust envisions a world where the service industry is
-            celebrated for its contributions to society, and creativity, healing, and
+            celebrated for its contributions to society. Creativity, healing, and
             innovation are at the forefront of its mission.
           </q>
         </p>

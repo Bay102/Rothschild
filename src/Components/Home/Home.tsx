@@ -3,9 +3,12 @@ import { Navbar } from '../Navbar/Navbar';
 import styles from './home.module.css';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
+import Zoom from 'react-reveal/Zoom'
+
 
 export const Home = () => {
   return (
+    
     <div className={styles.homeContainer}>
       <div className={styles.section}>
         <Navbar />
@@ -25,6 +28,8 @@ export const Home = () => {
         </div>
       </div>
       {/* <section className={styles.sectionOne}></section> */}
+      <Zoom>
+
       <section className={styles.ourMissionContainer}>
         <div className={styles.topContainer}>
           <div className={styles.topLeft}></div>
@@ -89,6 +94,7 @@ export const Home = () => {
           </div>
         </div>
       </section>
+      </Zoom>
 
       <section className={styles.supportUsContainer}>
         <div className={styles.supportContentContainer}>
