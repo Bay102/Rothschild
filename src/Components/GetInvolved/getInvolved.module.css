@@ -18,7 +18,8 @@
   font-size: 42px;
   font-weight: 500;
   padding: 50px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+    Arial, sans-serif;
   margin: 0;
   margin-bottom: 100px;
   width: 70%;
@@ -28,10 +29,61 @@
 }
 
 .sectionTwo {
-   height: 1400px;
+  height: 1400px;
+  color: black;
+}
+
+.supportUsContainer {
+  height: 573px;
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  gap: 25px;
+}
+
+.supportLeft {
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.supportLeft p {
+  font-size: 16px;
+}
+
+.supportRight {
+  width: 48%;
+  /* height: 100%; */
+  background-image: url('/Rectangle75.png');
+  border-radius: 5px;
+}
+
+.mentoringContainer {
+  height: 573px;
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  gap: 25px;
+}
+
+.mentoringLeft {
+  width: 48%;
+  /* height: 100%; */
+  background-image: url('/mentoring.png');
+  border-radius: 5px;
+}
+
+.mentoringRight {
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.mentoringRight p {
+  font-size: 16px;
 }
 
 .sectionThree {
-   height: 1400px;
-   background: #DFD8C8;
+  height: 1400px;
+  background: #dfd8c8;
 }

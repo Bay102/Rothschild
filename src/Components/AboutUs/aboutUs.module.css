@@ -123,7 +123,7 @@
   justify-content: center;
 }
 
-.whoWeAreContainer, h3 {
+.whoWeAreContainer h3 {
   color: black;
   margin: 15px;
 }

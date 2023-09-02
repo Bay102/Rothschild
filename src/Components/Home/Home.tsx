@@ -7,7 +7,7 @@ import { CardItem } from '../CardItem/CardItem';
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
-      <div className={styles.section}>
+      <section className={styles.section}>
         <Navbar />
         <div className={styles.intro}>
           <h2>
@@ -23,9 +23,7 @@ export const Home = () => {
             <button style={{ background: '#ED8042' }}>Learn More</button>
           </div>
         </div>
-      </div>
-      {/* <section className={styles.sectionOne}></section> */}
-
+      </section>
       <section className={styles.ourMissionContainer}>
         <div className={styles.topContainer}>
           <div className={styles.topLeft}></div>
