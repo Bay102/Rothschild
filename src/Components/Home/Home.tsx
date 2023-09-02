@@ -3,7 +3,7 @@ import { Navbar } from '../Navbar/Navbar';
 import styles from './home.module.css';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
-import Zoom from 'react-reveal';
+
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
