@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
 import styles from './navbar.module.css';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 export const Navbar = () => {
-  const [showAboutDropdown, setShowAboutDropdown] = useState(false);
-  const [showInvolvedDropdown, setShowInvolvedDropdown] = useState(false);
+  // const [showAboutDropdown, setShowAboutDropdown] = useState(false);
+  // const [showInvolvedDropdown, setShowInvolvedDropdown] = useState(false);
 
   // const toggleDropdown = (
   //   dropdown: React.Dispatch<React.SetStateAction<boolean>>
@@ -28,7 +28,7 @@ export const Navbar = () => {
           <NavLink to="/about-us" className={styles.navLink}>
             ABOUT US
           </NavLink>
-          {showAboutDropdown && (
+          {/* {showAboutDropdown && (
             <ul className={styles.dropDown}>
               <li>
                 <NavLink to="/">OUR STORY</NavLink>
@@ -43,7 +43,7 @@ export const Navbar = () => {
                 <NavLink to="/">WHO WE ARE</NavLink>
               </li>
             </ul>
-          )}
+          )} */}
         </li>
         <li>
           <NavLink to="/our-work" className={styles.navLink}>
@@ -59,7 +59,7 @@ export const Navbar = () => {
           <NavLink to="/get-involved" className={styles.navLink}>
             GET INVOLVED
           </NavLink>
-          {showInvolvedDropdown && (
+          {/* {showInvolvedDropdown && (
             <ul className={styles.dropDown}>
               <li>
                 <NavLink to="/">SUPPORT US</NavLink>
@@ -74,23 +74,13 @@ export const Navbar = () => {
                 <NavLink to="/">CAREERS</NavLink>
               </li>
             </ul>
-          )}
+          )} */}
         </li>
         <li>
           <NavLink to="/news" className={styles.navLink}>
             NEWS
           </NavLink>
         </li>
-        {/* <li onMouseEnter={() => toggleDropdown(setShowAboutDropdown)} className={`${styles.pushRight} ${styles.navButton} ${styles.contact}`}>
-          <NavLink to="/" className={`${styles.navLink} ${styles.black}`}>
-            CONTACT
-          </NavLink>
-        </li>
-        <li className={`${styles.navLink} ${styles.navButton} ${styles.donate}`}>
-          <NavLink to="/" className={`${styles.navLink} ${styles.black}`}>
-            DONATE
-          </NavLink>
-        </li> */}
       </ul>
     </nav>
   );
