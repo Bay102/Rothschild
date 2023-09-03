@@ -7,7 +7,7 @@
   background-image: url('/getInvolved.png');
   background-size: auto;
   background-repeat: no-repeat;
-  height: 863px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,9 +23,9 @@
   margin: 0;
   margin-bottom: 100px;
   width: 70%;
-  line-height: 1.2;
+  line-height: 1.9;
   border-radius: 15px;
-  background-color: rgba(188, 177, 154, 0.534);
+  /* background-color: rgba(188, 177, 154, 0.534); */
 }
 
 .sectionTwo {
@@ -86,4 +86,39 @@
 .sectionThree {
   height: 1400px;
   background: #dfd8c8;
+  padding-top: 1px;
+}
+
+.joinLeft {
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.joinLeft p {
+  font-size: 16px;
+}
+
+.joinRight {
+  width: 48%;
+  height: 100%;
+  background-image: url('/joinBoard.png');
+  border-radius: 5px;
+}
+
+.careersRight {
+  color: black;
+  width: 50%;
+  height: 100%;
+}
+
+.careersRight p {
+  font-size: 15px;
+}
+
+.careersLeft {
+  width: 48%;
+  height: 100%;
+  background-image: url('/joinBoard.png');
+  border-radius: 5px;
 }

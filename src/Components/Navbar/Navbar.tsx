@@ -6,14 +6,14 @@ export const Navbar = () => {
   const [showAboutDropdown, setShowAboutDropdown] = useState(false);
   const [showInvolvedDropdown, setShowInvolvedDropdown] = useState(false);
 
-  const toggleDropdown = (
-    dropdown: React.Dispatch<React.SetStateAction<boolean>>
-  ) => {
-    dropdown(true);
-    setTimeout(() => {
-      dropdown(false);
-    }, 3500);
-  };
+  // const toggleDropdown = (
+  //   dropdown: React.Dispatch<React.SetStateAction<boolean>>
+  // ) => {
+  //   dropdown(true);
+  //   setTimeout(() => {
+  //     dropdown(false);
+  //   }, 3500);
+  // };
 
   return (
     <nav className={styles.navContainer}>
@@ -24,7 +24,7 @@ export const Navbar = () => {
             HOME
           </NavLink>
         </li>
-        <li onMouseEnter={() => toggleDropdown(setShowAboutDropdown)}>
+        <li>
           <NavLink to="/about-us" className={styles.navLink}>
             ABOUT US
           </NavLink>
@@ -55,7 +55,7 @@ export const Navbar = () => {
             GRANTS
           </NavLink>
         </li>
-        <li onMouseEnter={() => toggleDropdown(setShowInvolvedDropdown)}>
+        <li>
           <NavLink to="/get-involved" className={styles.navLink}>
             GET INVOLVED
           </NavLink>
@@ -81,7 +81,7 @@ export const Navbar = () => {
             NEWS
           </NavLink>
         </li>
-        {/* <li className={`${styles.pushRight} ${styles.navButton} ${styles.contact}`}>
+        {/* <li onMouseEnter={() => toggleDropdown(setShowAboutDropdown)} className={`${styles.pushRight} ${styles.navButton} ${styles.contact}`}>
           <NavLink to="/" className={`${styles.navLink} ${styles.black}`}>
             CONTACT
           </NavLink>
