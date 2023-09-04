@@ -1,6 +1,6 @@
 // import { NavLink } from 'react-router-dom';
-import styles from './home.module.css';
 import '/src/App.css';
+import styles from './home.module.css';
 import { Navbar } from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';

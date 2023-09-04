@@ -1,7 +1,7 @@
+import '/src/App.css';
+import styles from './getInvolved.module.css';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
-import styles from './getInvolved.module.css';
-import '/src/App.css';
 
 export const GetInvolved = () => {
   return (

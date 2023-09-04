@@ -1,8 +1,8 @@
+import '/src/App.css'
+import styles from './aboutUs.module.css';
 import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
-import styles from './aboutUs.module.css';
-import '/src/App.css'
 
 export const AboutUs = () => {
   return (
