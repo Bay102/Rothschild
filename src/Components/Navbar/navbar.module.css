@@ -92,10 +92,11 @@ ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .navContainer {
     margin: auto;
     height: max-content;
+    width: 100vw;
   }
 
   .navList {

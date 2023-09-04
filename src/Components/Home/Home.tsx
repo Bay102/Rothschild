@@ -1,6 +1,7 @@
 // import { NavLink } from 'react-router-dom';
-import { Navbar } from '../Navbar/Navbar';
 import styles from './home.module.css';
+import '/src/App.css';
+import { Navbar } from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
 
@@ -25,9 +26,9 @@ export const Home = () => {
         </div>
       </section>
       <section className={styles.ourMissionContainer}>
-        <div className={styles.topContainer}>
-          <div className={styles.topLeft}></div>
-          <div className={styles.topRight}>
+        <div className="contentContainer">
+          <div className={`${styles.topLeft} contentImg`}></div>
+          <div className="contentText">
             <h3>Our Mission</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
@@ -49,12 +50,12 @@ export const Home = () => {
               Hendrerit adipiscing metus quis integer ipsum tristique. Mollis varius
               mattis non sagittis libero.
             </p>
-            <button className={styles.donateButton}>Learn More</button>
+            <button className="donateButton">Learn More</button>
           </div>
         </div>
-        <div className={styles.ourFocusContainer}>
+        <div className="iconContainer">
           <h3>Our Focus</h3>
-          <div className={styles.focusCards}>
+          <div className="iconCards">
             <CardItem
               imageSrc="/Group 142.svg"
               title="Education"
@@ -90,8 +91,8 @@ export const Home = () => {
       </section>
 
       <section className={styles.supportUsContainer}>
-        <div className={styles.supportContentContainer}>
-          <div className={styles.supportLeft}>
+        <div className="contentContainer">
+          <div className="contentText">
             <h3>Support Us</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
@@ -112,14 +113,13 @@ export const Home = () => {
               quis integer ipsum tristique. Mollis varius mattis non sagittis libero.
             </p>
           </div>
-          <div className={styles.supportRight}></div>
+          <div className={`${styles.supportImg} contentImg`}></div>
         </div>
         <div className={styles.newsLetterContainer}>
           <h3>Join Our Newsletter</h3>
           <p>
             Asperiores magnam iusto labore reiciendis ut eos necessitatibus possimus,
-            sapiente dicta doloribus quos cupiditate cumque quisquam odit
-            voluptatibus!
+            sapiente dicta doloribus.
           </p>
           <input type="text" name="" id="" />
           <input type="text" name="" id="" />

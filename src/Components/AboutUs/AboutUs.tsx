@@ -2,12 +2,13 @@ import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import styles from './aboutUs.module.css';
+import '/src/App.css'
 
 export const AboutUs = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <section className={styles.heroSection}>
+      <section className={`${styles.heroSection} hero`}>
         <p>
           <q>
             {' '}
@@ -18,9 +19,9 @@ export const AboutUs = () => {
         </p>
       </section>
       <section className={styles.sectionTwo}>
-        <div className={styles.storyContainer}>
-          <div className={styles.storyLeft}></div>
-          <div className={styles.storyRight}>
+        <div className='contentContainer'>
+          <div className={styles.storyImg}></div>
+          <div className='contentText'>
             <h3>Our Story</h3>
             <p>
               Larry and Rhoda Rothschild embarked on a gastronomic adventure driven
@@ -42,8 +43,8 @@ export const AboutUs = () => {
             <button className={styles.learnButton}>Learn More</button>
           </div>
         </div>
-        <div className={styles.visionContainer}>
-          <div className={styles.visionLeft}>
+        <div className='contentContainer'>
+          <div className='contentText'>
             <h3>Our Vision</h3>
             <p>
               The Rothschild Trust envisions a world where the service industry is
@@ -68,14 +69,14 @@ export const AboutUs = () => {
             </p>
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
-          <div className={styles.visionRight}></div>
+          <div className={`${styles.visionImg} contentImg`}></div>
         </div>
       </section>
 
       <section className={styles.sectionThree}>
-        <div className={styles.coreValuesContainer}>
+        <div className='iconContainer'>
           <h3>Core Values</h3>
-          <div className={styles.valueCards}>
+          <div className='iconCards'>
             <CardItem
               imageSrc="/Group 129.svg"
               title="Service"

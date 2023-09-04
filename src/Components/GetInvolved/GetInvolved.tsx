@@ -1,12 +1,13 @@
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import styles from './getInvolved.module.css';
+import '/src/App.css';
 
 export const GetInvolved = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <section className={styles.sectionOne}>
+      <section className={`${styles.heroImg} hero`}>
         <p>
           <q>
             We are committed to driving transformative change by fostering innovation
@@ -15,8 +16,8 @@ export const GetInvolved = () => {
         </p>
       </section>
       <section className={styles.sectionTwo}>
-        <div className={styles.supportUsContainer}>
-          <div className={styles.supportLeft}>
+        <div className="contentContainer">
+          <div className="contentText">
             {' '}
             <h3>Support Us</h3>
             <p>
@@ -41,11 +42,11 @@ export const GetInvolved = () => {
             </p>
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
-          <div className={styles.supportRight}></div>
+          <div className={`${styles.supportImg} contentImg`}></div>
         </div>
-        <div className={styles.mentoringContainer}>
-          <div className={styles.mentoringLeft}></div>
-          <div className={styles.mentoringRight}>
+        <div className="contentContainer">
+          <div className={`${styles.mentoringImg} contentImg`}></div>
+          <div className="contentText">
             {' '}
             <h3>Our Vision</h3>
             <p>
@@ -75,8 +76,8 @@ export const GetInvolved = () => {
       </section>
 
       <section className={styles.sectionThree}>
-        <div className={styles.supportUsContainer}>
-          <div className={styles.joinLeft}>
+        <div className="contentContainer">
+          <div className="contentText">
             {' '}
             <h3>Join Our Board</h3>
             <p>
@@ -101,11 +102,11 @@ export const GetInvolved = () => {
             </p>
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
-          <div className={styles.joinRight}></div>
+          <div className={`${styles.joinImg} contentImg`}></div>
         </div>
-        <div className={styles.mentoringContainer}>
-          <div className={styles.careersLeft}></div>
-          <div className={styles.careersRight}>
+        <div className="contentContainer">
+          <div className={`${styles.careersImg} contentImg`}></div>
+          <div className="contentText">
             {' '}
             <h3>Careers</h3>
             <p>
@@ -121,16 +122,13 @@ export const GetInvolved = () => {
               perspective and helping us steer our efforts toward the most promising,
               impactful initiatives.
               <br />
-        
+              <br />
               As part of The Rothschild Trust Board, you'll have the opportunity to
               influence our mission on a larger scale, helping us to incubate and
               foster ideas that will ignite meaningful change. This is more than a
               position; it's a chance to be part of a transformative journey. If
               you're inspired by our mission and excited by the prospect of helping
-              to shape the future, we would love to hear from you. Take the first
-              step towards this fulfilling role by contacting us at
-              trust@rothschildlawrence.com. Together, we can change the world, one
-              project at a time.
+              to shape the future, we would love to hear from you. 
             </p>
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>

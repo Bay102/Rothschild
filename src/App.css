@@ -1,8 +1,75 @@
 #root {
-  --primaryBlue: rgb(8, 13, 26); 
+  --primaryBlue: rgb(8, 13, 26);
+}
+
+.hero {
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 860px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 42px;
+  font-weight: 500;
+  padding: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
+    Arial, sans-serif;
+  margin: 0;
+  width: 70%;
+  line-height: 1.9;
+  border-radius: 15px;
 }
 
 .donateButton {
-  background: rgb(206, 57, 44)
+  background: rgb(206, 57, 44);
 }
 
+.contentContainer {
+  height: 573px;
+  width: 900px;
+  margin: 100px auto;
+  display: flex;
+  gap: 25px;
+}
+
+.contentContainer h3 {
+  font-size: 28px;
+  margin: 5px auto;
+}
+
+.contentText {
+  color: black;
+  width: 50%;
+  height: 100%;
+  font-size: 16px;
+}
+
+.contentImg {
+  width: 48%;
+  border-radius: 5px;
+}
+
+.iconContainer {
+  width: 90%;
+  height: max-content;
+  margin: 40px auto;
+  padding-top: 60px;
+  color: black;
+  text-align: center;
+}
+
+.iconCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: auto;
+  width: 820px;
+}
+
+@media (max-width: 500px) {
+}
