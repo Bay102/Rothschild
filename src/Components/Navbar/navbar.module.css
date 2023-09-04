@@ -94,9 +94,15 @@ ul {
 
 @media (max-width: 400px) {
   .navContainer {
+    /* display: none; */
     margin: auto;
     height: max-content;
     width: 100vw;
+  }
+
+  .logo {
+    font-size: 25px;
+    margin: auto;
   }
 
   .navList {

@@ -2,7 +2,7 @@
   --primaryBlue: rgb(8, 13, 26);
 }
 
-.section {
+.heroImg {
   background-image: url('/HeroImageHome.png');
   background-size: auto;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@
 .newsLetterContainer {
   display: flex;
   flex-direction: column;
-  width: 700px;
+  width: 50%;
   color: black;
   text-align: center;
 }
@@ -117,5 +117,29 @@
   .homeContainer h1 {
     margin: auto;
     font-size: 20px;
+  }
+
+  .heroImg {
+    height: 670px;
+  }
+
+  .intro {
+    height: max-content;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  .buttons {
+    gap: 30px;
+    margin-top: auto;
+    padding-top: 60px;
+    justify-content: center;
+  }
+
+  .newsLetterContainer {
+    width: 100%;
   }
 }

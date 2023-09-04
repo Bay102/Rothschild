@@ -7,46 +7,78 @@
 }
 
 .one {
-   width: 30%;
-   /* border: 1px solid white; */
+  width: 30%;
+  /* border: 1px solid white; */
 }
 
 .one p {
-   text-align: center;
+  text-align: center;
 }
 
 .logo {
-   border-top: 2px solid white;
-   border-bottom: 2px solid white;
-   width: 240px;
-   padding: 10px;
-   text-align: center;
-   margin: 70px auto;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  width: 240px;
+  padding: 10px;
+  text-align: center;
+  margin: 70px auto;
 }
 
 .two {
-   width: 50%;
-   display: flex;
-   flex-wrap: wrap;
-   list-style: none;
-   justify-content: center;
-   align-content: center;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  align-content: center;
 }
 
 .two li {
-   width: 165px;
-   margin: 20px auto;
+  width: 165px;
+  margin: 20px auto;
 }
 
-
 .three {
-   width: 20%;
-   display: flex;
-   /* border: 1px solid white; */
+  width: 20%;
+  display: flex;
+  /* border: 1px solid white; */
 }
 
 .donateButton {
-   background: rgb(206, 57, 44);
-   margin-bottom: 180px;
-   align-self: center;
- }
+  background: rgb(206, 57, 44);
+  margin-bottom: 180px;
+  align-self: center;
+}
+
+@media (max-width: 500px) {
+  .footerContainer {
+    height: max-content;
+    flex-direction: column;
+  }
+
+  .logo {
+   margin: auto;
+  }
+
+  .one {
+   padding-top: 40px;
+   width: 100%;
+  }
+
+  .two {
+   width: 100%;
+  }
+
+  .two li {
+   width: 180px;
+  }
+
+  .three {
+   width: 100%;
+   /* margin: auto; */
+  }
+
+  .donateButton {
+   margin: auto;
+  }
+}

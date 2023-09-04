@@ -8,7 +8,7 @@ import { CardItem } from '../CardItem/CardItem';
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
-      <section className={styles.section}>
+      <section className={`${styles.heroImg}`}>
         <Navbar />
         <div className={styles.intro}>
           <h2>

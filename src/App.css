@@ -13,7 +13,7 @@
 }
 
 .hero p {
-  font-size: 42px;
+  font-size: 2.325rem;
   font-weight: 500;
   padding: 50px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans',
@@ -30,14 +30,14 @@
 
 .contentContainer {
   height: 573px;
-  width: 900px;
+  width: 70%;
   margin: 100px auto;
   display: flex;
   gap: 25px;
 }
 
 .contentContainer h3 {
-  font-size: 28px;
+  font-size: 1.35rem;
   margin: 5px auto;
 }
 
@@ -72,4 +72,28 @@
 }
 
 @media (max-width: 500px) {
+  .contentContainer {
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contentImg {
+    width: 95%;
+    margin: auto;
+    height: 473px;
+    background-repeat: no-repeat;
+  }
+
+  .contentText {
+    width: 95%;
+    text-align: center;
+  }
+
+  .iconContainer {
+  }
+
+  .iconCards {
+    width: auto;
+  }
 }
