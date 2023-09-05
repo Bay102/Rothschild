@@ -1,4 +1,5 @@
 import '/src/App.css';
+import 'animate.css';
 import styles from './getInvolved.module.css';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
@@ -8,7 +9,7 @@ export const GetInvolved = () => {
     <div className={styles.container}>
       <Navbar />
       <section className={`${styles.heroImg} hero`}>
-        <p>
+        <p className="animate__animated animate__slideInRight">
           <q>
             We are committed to driving transformative change by fostering innovation
             and incubating ideas that make a real difference.
@@ -17,7 +18,7 @@ export const GetInvolved = () => {
       </section>
       <section className={styles.sectionTwo}>
         <div className="contentContainer">
-          <div className="contentText">
+          <div className=" contentText ">
             {' '}
             <h3>Support Us</h3>
             <p>
@@ -128,7 +129,7 @@ export const GetInvolved = () => {
               foster ideas that will ignite meaningful change. This is more than a
               position; it's a chance to be part of a transformative journey. If
               you're inspired by our mission and excited by the prospect of helping
-              to shape the future, we would love to hear from you. 
+              to shape the future, we would love to hear from you.
             </p>
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>

@@ -17,7 +17,7 @@ export const Navbar = () => {
   // };
 
   return (
-    <nav className={styles.navContainer}>
+    <nav className={`${styles.navContainer} animate__animated animate__slideInLeft`}>
       <ul className={styles.navList}>
         <div className={styles.logo}>THE ROTHSCHILD TRUST</div>
         <div className={styles.hamburger}>

@@ -1,5 +1,6 @@
 // import { NavLink } from 'react-router-dom';
 import '/src/App.css';
+import 'animate.css';
 import styles from './home.module.css';
 import { Navbar } from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
@@ -10,7 +11,7 @@ export const Home = () => {
     <div className={styles.homeContainer}>
       <Navbar />
       <section className={`${styles.heroImg}`}>
-        <div className={styles.intro}>
+        <div className={`${styles.intro} animate__animated animate__slideInRight`}>
           <h2>
             Creating stronger communities.
             <br /> Building a stronger you.

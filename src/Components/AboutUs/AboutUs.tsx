@@ -9,7 +9,7 @@ export const AboutUs = () => {
     <div className={styles.container}>
       <Navbar />
       <section className={`${styles.heroSection} hero`}>
-        <p>
+        <p className='animate__animated animate__slideInRight'>
           <q>
             {' '}
             The Rothschild Trust envisions a world where the service industry is

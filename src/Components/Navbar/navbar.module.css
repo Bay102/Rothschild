@@ -28,7 +28,7 @@ ul {
   display: flex;
   width: 100%;
   max-width: 1440px;
-  height: 80px;
+  height: 70px;
   padding: 30px 40px;
   box-sizing: border-box;
   position: fixed;
@@ -112,7 +112,6 @@ ul {
   .navList li {
     display: none;
   }
-  
   
   .logo {
     font-size: 22px;
