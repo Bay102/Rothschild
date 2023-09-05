@@ -10,23 +10,6 @@
   position: relative;
 }
 
-.sectionOne h1 {
-  font-size: 60px;
-  font-family: copperplate;
-  text-align: center;
-  margin: 170px auto auto auto;
-  border-top: 3px solid white;
-  border-bottom: 3px solid white;
-  padding: 50px;
-  width: 60%;
-}
-
-.sectionOne h3 {
-  text-align: center;
-  margin-top: 60px;
-  font-size: 30px;
-}
-
 .intro {
   height: 400px;
   width: 600px;
@@ -58,7 +41,7 @@
   gap: 25px;
 }
 
-.topLeft {
+.missionImg {
   background-image: url('/Rectangle22.png');
 }
 
@@ -130,6 +113,7 @@
     top: 0;
     left: 0;
     text-align: center;
+    padding-top: 100px;
   }
 
   .buttons {

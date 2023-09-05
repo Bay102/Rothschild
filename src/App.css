@@ -72,6 +72,17 @@
 }
 
 @media (max-width: 500px) {
+
+  .hero { 
+    height: 675px;
+  }
+
+  .hero p {
+    font-size: 26px;
+    padding: 0;
+    width: 95%;
+  }
+
   .contentContainer {
     height: max-content;
     width: 100%;
@@ -88,6 +99,7 @@
   .contentText {
     width: 95%;
     text-align: center;
+    margin: auto;
   }
 
   .iconContainer {

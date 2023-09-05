@@ -8,8 +8,8 @@ import { CardItem } from '../CardItem/CardItem';
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
+      <Navbar />
       <section className={`${styles.heroImg}`}>
-        <Navbar />
         <div className={styles.intro}>
           <h2>
             Creating stronger communities.
@@ -27,7 +27,7 @@ export const Home = () => {
       </section>
       <section className={styles.ourMissionContainer}>
         <div className="contentContainer">
-          <div className={`${styles.topLeft} contentImg`}></div>
+          <div className={`${styles.missionImg} contentImg`}></div>
           <div className="contentText">
             <h3>Our Mission</h3>
             <p>

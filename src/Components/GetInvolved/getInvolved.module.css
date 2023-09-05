@@ -28,3 +28,14 @@
 .careersImg {
   background-image: url('/careers.png');
 }
+
+@media (max-width: 500px) {
+  .sectionTwo {
+    height: max-content;
+  }
+
+  .sectionThree {
+    height: max-content;
+  }
+
+}

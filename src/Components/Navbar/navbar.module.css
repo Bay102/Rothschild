@@ -4,6 +4,10 @@ ul {
   margin: 0;
 }
 
+.hamburger {
+  display: none;
+}
+
 .logo {
   font-size: 30px;
   border-top: 2px solid white;
@@ -29,7 +33,7 @@ ul {
   box-sizing: border-box;
   position: fixed;
   color: black;
-  background-color:rgb(188 177 154);
+  background-color: rgb(188 177 154);
   z-index: 1;
 }
 
@@ -93,20 +97,30 @@ ul {
 }
 
 @media (max-width: 400px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
   .navContainer {
     /* display: none; */
     margin: auto;
     height: max-content;
     width: 100vw;
   }
-
+  
+  .navList li {
+    display: none;
+  }
+  
+  
   .logo {
-    font-size: 25px;
+    font-size: 22px;
     margin: auto;
   }
 
   .navList {
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-wrap: nowrap;
     gap: 10px;
   }

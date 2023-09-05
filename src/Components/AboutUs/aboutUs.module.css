@@ -60,5 +60,23 @@
 }
 
 @media (max-width: 500px) {
-  
+  .sectionTwo {
+    height: max-content;
+  }
+
+  .sectionThree {
+    height: max-content;
+  }
+
+  .peoplePicsContainer {
+    flex-direction: column;
+  }
+
+  .whoWeAreContainer {
+    /* flex-direction: column; */
+  }
+
+  .personWrapper {
+
+  }
 }
