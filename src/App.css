@@ -51,6 +51,7 @@
 .contentImg {
   width: 48%;
   border-radius: 5px;
+  background-repeat: no-repeat;
 }
 
 .iconContainer {
