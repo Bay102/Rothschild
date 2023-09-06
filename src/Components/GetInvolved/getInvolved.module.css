@@ -17,7 +17,7 @@
 
 .sectionThree {
   height: 1400px;
-  background: #dfd8c8;
+  background-image: url('/brownBackground.svg');
   padding-top: 1px;
 }
 
@@ -37,5 +37,4 @@
   .sectionThree {
     height: max-content;
   }
-
 }

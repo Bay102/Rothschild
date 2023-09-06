@@ -73,8 +73,7 @@
 }
 
 @media (max-width: 500px) {
-
-  .hero { 
+  .hero {
     height: 675px;
   }
 
