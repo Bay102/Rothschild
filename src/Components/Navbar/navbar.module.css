@@ -34,15 +34,18 @@ ul {
   height: 70px;
   padding: 30px 40px;
   box-sizing: border-box;
-  position: fixed;
+  /* position: fixed; */
   color: rgb(241, 236, 236);
-  background-color: #2c2523c1;
+  background-color: #2c252369;
   z-index: 1;
 }
 
 .navLink {
   color: white;
   font-size: 20px;
+}
+.navLink:hover {
+  color: rgb(237, 128, 66);
 }
 
 .pushRight {
@@ -76,28 +79,6 @@ ul {
   box-shadow: rgba(240, 230, 230, 0.903) 0px 20px 70px;
 }
 
-/* Drop Downs */
-.dropDown {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: bisque;
-  margin-top: 5px;
-  padding: 5px 10px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
-.dropDown a {
-  color: rgb(8, 13, 26);
-}
-
-.dropDown li :nth-child(1) {
-  font-weight: 700;
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 @media (max-width: 400px) {
   .hamburger {

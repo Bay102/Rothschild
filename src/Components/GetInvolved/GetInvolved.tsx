@@ -7,8 +7,8 @@ import { Navbar } from '../Navbar/Navbar';
 export const GetInvolved = () => {
   return (
     <div className={styles.container}>
-      <Navbar />
       <section className={`${styles.heroImg} hero`}>
+      <Navbar />
         <p className="animate__animated animate__slideInRight">
           <q>
             We are committed to driving transformative change by fostering innovation

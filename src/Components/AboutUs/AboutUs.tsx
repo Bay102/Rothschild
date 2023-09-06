@@ -7,8 +7,8 @@ import { Navbar } from '../Navbar/Navbar';
 export const AboutUs = () => {
   return (
     <div className={styles.container}>
-      <Navbar />
       <section className={`${styles.heroSection} hero`}>
+      <Navbar />
         <p className='animate__animated animate__slideInRight'>
           <q>
             {' '}

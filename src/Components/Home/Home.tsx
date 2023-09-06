@@ -9,8 +9,8 @@ import { CardItem } from '../CardItem/CardItem';
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
-      <Navbar />
       <section className={`${styles.heroImg}`}>
+      <Navbar />
         <div className={`${styles.intro} animate__animated animate__slideInRight`}>
           <h2>
             Creating stronger communities.
