@@ -13,8 +13,8 @@ ul {
 .logo {
   font-size: 30px;
   font-family: 'Source Serif 4', serif;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid rgb(237, 128, 66);
+  border-bottom: 2px solid rgb(237, 128, 66);
   margin-right: auto;
 }
 

@@ -1,4 +1,8 @@
 .container {
-   background-color: rgb(8, 13, 26);
-   height: 100vh;
+
+}
+
+.heroImg {
+   background-image: url('/grantsHero.jpg');
+   height: 675px;
 }
