@@ -78,12 +78,12 @@
 
 @media (max-width: 500px) {
   .hero {
-    height: 675px;
+    height: 500px;
   }
 
   .hero p {
     font-size: 26px;
-    padding: 0;
+    padding: 50px 0;
     width: 95%;
   }
 
