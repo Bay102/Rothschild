@@ -11,14 +11,15 @@ export const Home = () => {
     <div className={styles.homeContainer}>
       <Navbar />
       <section className={`${styles.heroImg}`}>
-        <div className={`${styles.intro} animate__animated animate__slideInRight`}>
+        <div className={`${styles.intro} animate__animated animate__bounceInUp`}>
           <h2>
             Creating stronger communities.
             <br /> Building a stronger you.
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. I grus ahe pepe
-            Culpa minima jufuea
+            The Rothschild Trust is committed to supporting individuals and groups
+            who strive to positively impact their communities through innovation and
+            service.
           </p>
           <div className={styles.buttons}>
             <button style={{ background: '#CE392C' }}>Donate</button>
@@ -32,24 +33,24 @@ export const Home = () => {
           <div className="contentText">
             <h3>Our Mission</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
-              habitant nulla vel ac est. Tincidunt egestas lorem turpis aliquet metus
-              tristique cursus vitae sed. Hendrerit adipiscing metus quis integer
-              ipsum tristique. Mollis varius mattis non sagittis libero. Aliquet
-              metus tristique cursus vitae sed. Hendrerit adipiscing metus quis
-              integer ipsum tristique.
+              The Rothschild Trust is committed to supporting individuals and groups
+              who strive to positively impact their communities through innovation
+              and service. With a firm belief in the power of groundbreaking ideas,
+              we diligently identify and nurture projects that address social
+              challenges and yield significant outcomes.
               <br />
               <br />
-              Mollis varius mattis non sagittis libero. Lorem ipsum dolor sit amet
-              consectetur. Urna viverra vitae ut nibh habitant nulla vel ac est.
-              Tincidunt egestas lorem turpis aliquet metus tristique cursus vitae
-              sed. Hendrerit adipiscing metus quis integer ipsum tristique. Mollis
-              varius mattis non sagittis libero. Aliquet metus tristique cursus vitae
-              sed.
+              By leveraging their expertise and experience, we aim to amplify their
+              efforts and collectively drive meaningful change on a larger scale. Our
+              funding initiatives empower recipients to bring their dreams to life
+              and make a lasting difference. By launching new ventures or expanding
+              existing efforts, our grants enable individuals and organizations to
+              tackle critical issues across various sectors, including health,
+              education, environment, and community development.
               <br />
               <br />
-              Hendrerit adipiscing metus quis integer ipsum tristique. Mollis varius
-              mattis non sagittis libero.
+              We are proud to support transformative projects and initiatives that
+              have the potential to change communities worldwide. sed.
             </p>
             <button className="donateButton">Learn More</button>
           </div>
