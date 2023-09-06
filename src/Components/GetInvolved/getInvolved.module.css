@@ -18,6 +18,7 @@
 .sectionThree {
   height: 1300px;
   background-image: url('/brownBackground.svg');
+  background-repeat: no-repeat;
   padding-top: 1px;
 }
 

@@ -52,6 +52,7 @@
   .footerContainer {
     height: max-content;
     flex-direction: column;
+    text-align: center;
   }
 
   .logo {
@@ -76,6 +77,6 @@
   }
 
   .donateButton {
-    margin: auto;
+    margin: 20px auto;
   }
 }

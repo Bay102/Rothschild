@@ -17,7 +17,7 @@ export const Footer = () => {
         <li>Get Involved</li>
         <li>News</li>
         <li>Contact Us</li>
-        <li>Terms and Service</li>
+        {/* <li>Terms and Service</li> */}
         <li>Privacy Policy</li>
       </div>
       <div className={styles.three}>
