@@ -54,7 +54,8 @@
 }
 
 .supportUsContainer {
-  background-color: #b8ac92;
+  background-image: url('/brownBackground.svg');
+  /* background-color: #b8ac92; */
   position: relative;
   display: flex;
   gap: 50px;
