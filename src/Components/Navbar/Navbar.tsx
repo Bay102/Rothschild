@@ -2,7 +2,6 @@ import { NavLink } from 'react-router-dom';
 import styles from './navbar.module.css';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { useState } from 'react';
-// import { useState } from 'react';
 
 export const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
