@@ -8,7 +8,6 @@
 
 .one {
   width: 30%;
-  /* border: 1px solid white; */
 }
 
 .one p {
@@ -41,7 +40,6 @@
 .three {
   width: 20%;
   display: flex;
-  /* border: 1px solid white; */
 }
 
 .donateButton {
@@ -57,28 +55,27 @@
   }
 
   .logo {
-   margin: auto;
+    margin: auto;
   }
 
   .one {
-   padding-top: 40px;
-   width: 100%;
+    padding-top: 40px;
+    width: 100%;
   }
 
   .two {
-   width: 100%;
+    width: 100%;
   }
 
   .two li {
-   width: 180px;
+    width: 180px;
   }
 
   .three {
-   width: 100%;
-   /* margin: auto; */
+    width: 100%;
   }
 
   .donateButton {
-   margin: auto;
+    margin: auto;
   }
 }

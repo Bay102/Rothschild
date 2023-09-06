@@ -1,4 +1,3 @@
-
 .learnButton {
   background: rgb(206, 57, 44);
   align-self: center;
@@ -8,7 +7,6 @@
 .heroSection {
   background-image: url('/aboutHero.png');
 }
-
 
 .sectionTwo {
   height: max-content;
@@ -74,13 +72,5 @@
 
   .peoplePicsContainer {
     flex-direction: column;
-  }
-
-  .whoWeAreContainer {
-    /* flex-direction: column; */
-  }
-
-  .personWrapper {
-
   }
 }
