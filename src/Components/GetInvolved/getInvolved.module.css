@@ -3,7 +3,7 @@
 }
 
 .sectionTwo {
-  height: 1400px;
+  height: max-content;
   color: black;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .sectionThree {
-  height: 1400px;
+  height: 1300px;
   background-image: url('/brownBackground.svg');
   padding-top: 1px;
 }

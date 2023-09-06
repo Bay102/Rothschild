@@ -8,7 +8,7 @@
 .hero {
   background-size: auto;
   background-repeat: no-repeat;
-  height: 860px;
+  height: 760px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -34,7 +34,7 @@
 .contentContainer {
   height: 573px;
   width: 70%;
-  margin: 100px auto;
+  margin: 50px auto;
   display: flex;
   gap: 25px;
 }
@@ -62,7 +62,7 @@
   width: 90%;
   height: max-content;
   margin: 40px auto;
-  padding-top: 60px;
+  padding-top: 30px;
   color: black;
   text-align: center;
 }
