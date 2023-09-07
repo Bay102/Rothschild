@@ -19,7 +19,7 @@ export const Navbar = () => {
         </div>
         <ul className={mobileNav ? `${styles.showNav}` : `${styles.hideNav}`}>
           <li>
-            <NavLink to="/" className={styles.navLink}>
+            <NavLink to="/" className={`${styles.navLink}`}>
               HOME
             </NavLink>
           </li>

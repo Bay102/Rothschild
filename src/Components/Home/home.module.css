@@ -47,6 +47,7 @@
 
 .missionImg {
   background-image: url('/Rectangle22.png');
+  order: 1;
 }
 
 .ourMissionContainer {
@@ -123,7 +124,7 @@
   .buttons {
     gap: 30px;
     margin-top: auto;
-    padding-top: 60px;
+    padding-top: 30px;
     justify-content: center;
   }
 

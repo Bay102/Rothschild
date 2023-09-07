@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:wght@300;400&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Roboto:wght@100&family=Source+Serif+4:opsz,wght@8..60,300&display=swap');
 
+.active {
+  border-bottom: 2px solid orange;
+}
+
 #root {
   --primaryBlue: rgb(8, 13, 26);
 }
@@ -76,6 +80,11 @@
   width: 820px;
 }
 
+.iconContainer h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
 @media (max-width: 500px) {
   .hero {
     height: 500px;
@@ -91,6 +100,7 @@
     height: max-content;
     width: 100%;
     flex-direction: column;
+    margin: 0 auto;
   }
 
   .contentImg {
@@ -106,7 +116,13 @@
     margin: auto;
   }
 
+  .iconContainer {
+    margin: 0 auto;
+    padding: 0;
+  }
+
   .iconCards {
     width: auto;
+    gap: 0;
   }
 }

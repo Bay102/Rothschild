@@ -96,23 +96,22 @@ export const Home = () => {
         <div className="contentContainer">
           <div className="contentText">
             <h3>Support Us</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
-              habitant nulla vel ac est. Tincidunt egestas lorem turpis aliquet metus
-              tristique cursus vitae sed. Hendrerit adipiscing metus quis integer
-              ipsum tristique. Mollis varius mattis non sagittis libero.
+            <p style={{ lineHeight: 2 }}>
+              Join our passionate journey to make a meaningful impact on society
+              through targeted philanthropy. At the heart of our mission is a
+              deep-seated commitment to creating positive change in communities
+              around the globe. Our sophisticated approach to grant-making, driven by
+              strategic partnerships with our grantees, allows us to unlock
+              opportunities and empower underserved populations.
               <br />
               <br />
-              Aliquet metus tristique cursus vitae sed. Hendrerit adipiscing metus
-              quis integer ipsum tristique. Mollis varius mattis non sagittis libero.
-              Lorem ipsum dolor sit amet consectetur. Urna viverra vitae ut nibh
-              habitant nulla vel ac est. Tincidunt egestas lorem turpis aliquet metus
-              tristique cursus vitae sed. Hendrerit adipiscing metus quis integer
-              ipsum tristique. Mollis varius mattis non sagittis libero.
+              As a catalyst for social impact, we take immense pride in our role as
+              change-makers. We are dedicated to incubating impactful initiatives
+              that not only address pressing issues but also pave the way for a
+              brighter future. Your support is the driving force behind our
+              endeavors, and together, we can continue to uplift, inspire, and
+              transform countless lives.
               <br />
-              <br />
-              Aliquet metus tristique cursus vitae sed. Hendrerit adipiscing metus
-              quis integer ipsum tristique. Mollis varius mattis non sagittis libero.
             </p>
           </div>
           <div className={`${styles.supportImg} contentImg`}></div>
