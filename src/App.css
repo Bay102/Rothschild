@@ -38,7 +38,8 @@
 .contentContainer {
   height: 573px;
   width: 70%;
-  margin: 50px auto;
+  margin: 20px  auto;
+  /* padding: 20px auto; */
   display: flex;
   gap: 25px;
 }
@@ -54,6 +55,7 @@
   width: 50%;
   height: 100%;
   font-size: 16px;
+  padding: 10px auto;
 }
 
 .contentImg {

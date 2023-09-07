@@ -16,10 +16,16 @@
 }
 
 .sectionThree {
-  height: 1300px;
+  height: max-content;
   background-image: url('/brownBackground.svg');
   background-repeat: no-repeat;
   padding-top: 1px;
+  margin: 0 auto;
+}
+
+.marginOff {
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 .joinImg {
@@ -40,6 +46,10 @@
   }
 
   .sectionThree {
-    height: 2470px;
+    height: max-content;
+  }
+
+  .careersImg {
+    display: none;
   }
 }

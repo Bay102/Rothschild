@@ -105,7 +105,7 @@ export const GetInvolved = () => {
           </div>
           <div className={`${styles.joinImg} contentImg`}></div>
         </div>
-        <div className="contentContainer">
+        <div className={`contentContainer ${styles.marginOff}`}>
           <div className={`${styles.careersImg} contentImg`}></div>
           <div className="contentText">
             {' '}
