@@ -14,7 +14,7 @@ export const Home = () => {
         <div className={`${styles.intro} animate__animated animate__bounceInUp`}>
           <h2>
             Creating stronger communities.
-            <br /> Building a stronger you.
+            <br /> Building a better you.
           </h2>
           <p>
             The Rothschild Trust is committed to supporting individuals and groups

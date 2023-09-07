@@ -1,4 +1,8 @@
 .heroImg {
-   background-image: url('/grantsHero.jpg');
-   height: 675px;
+  background-image: url('/grantsHero.jpg');
+  height: 675px;
+}
+
+.iconWrapper {
+  padding-bottom: 40px;
 }
