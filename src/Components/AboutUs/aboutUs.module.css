@@ -21,6 +21,7 @@
 .storyImg {
   width: 48%;
   background-image: url('/Rectangle22.png');
+  background-repeat: no-repeat;
   border-radius: 5px;
 }
 

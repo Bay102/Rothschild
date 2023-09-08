@@ -18,7 +18,7 @@ export const GetInvolved = () => {
       </section>
       <section className={styles.sectionTwo}>
         <div className="contentContainer">
-          <div className=" contentText ">
+          <div className="contentText">
             {' '}
             <h3>Support Us</h3>
             <p>
