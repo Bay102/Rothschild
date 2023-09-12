@@ -96,7 +96,7 @@ export const Home = () => {
         <div className="contentContainer">
           <div className="contentText">
             <h3>Support Us</h3>
-            <p style={{ lineHeight: 2 }}>
+            <p style={{ lineHeight: 1.8 }}>
               Join our passionate journey to make a meaningful impact on society
               through targeted philanthropy. At the heart of our mission is a
               deep-seated commitment to creating positive change in communities
@@ -119,8 +119,8 @@ export const Home = () => {
         <div className={styles.newsLetterContainer}>
           <h3>Join Our Newsletter</h3>
           <p>
-            Asperiores magnam iusto labore reiciendis ut eos necessitatibus possimus,
-            sapiente dicta doloribus.
+            Subscribe to our newsletter to stay up-to-date with the latest news and
+            exclusive offers.
           </p>
           <input type="text" name="" id="" />
           <input type="text" name="" id="" />

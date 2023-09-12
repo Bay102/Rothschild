@@ -1,5 +1,10 @@
 .heroImg {
   background-image: url('/getInvolved.png');
+  height: 750px;
+}
+
+.heroImg p {
+  font-size: 55px;
 }
 
 .sectionTwo {
@@ -36,9 +41,17 @@
   background-image: url('/careers.png');
 }
 
+@media (max-width: 780px) {
+  .heroImg p {
+    font-size: 30px;
+  }
+}
+
+
 @media (max-width: 500px) {
   .heroImg {
     background-position: 50% 60%;
+    height: 450px;
   }
 
   .sectionTwo {
@@ -47,6 +60,10 @@
 
   .sectionThree {
     height: max-content;
+  }
+
+  .mentoringImg {
+    order: 3;
   }
 
   .careersImg {

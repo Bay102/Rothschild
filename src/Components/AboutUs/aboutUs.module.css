@@ -6,6 +6,7 @@
 
 .heroSection {
   background-image: url('/aboutHero.png');
+  box-sizing: border-box;
 }
 
 .sectionTwo {
@@ -58,9 +59,22 @@
   margin: 0;
 }
 
+@media (max-width: 780px) {
+  .heroSection p {
+    font-size: 43px;
+    padding: 100px 20px;
+    width: 90%;
+  }
+}
+
 @media (max-width: 500px) {
   .heroSection {
     background-position: 35% 20%;
+  }
+
+  .heroSection p {
+    font-size: 28px;
+    padding: 20px 0;
   }
 
   .sectionTwo {
