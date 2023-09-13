@@ -41,6 +41,10 @@
   background-image: url('/careers.png');
 }
 
+.careersText {
+  line-height: 1.5;
+}
+
 @media (max-width: 780px) {
   .heroImg p {
     font-size: 30px;

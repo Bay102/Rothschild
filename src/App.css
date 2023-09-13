@@ -38,8 +38,7 @@
 .contentContainer {
   height: max-content;
   width: 85%;
-  margin: 20px  auto;
-  /* padding: 20px auto; */
+  margin: 20px auto;
   display: flex;
   gap: 25px;
   box-sizing: border-box;
@@ -53,14 +52,15 @@
 
 .contentText {
   color: black;
-  width: 50%;
+  width: 60%;
   height: 100%;
   font-size: 16px;
+  line-height: 1.8;
   padding: 10px auto;
 }
 
 .contentImg {
-  width: 48%;
+  width: 40%;
   border-radius: 5px;
   background-repeat: no-repeat;
 }
@@ -72,13 +72,14 @@
   padding-top: 30px;
   color: black;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .iconCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  /* gap: 30px; */
   margin: auto;
   width: 820px;
 }
@@ -87,6 +88,8 @@
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
 }
+
+
 
 @media (max-width: 780px) {
   .contentContainer {

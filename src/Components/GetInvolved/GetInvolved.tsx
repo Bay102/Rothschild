@@ -107,7 +107,7 @@ export const GetInvolved = () => {
         </div>
         <div className={`contentContainer ${styles.marginOff}`}>
           <div className={`${styles.careersImg} contentImg`}></div>
-          <div className="contentText">
+          <div className={`contentText ${styles.careersText}`}>
             {' '}
             <h3>Careers</h3>
             <p>
