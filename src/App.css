@@ -36,8 +36,8 @@
 }
 
 .contentContainer {
-  height: 573px;
-  width: 70%;
+  height: max-content;
+  width: 85%;
   margin: 20px  auto;
   /* padding: 20px auto; */
   display: flex;
