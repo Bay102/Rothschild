@@ -43,10 +43,15 @@ export const GetInvolved = () => {
             </p>
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
-          <div className={`${styles.supportImg} contentImg`}></div>
+          <div className={`${styles.supportImg} imgWrapper`}>
+            <img className='contentImg' src="Rectangle75.png" alt="" />
+          </div>
         </div>
         <div className="contentContainer">
-          <div className={`${styles.mentoringImg} contentImg`}></div>
+          <div className={`${styles.mentoringImg} imgWrapper`}>
+          <img className='contentImg' src="visionPic.png" alt="" />
+
+          </div>
           <div className="contentText">
             {' '}
             <h3>Our Vision</h3>
@@ -103,10 +108,16 @@ export const GetInvolved = () => {
             </p>
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
-          <div className={`${styles.joinImg} contentImg`}></div>
+          <div className={`${styles.joinImg} imgWrapper`}>
+          <img className='contentImg' src="joinBoard.png" alt="" />
+
+          </div>
         </div>
         <div className={`contentContainer ${styles.marginOff}`}>
-          <div className={`${styles.careersImg} contentImg`}></div>
+          <div className={`${styles.careersImg} imgWrapper`}>
+          <img className='contentImg' src="careers.png" alt="" />
+
+          </div>
           <div className={`contentText ${styles.careersText}`}>
             {' '}
             <h3>Careers</h3>

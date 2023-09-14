@@ -10,7 +10,7 @@
 .heroSection {
   background-image: url('/aboutHero.png');
   box-sizing: border-box;
-  height: 650px;
+  font-size: 2.8rem;
 }
 
 .sectionTwo {
@@ -24,14 +24,11 @@
 }
 
 .storyImg {
-  width: 48%;
-  background-image: url('/Rectangle22.png');
-  background-repeat: no-repeat;
+  /* width: 48%; */
   border-radius: 5px;
 }
 
 .visionImg {
-  background-image: url('/visionPic.png');
 }
 
 .whoWeAreContainer {
@@ -45,7 +42,7 @@
 .whoWeAreContainer h2 {
   color: black;
   margin: 15px;
-  font-family: 'Roboto', sans-serif; 
+  font-family: 'Roboto', sans-serif;
 }
 
 .peoplePicsContainer {
@@ -64,21 +61,43 @@
   margin: 0;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1024px) {
+  .heroSection {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 800px) {
   .heroSection p {
     font-size: 43px;
     padding: 100px 20px;
     width: 90%;
   }
+
+  .storyImg {
+    padding-top: 20px;
+    order: 2;
+  }
+
+  .sectionThree {
+    height: max-content;
+    padding-bottom: 20px;
+  }
+
+  .peoplePicsContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
   .heroSection {
     background-position: 35% 20%;
+    height: 420px;
   }
 
   .heroSection p {
-    font-size: 28px;
+    font-size: 26px;
     padding: 20px 0;
   }
 

@@ -20,7 +20,9 @@ export const AboutUs = () => {
       </section>
       <section className={styles.sectionTwo}>
         <div className='contentContainer'>
-          <div className={styles.storyImg}></div>
+          <div className={`${styles.storyImg} imgWrapper`}>
+          <img className='contentImg' src="Rectangle22.png" alt="" />
+          </div>
           <div className='contentText'>
             <h3>Our Story</h3>
             <p>
@@ -69,7 +71,9 @@ export const AboutUs = () => {
             </p>
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
-          <div className={`${styles.visionImg} contentImg`}></div>
+          <div className={`${styles.visionImg} imgWrapper`}>
+          <img className='contentImg' src="visionPic.png" alt="" />
+          </div>
         </div>
       </section>
 

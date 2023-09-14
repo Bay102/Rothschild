@@ -1,7 +1,6 @@
 import './App.css';
 import 'animate.css';
 import 'animate.css/animate.css';
-import { ToastContainer } from 'react-toastify';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AppProvider } from './Components/Providers/App.provider';
 import { Home } from './Components/Home/Home';
@@ -24,7 +23,6 @@ function App() {
             <Route index path="/get-involved" element={<GetInvolved />} />
             <Route index path="/news" element={<News />} />
           </Routes>
-          <ToastContainer position="top-center" autoClose={2200} />
         </BrowserRouter>
       </AppProvider>
     </>

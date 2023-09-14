@@ -94,7 +94,7 @@ ul {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
   .hamburger {
     display: block;
     position: absolute;
@@ -152,4 +152,7 @@ ul {
   .pushRight {
     margin: 0;
   }
+}
+
+@media (max-width: 425px) {
 }

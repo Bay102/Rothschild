@@ -30,7 +30,9 @@ export const Home = () => {
       </section>
       <section className={styles.ourMissionContainer}>
         <div className="contentContainer">
-          <div className={`${styles.missionImg} contentImg`}></div>
+          <div className={`${styles.missionImg} imgWrapper`}>
+            <img className='contentImg' src="Rectangle22.png" alt="MissionPic" />
+          </div>
           <div className="contentText">
             <h3>Our Mission</h3>
             <p>
@@ -51,7 +53,7 @@ export const Home = () => {
               <br />
               <br />
               We are proud to support transformative projects and initiatives that
-              have the potential to change communities worldwide. sed.
+              have the potential to change communities worldwide.
             </p>
             <button className="donateButton">Learn More</button>
           </div>
@@ -115,7 +117,9 @@ export const Home = () => {
               <br />
             </p>
           </div>
-          <div className={`${styles.supportImg} contentImg`}></div>
+          <div className={`${styles.supportImg} imgWrapper`}>
+          <img className='contentImg' src="Rectangle75.png" alt="" />
+          </div>
         </div>
         <div className={styles.newsLetterContainer}>
           <h3>Join Our Newsletter</h3>

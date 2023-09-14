@@ -13,11 +13,12 @@
 }
 
 .supportImg {
-  background-image: url('/Rectangle75.png');
+  /* background-image: url('/Rectangle75.png'); */
 }
 
 .mentoringImg {
-  background-image: url('/mentoring.png');
+  /* background-image: url('/mentoring.png'); */
+  order: 1;
 }
 
 .sectionThree {
@@ -34,27 +35,35 @@
 }
 
 .joinImg {
-  background-image: url('/joinBoard.png');
 }
 
 .careersImg {
-  background-image: url('/careers.png');
+  order: 1;
 }
 
 .careersText {
   line-height: 1.5;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 800px) {
   .heroImg p {
-    font-size: 30px;
+    font-size: 50px;
+    padding-top: 60px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 425px) {
   .heroImg {
     background-position: 50% 60%;
     height: 450px;
+  }
+
+  .heroImg p {
+    font-size: 35px;
+    padding-top: 20px;
   }
 
   .sectionTwo {
