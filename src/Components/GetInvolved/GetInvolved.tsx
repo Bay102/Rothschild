@@ -17,7 +17,7 @@ export const GetInvolved = () => {
         </p>
       </section>
       <section className={styles.sectionTwo}>
-        <div className="contentContainer">
+        <div className={`${styles.support} contentContainer`}>
           <div className="contentText">
             {' '}
             <h3>Support Us</h3>
@@ -44,13 +44,12 @@ export const GetInvolved = () => {
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
           <div className={`${styles.supportImg} imgWrapper`}>
-            <img className='contentImg' src="Rectangle75.png" alt="" />
+            <img className="contentImg" src="Rectangle75.png" alt="" />
           </div>
         </div>
         <div className="contentContainer">
           <div className={`${styles.mentoringImg} imgWrapper`}>
-          <img className='contentImg' src="visionPic.png" alt="" />
-
+            <img className="contentImg" src="visionPic.png" alt="" />
           </div>
           <div className="contentText">
             {' '}
@@ -82,7 +81,7 @@ export const GetInvolved = () => {
       </section>
 
       <section className={styles.sectionThree}>
-        <div className="contentContainer">
+        <div className={`${styles.join} contentContainer`}>
           <div className="contentText">
             {' '}
             <h3>Join Our Board</h3>
@@ -109,14 +108,12 @@ export const GetInvolved = () => {
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
           <div className={`${styles.joinImg} imgWrapper`}>
-          <img className='contentImg' src="joinBoard.png" alt="" />
-
+            <img className="contentImg" src="joinBoard.png" alt="" />
           </div>
         </div>
         <div className={`contentContainer ${styles.marginOff}`}>
           <div className={`${styles.careersImg} imgWrapper`}>
-          <img className='contentImg' src="careers.png" alt="" />
-
+            <img className="contentImg" src="careers.png" alt="" />
           </div>
           <div className={`contentText ${styles.careersText}`}>
             {' '}

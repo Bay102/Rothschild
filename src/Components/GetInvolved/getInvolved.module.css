@@ -4,7 +4,7 @@
 }
 
 .heroImg p {
-  font-size: 55px;
+  font-size: 60px;
 }
 
 .sectionTwo {
@@ -12,12 +12,11 @@
   color: black;
 }
 
-.supportImg {
-  /* background-image: url('/Rectangle75.png'); */
+.support {
+  flex-direction: row-reverse;
 }
 
 .mentoringImg {
-  /* background-image: url('/mentoring.png'); */
   order: 1;
 }
 
@@ -34,7 +33,8 @@
   padding-bottom: 20px;
 }
 
-.joinImg {
+.join {
+  flex-direction: row-reverse;
 }
 
 .careersImg {
@@ -70,8 +70,16 @@
     height: max-content;
   }
 
+  .support {
+    flex-direction: column;
+  }
+
   .sectionThree {
     height: max-content;
+  }
+
+  .join {
+    flex-direction: column;
   }
 
   .mentoringImg {
