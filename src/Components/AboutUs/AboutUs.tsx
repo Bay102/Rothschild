@@ -1,4 +1,4 @@
-import '/src/App.css'
+import '/src/App.css';
 import styles from './aboutUs.module.css';
 import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
@@ -9,7 +9,7 @@ export const AboutUs = () => {
     <div className={styles.container}>
       <Navbar />
       <section className={`${styles.heroSection} hero`}>
-        <p className='animate__animated animate__slideInRight'>
+        <p className="animate__animated animate__slideInRight">
           <q>
             {' '}
             The Rothschild Trust envisions a world where the service industry is
@@ -19,11 +19,11 @@ export const AboutUs = () => {
         </p>
       </section>
       <section className={styles.sectionTwo}>
-        <div className='contentContainer'>
+        <div className="contentContainer">
           <div className={`${styles.storyImg} imgWrapper`}>
-          <img className='contentImg' src="Rectangle22.png" alt="" />
+            <img className="contentImg" src="Rectangle22.png" alt="" />
           </div>
-          <div className='contentText'>
+          <div className="contentText">
             <h3>Our Story</h3>
             <p>
               Larry and Rhoda Rothschild embarked on a gastronomic adventure driven
@@ -45,8 +45,8 @@ export const AboutUs = () => {
             <button className={styles.learnButton}>Learn More</button>
           </div>
         </div>
-        <div className='contentContainer'>
-          <div className='contentText'>
+        <div className="contentContainer">
+          <div className="contentText">
             <h3>Our Vision</h3>
             <p>
               The Rothschild Trust envisions a world where the service industry is
@@ -72,39 +72,44 @@ export const AboutUs = () => {
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
           <div className={`${styles.visionImg} imgWrapper`}>
-          <img className='contentImg' src="visionPic.png" alt="" />
+            <img className="contentImg" src="visionPic.png" alt="" />
           </div>
         </div>
       </section>
 
       <section className={styles.sectionThree}>
-        <div className='iconContainer'>
+        <div className="iconContainer">
           <h3>Core Values</h3>
-          <div className='iconCards'>
+          <div className="iconCards">
             <CardItem
               imageSrc="/Group 129.svg"
               title="Service"
               description="This value extends beyond the mere provision of goods and services; it encompasses the deeper meaning of serving others and contributing to the greater good."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 130.svg"
               title="Hospitality"
               description="Hospitality encompasses more than just courteousness and attentiveness; it involves creating a comfortable and welcoming atmosphere."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 131.svg"
               title="Passion"
               description="Passion is the driving force that fuels the desire to create and innovate. It involves being authentic, driven and committed to one's craft."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 134.svg"
               title="Fun"
               description="Promoting a sense of playfulness and levity, creating an enjoyable and engaging environment is crucial in any line of work."
+              className='cardContainer'
             />
             <CardItem
               imageSrc="/Group 133.svg"
               title="integrity"
               description="Honesty, transparency, and accountability are the cornerstones of our work. The Rothschilds had a reputation for being forthright and ethical."
+              className="cardContainer"
             />
           </div>
         </div>
