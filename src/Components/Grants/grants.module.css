@@ -5,7 +5,15 @@
 
 .iconWrapper {
   padding-bottom: 40px;
+  
 }
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+height: max-content;
+}
+
 
 @media (max-width: 1024px) {
 }

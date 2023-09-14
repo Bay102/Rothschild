@@ -1,12 +1,7 @@
-.cardContainer {
-  /* border: 1px solid black; */
-  width: 220px;
-  height: 300px;
-  color: black;
-  text-align: center;
-  font-size: 15px;
-  margin: 20px auto;
+.grantIcon {
+  width: 120px;
 }
+
 
 @media (max-width: 1024px) {
 }

@@ -11,38 +11,54 @@ export const Grants = () => {
       {/* <section className={`${styles.heroImg} hero`}></section> */}
       <section className={`iconContainer ${styles.iconWrapper}`}>
         <h3>Our Process</h3>
-        <div className="iconCards">
+        <div className={`${styles.cards}`}>
           <CardItem
             imageSrc="/class.svg"
             title="Forming Relationships"
-            description=""
+            description="Our initial step involves establishing a strong alliance with partners based on their alignment with our mission and goals. "
+            className="grantCards"
           />
           <CardItem
             imageSrc="/sport.svg"
             title="Discovering shared interests"
-            description=""
+            description="Through open dialogue and information exchange, we identify areas where our objectives converge, setting the stage for mutual cooperation."
+            className="grantCards"
           />
-          <CardItem imageSrc="/abacus.svg" title="Forecasting" description="" />
+          <CardItem
+            imageSrc="/abacus.svg"
+            title="Forecasting"
+            description="Prior to formally drafting a grant proposal, we collaborate with the partner to carefully conduct a gap analysis and craft an impact forecast. This involves predicting the proposed project's potential social, economic, and environmental outcomes."
+            className="grantCards"
+          />
           <CardItem
             imageSrc="/Homework.svg"
             title="Developing a grant approval"
-            description=""
+            description="Armed with a clear understanding of shared interests, we collaborate in developing a robust grant proposal that outlines the project, its objectives, execution plan, and potential impact."
+            className="grantCards"
           />
           <CardItem
             imageSrc="/history.svg"
             title="Due diligence and vetting"
-            description=""
+            description="A thorough vetting process ensues, where we scrutinize the proposal for its viability, sustainability, and potential to deliver on the stipulated objectives. Additionally, we verify that the individual and organization adhere to legal and ethical standards, ensuring utmost integrity."
+            className="grantCards"
           />
           <CardItem
             imageSrc="/calendar.svg"
             title="Decision making a board approved"
-            description=""
+            description="The grant proposal is presented to our board for final approval. Their decision is based on the project's merits, alignment with our goals, and potential for impactful change."
+            className="grantCards"
           />
-          <CardItem imageSrc="/Diploma.svg" title="Grant award" description="" />
+          <CardItem
+            imageSrc="/Diploma.svg"
+            title="Grant award"
+            description="Upon obtaining board approval, the grant is awarded to the partner organization for the execution of the project."
+            className="grantCards"
+          />
           <CardItem
             imageSrc="/Research.svg"
             title="Impact reports and analysis"
-            description=""
+            description="The final stage of our process involves the grantees' regular submission of impact reports. These reports are meticulously analyzed to evaluate the project's effectiveness and to chart the course for future initiatives."
+            className="grantCards"
           />
         </div>
       </section>

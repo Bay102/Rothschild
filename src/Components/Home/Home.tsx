@@ -6,7 +6,6 @@ import { Navbar } from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
 
-
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
@@ -31,7 +30,7 @@ export const Home = () => {
       <section className={styles.ourMissionContainer}>
         <div className="contentContainer">
           <div className={`${styles.missionImg} imgWrapper`}>
-            <img className='contentImg' src="Rectangle22.png" alt="MissionPic" />
+            <img className="contentImg" src="Rectangle22.png" alt="MissionPic" />
           </div>
           <div className="contentText">
             <h3>Our Mission</h3>
@@ -65,31 +64,37 @@ export const Home = () => {
               imageSrc="/Group 142.svg"
               title="Education"
               description="We fund projects focusing on early childhood education, K-12 education, higher education, and vocational and technical training."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 144.svg"
               title="Community"
               description="Through our grants, we strive to create opportunities for individuals and groups to unite."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 143.svg"
               title="Healthcare"
               description="We prioritize funding towards enhancing primary care, behavioral health, and critical emergency care services."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 139.svg"
               title="Nutrition"
               description="Our focus is on funding projects that adopt a comprehensive approach to nutrition, considering food security and other social determinants of health, including poverty."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 145.svg"
               title="Justice"
               description="We are committed to forging a path towards a more egalitarian and nonviolent society, both within the United States and internationally."
+              className="cardContainer"
             />
             <CardItem
               imageSrc="/Group 146.svg"
               title="Innovation"
               description=" Our grants empower organizations to conduct cutting-edge research and development, experiment with new and innovative approaches, and expand successful models."
+              className="cardContainer"
             />
           </div>
         </div>
@@ -118,7 +123,7 @@ export const Home = () => {
             </p>
           </div>
           <div className={`${styles.supportImg} imgWrapper`}>
-          <img className='contentImg' src="Rectangle75.png" alt="" />
+            <img className="contentImg" src="Rectangle75.png" alt="" />
           </div>
         </div>
         <div className={styles.newsLetterContainer}>

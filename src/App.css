@@ -21,7 +21,6 @@
 }
 
 .hero p {
-  /* font-size: 2.425rem; */
   font-weight: 500;
   padding: 100px;
   font-family: 'Roboto', sans-serif;
@@ -74,25 +73,44 @@
 .iconContainer {
   width: 90%;
   height: max-content;
-  margin: 40px auto;
+  margin: auto;
   padding-top: 30px;
+  padding-bottom: 30px;
   color: black;
   text-align: center;
   box-sizing: border-box;
+}
+
+.iconContainer h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
 }
 
 .iconCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* gap: 30px; */
   margin: auto;
   width: 820px;
 }
 
-.iconContainer h3 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+.cardContainer {
+  width: 250px;
+  height: 300px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin: 20px auto;
+  gap: 40px;
+}
+
+.grantCards {
+  width: 300px;
+  color: black;
+  text-align: center;
+  font-size: 15px;
+  margin: 20px auto;
+  gap: 40px;
 }
 
 @media (max-width: 1024px) {
