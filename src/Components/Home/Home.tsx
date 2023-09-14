@@ -1,10 +1,10 @@
 // import { NavLink } from 'react-router-dom';
 import '/src/App.css';
-import 'animate.css';
 import styles from './home.module.css';
 import { Navbar } from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
+import { Reveal } from '../Framer/Reveal';
 
 export const Home = () => {
   return (
@@ -28,35 +28,37 @@ export const Home = () => {
         </div>
       </section>
       <section className={styles.ourMissionContainer}>
-        <div className="contentContainer">
-          <div className={`${styles.missionImg} imgWrapper`}>
-            <img className="contentImg" src="Rectangle22.png" alt="MissionPic" />
+        <Reveal>
+          <div className="contentContainer">
+            <div className={`${styles.missionImg} imgWrapper`}>
+              <img className="contentImg" src="Rectangle22.png" alt="MissionPic" />
+            </div>
+            <div className="contentText">
+              <h3>Our Mission</h3>
+              <p>
+                The Rothschild Trust is committed to supporting individuals and
+                groups who strive to positively impact their communities through
+                innovation and service. With a firm belief in the power of
+                groundbreaking ideas, we diligently identify and nurture projects
+                that address social challenges and yield significant outcomes.
+                <br />
+                <br />
+                By leveraging their expertise and experience, we aim to amplify their
+                efforts and collectively drive meaningful change on a larger scale.
+                Our funding initiatives empower recipients to bring their dreams to
+                life and make a lasting difference. By launching new ventures or
+                expanding existing efforts, our grants enable individuals and
+                organizations to tackle critical issues across various sectors,
+                including health, education, environment, and community development.
+                <br />
+                <br />
+                We are proud to support transformative projects and initiatives that
+                have the potential to change communities worldwide.
+              </p>
+              <button className="donateButton">Learn More</button>
+            </div>
           </div>
-          <div className="contentText">
-            <h3>Our Mission</h3>
-            <p>
-              The Rothschild Trust is committed to supporting individuals and groups
-              who strive to positively impact their communities through innovation
-              and service. With a firm belief in the power of groundbreaking ideas,
-              we diligently identify and nurture projects that address social
-              challenges and yield significant outcomes.
-              <br />
-              <br />
-              By leveraging their expertise and experience, we aim to amplify their
-              efforts and collectively drive meaningful change on a larger scale. Our
-              funding initiatives empower recipients to bring their dreams to life
-              and make a lasting difference. By launching new ventures or expanding
-              existing efforts, our grants enable individuals and organizations to
-              tackle critical issues across various sectors, including health,
-              education, environment, and community development.
-              <br />
-              <br />
-              We are proud to support transformative projects and initiatives that
-              have the potential to change communities worldwide.
-            </p>
-            <button className="donateButton">Learn More</button>
-          </div>
-        </div>
+        </Reveal>
         <div className="iconContainer">
           <h3>Our Focus</h3>
           <div className="iconCards">
@@ -101,31 +103,33 @@ export const Home = () => {
       </section>
 
       <section className={styles.supportUsContainer}>
-        <div className="contentContainer">
-          <div className="contentText">
-            <h3>Support Us</h3>
-            <p style={{ lineHeight: 1.8 }}>
-              Join our passionate journey to make a meaningful impact on society
-              through targeted philanthropy. At the heart of our mission is a
-              deep-seated commitment to creating positive change in communities
-              around the globe. Our sophisticated approach to grant-making, driven by
-              strategic partnerships with our grantees, allows us to unlock
-              opportunities and empower underserved populations.
-              <br />
-              <br />
-              As a catalyst for social impact, we take immense pride in our role as
-              change-makers. We are dedicated to incubating impactful initiatives
-              that not only address pressing issues but also pave the way for a
-              brighter future. Your support is the driving force behind our
-              endeavors, and together, we can continue to uplift, inspire, and
-              transform countless lives.
-              <br />
-            </p>
+        <Reveal>
+          <div className="contentContainer">
+            <div className="contentText">
+              <h3>Support Us</h3>
+              <p style={{ lineHeight: 1.8 }}>
+                Join our passionate journey to make a meaningful impact on society
+                through targeted philanthropy. At the heart of our mission is a
+                deep-seated commitment to creating positive change in communities
+                around the globe. Our sophisticated approach to grant-making, driven
+                by strategic partnerships with our grantees, allows us to unlock
+                opportunities and empower underserved populations.
+                <br />
+                <br />
+                As a catalyst for social impact, we take immense pride in our role as
+                change-makers. We are dedicated to incubating impactful initiatives
+                that not only address pressing issues but also pave the way for a
+                brighter future. Your support is the driving force behind our
+                endeavors, and together, we can continue to uplift, inspire, and
+                transform countless lives.
+                <br />
+              </p>
+            </div>
+            <div className={`${styles.supportImg} imgWrapper`}>
+              <img className="contentImg" src="Rectangle75.png" alt="" />
+            </div>
           </div>
-          <div className={`${styles.supportImg} imgWrapper`}>
-            <img className="contentImg" src="Rectangle75.png" alt="" />
-          </div>
-        </div>
+        </Reveal>
         <div className={styles.newsLetterContainer}>
           <h3>Join Our Newsletter</h3>
           <p>
