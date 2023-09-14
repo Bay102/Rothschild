@@ -49,6 +49,7 @@
   font-size: 1.55rem;
   font-family: 'Roboto', sans-serif;
   margin: 5px auto;
+  border-bottom: 1px solid rgb(237, 128, 66);
 }
 
 .contentText {

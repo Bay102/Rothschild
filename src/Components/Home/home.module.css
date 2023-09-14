@@ -123,11 +123,11 @@
 
   .heroImg {
     background-position: 65% 30%;
-    height: 600px;
+    height: 675px;
   }
 
   .intro {
-    height: max-content;
+    /* height: max-content; */
     width: 100%;
     position: absolute;
     top: 0;
@@ -135,10 +135,15 @@
     text-align: center;
   }
 
+  .intro p {
+    font-size: 22px;
+    padding: 0 10px;
+  }
+
   .buttons {
     gap: 30px;
     margin-top: auto;
-    padding-top: 30px;
+    padding-top: 50px;
     justify-content: center;
   }
 

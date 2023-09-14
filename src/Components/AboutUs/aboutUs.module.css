@@ -11,7 +11,7 @@
   background-image: url('/aboutHero.png');
   height: 650px;
   box-sizing: border-box;
-  font-size: 65px;
+  font-size: 72px;
 }
 
 .sectionTwo {
@@ -63,7 +63,7 @@
 
 @media (max-width: 1024px) {
   .heroSection {
-    font-size: 55px;
+    font-size: 62px;
   }
 }
 
@@ -82,8 +82,6 @@
   .sectionThree {
     height: max-content;
     background-image: none;
-    /* padding-bottom: 20px; */
-    /* margin-bottom: 10p; */
   }
 
   .peoplePicsContainer {
@@ -99,11 +97,11 @@
 @media (max-width: 425px) {
   .heroSection {
     background-position: 35% 20%;
-    height: 420px;
+    height: 400px;
   }
 
   .heroSection p {
-    font-size: 30px;
+    font-size: 31px;
     padding: 20px 0;
   }
 

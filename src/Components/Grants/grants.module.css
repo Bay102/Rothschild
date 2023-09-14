@@ -1,6 +1,7 @@
 .heroImg {
   background-image: url('/grantsHero.jpg');
-  height: 675px;
+  background-position: 50% 50%;
+  height: 700px;
 }
 
 .iconWrapper {
@@ -19,6 +20,9 @@ height: max-content;
 }
 
 @media (max-width: 800px) {
+  .heroImg {
+    background-position: 20% 30%;
+  }
 }
 
 @media (max-width: 425px) {

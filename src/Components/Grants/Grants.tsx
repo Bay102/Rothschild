@@ -8,7 +8,7 @@ export const Grants = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      {/* <section className={`${styles.heroImg} hero`}></section> */}
+      <section className={`${styles.heroImg} hero`}></section>
       <section className={`iconContainer ${styles.iconWrapper}`}>
         <h3>Our Process</h3>
         <div className={`${styles.cards}`}>
