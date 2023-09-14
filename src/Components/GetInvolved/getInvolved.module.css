@@ -4,7 +4,7 @@
 }
 
 .heroImg p {
-  font-size: 60px;
+  font-size: 70px;
 }
 
 .sectionTwo {
@@ -50,7 +50,7 @@
 
 @media (max-width: 800px) {
   .heroImg p {
-    font-size: 50px;
+    font-size: 57px;
     padding-top: 60px;
   }
 }

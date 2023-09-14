@@ -11,7 +11,7 @@
   background-image: url('/aboutHero.png');
   height: 650px;
   box-sizing: border-box;
-  font-size: 2.4rem;
+  font-size: 55px;
 }
 
 
@@ -66,13 +66,13 @@
 
 @media (max-width: 1024px) {
   .heroSection {
-    font-size: 45px;
+    font-size: 55px;
   }
 }
 
 @media (max-width: 800px) {
   .heroSection p {
-    font-size: 43px;
+    font-size: 50px;
     padding: 100px 20px;
     width: 90%;
   }
@@ -97,10 +97,11 @@
   .heroSection {
     background-position: 35% 20%;
     height: 420px;
+    
   }
 
   .heroSection p {
-    font-size: 26px;
+    font-size: 30px;
     padding: 20px 0;
   }
 
