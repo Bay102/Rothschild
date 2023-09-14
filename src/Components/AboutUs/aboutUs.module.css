@@ -20,6 +20,7 @@
 }
 
 .sectionThree {
+  background-image: url('/brownBackground.svg');
 }
 
 .storyImg {
@@ -30,7 +31,6 @@
 }
 
 .whoWeAreContainer {
-  background-image: url('/brownBackground.svg');
   display: flex;
   padding-bottom: 20px;
   flex-direction: column;
@@ -81,6 +81,7 @@
 
   .sectionThree {
     height: max-content;
+    background-image: none;
     /* padding-bottom: 20px; */
     /* margin-bottom: 10p; */
   }
@@ -88,6 +89,10 @@
   .peoplePicsContainer {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .whoWeAreContainer {
+    background-image: url('/brownBackground.svg');
   }
 }
 
