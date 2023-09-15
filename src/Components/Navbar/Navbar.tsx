@@ -21,7 +21,7 @@ export const Navbar = () => {
     <nav className={`${styles.navContainer}`}>
       <div className={`${styles.navList}`}>
         <motion.div
-          initial={{ y: -250 }}
+          initial={{ y: -50 }}
           animate={{ y: 0 }}
           transition={{ delay: 0, type: 'spring', stiffness: 110 }}
           className={styles.logo}

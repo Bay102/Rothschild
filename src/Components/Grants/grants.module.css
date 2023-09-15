@@ -4,6 +4,10 @@
   height: 700px;
 }
 
+.heroImg p {
+  font-size: 78px;
+}
+
 .iconWrapper {
   padding-bottom: 40px;
   

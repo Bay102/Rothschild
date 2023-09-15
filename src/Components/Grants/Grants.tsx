@@ -8,7 +8,14 @@ export const Grants = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <section className={`${styles.heroImg} hero`}></section>
+      <section className={`${styles.heroImg} hero`}>
+        <p className="animate__animated animate__slideInRight">
+          <q>
+            Unlock opportunities and amplify your impact with our comprehensive
+            grants program designed to fuel your innovative initiatives.
+          </q>
+        </p>
+      </section>
       <section className={`iconContainer ${styles.iconWrapper}`}>
         <h3>Our Process</h3>
         <div className={`${styles.cards}`}>

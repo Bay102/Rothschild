@@ -50,7 +50,7 @@ export const GetInvolved = () => {
             </div>
           </div>
         </Reveal>
-        <Reveal>
+        <Reveal direction='right'>
           <div className="contentContainer">
             <div className={`${styles.mentoringImg} imgWrapper`}>
               <img className="contentImg" src="visionPic.png" alt="" />
@@ -118,7 +118,7 @@ export const GetInvolved = () => {
             </div>
           </div>
         </Reveal>
-        <Reveal>
+        <Reveal direction='right'>
           <div className={`contentContainer ${styles.marginOff}`}>
             <div className={`${styles.careersImg} imgWrapper`}>
               <img className="contentImg" src="careers.png" alt="" />

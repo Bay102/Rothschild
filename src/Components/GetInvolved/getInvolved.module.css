@@ -58,11 +58,11 @@
 @media (max-width: 425px) {
   .heroImg {
     background-position: 50% 60%;
-    height: 430px;
+    height: 570px;
   }
   
   .heroImg p {
-    font-size: 38px;
+    font-size: 40px;
     padding-top: 20px;
   }
 

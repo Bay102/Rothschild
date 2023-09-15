@@ -97,11 +97,11 @@
 @media (max-width: 425px) {
   .heroSection {
     background-position: 35% 20%;
-    height: 400px;
+    height: 520px;
   }
 
   .heroSection p {
-    font-size: 31px;
+    font-size: 33px;
     padding: 20px 0;
   }
 
