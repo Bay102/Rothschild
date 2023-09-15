@@ -8,6 +8,10 @@
   font-size: 78px;
 }
 
+.heroImg q { 
+  background: rgba(54, 52, 52, 0.873);
+}
+
 .iconWrapper {
   padding-bottom: 40px;
   
