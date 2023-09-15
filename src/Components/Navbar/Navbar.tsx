@@ -23,7 +23,7 @@ export const Navbar = () => {
         <motion.div
           initial={{ y: -50 }}
           animate={{ y: 0 }}
-          transition={{ delay: 0, type: 'spring', stiffness: 110 }}
+          transition={{ delay: 0, type: 'spring', stiffness: 60 }}
           className={styles.logo}
         >
           THE ROTHSCHILD TRUST

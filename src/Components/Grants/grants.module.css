@@ -27,6 +27,10 @@ height: max-content;
   .heroImg {
     background-position: 20% 30%;
   }
+
+  .heroImg p {
+    font-size: 60px;
+  }
 }
 
 @media (max-width: 425px) {
