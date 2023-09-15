@@ -14,12 +14,17 @@ export const Reveal = ({ children, direction }: Props) => {
 
   const animationVariants = {
     hidden: { opacity: 0, y: 0, x: direction === 'right' ? +250 : -150 },
-    visible: { opacity: 1, y: 0, x: 0, transition: { duration: 1.5, delay: 0.15, mass: 0.4, when: 'beforeChildren' } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      x: 0,
+      transition: { duration: 1.5, delay: 0.15, mass: 0.4, when: 'beforeChildren' },
+    },
   };
 
   useEffect(() => {
     if (isInView) {
-      mainControls.start('visible');
+      mainControls.start('visible');  //> starts animation 
     }
   }, [isInView]);
 
