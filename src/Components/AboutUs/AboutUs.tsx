@@ -20,13 +20,13 @@ export const AboutUs = () => {
         </p>
       </section>
       <section className={styles.sectionTwo}>
-        <Reveal>
-          <div className="contentContainer">
-            <div className={`${styles.storyImg} imgWrapper`}>
-              <img className="contentImg" src="Rectangle22.png" alt="" />
-            </div>
-            <div className="contentText">
-              <h3>Our Story</h3>
+        <div className="contentContainer">
+          <div className={`${styles.storyImg} imgWrapper`}>
+            <img className="contentImg" src="Rectangle22.png" alt="" />
+          </div>
+          <div className="contentText">
+            <h3>Our Story</h3>
+            <Reveal>
               <p>
                 Larry and Rhoda Rothschild embarked on a gastronomic adventure driven
                 by their desire to share their culinary creativity with the
@@ -37,50 +37,63 @@ export const AboutUs = () => {
                 ball soup, and hoagies. Through the years, its reputation grew
                 through word-of-mouth and the unwavering excellence of its offerings,
                 solidifying its place as a beloved fixture in the community.
-                <br />
-                <br />
-                Fueled by their entrepreneurial spirit, the Rothschilds extended
-                their reach, establishing a series of restaurants and catering
-                businesses on the outskirts of Philadelphia. Each venue exuded a
-                unique charm, blending their distinctive tastes with warm
-                hospitality. sed.
               </p>
-              <button className={styles.learnButton}>Learn More</button>
-            </div>
+            </Reveal>
+            <p>
+              <Reveal direction="right">
+                <p>
+                  {' '}
+                  Fueled by their entrepreneurial spirit, the Rothschilds extended
+                  their reach, establishing a series of restaurants and catering
+                  businesses on the outskirts of Philadelphia. Each venue exuded a
+                  unique charm, blending their distinctive tastes with warm
+                  hospitality. sed.
+                </p>
+              </Reveal>
+            </p>
+            <br />
+            <button className={styles.learnButton}>Learn More</button>
           </div>
-        </Reveal>
-        <Reveal>
-          <div className="contentContainer">
-            <div className="contentText">
-              <h3>Our Vision</h3>
+        </div>
+        <div className="contentContainer">
+          <div className="contentText">
+            <h3>Our Vision</h3>
+            <Reveal>
               <p>
+                {' '}
                 The Rothschild Trust envisions a world where the service industry is
                 celebrated for its contributions to society, and creativity, healing,
                 and innovation are at the forefront of its mission. The Trust sees a
                 future where individuals within the service industry are empowered,
                 equipped, and supported to thrive in their craft and make meaningful
                 contributions to their community.
-                <br />
-                <br />
+              </p>
+            </Reveal>
+            <Reveal direction="right">
+              <p>
+                {' '}
                 The Trust's vision is deeply rooted in the Rothschilds' commitment to
                 community service and empowerment. Just as the Rothschilds used their
                 gastronomic ventures to create local jobs, serve locally sourced
                 ingredients, and foster personalized, community-oriented service, the
                 Trust seeks to empower individuals within the service industry to be
                 pioneers of change, making an impact both in and outside their field.
-                <br />
-                <br />
+              </p>
+            </Reveal>
+            <Reveal>
+              <p>
+                {' '}
                 The Trust's vision is anchored in its five cardinal values: Service,
                 Hospitality, Passion, Fun, and Integrity. These values reflect the
                 Rothschilds' ethos of selfless giving,
               </p>
-              {/* <button className={styles.donateButton}>Learn More</button> */}
-            </div>
-            <div className={`${styles.visionImg} imgWrapper`}>
-              <img className="contentImg" src="visionPic.png" alt="" />
-            </div>
+            </Reveal>
+            {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
-        </Reveal>
+          <div className={`${styles.visionImg} imgWrapper`}>
+            <img className="contentImg" src="visionPic.png" alt="" />
+          </div>
+        </div>
       </section>
 
       <section className={styles.sectionThree}>
