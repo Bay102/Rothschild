@@ -13,12 +13,12 @@ export const Reveal = ({ children, direction }: Props) => {
   const mainControls = useAnimation();
 
   const animationVariants = {
-    hidden: { opacity: 0, y: 0, x: direction === 'right' ? +250 : -150 },
+    hidden: { opacity: 0, y: 0, x: direction === 'right' ? +200 : -200 },
     visible: {
       opacity: 1,
       y: 0,
       x: 0,
-      transition: { duration: 1.5, delay: 0.15, mass: 0.4, when: 'beforeChildren' },
+      transition: { duration: 1.25, delay: .25 , mass: 0.4, when: 'beforeChildren' },
     },
   };
 

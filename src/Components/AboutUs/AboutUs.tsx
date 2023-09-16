@@ -1,4 +1,5 @@
 import '/src/App.css';
+import { motion } from 'framer-motion';
 import styles from './aboutUs.module.css';
 import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
@@ -10,14 +11,16 @@ export const AboutUs = () => {
     <div className={styles.container}>
       <Navbar />
       <section className={`${styles.heroSection} hero`}>
-        <p className="animate__animated animate__slideInRight">
-          <q>
-            {' '}
-            The Rothschild Trust envisions a world where the service industry is
-            celebrated for its contributions to society. Creativity, healing, and
-            innovation are at the forefront of its mission.
-          </q>
-        </p>
+        <motion.p
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ duration: 1 }}
+        >
+          {' '}
+          The Rothschild Trust envisions a world where the service industry is
+          celebrated for its contributions to society. Creativity, healing, and
+          innovation are at the forefront of its mission.
+        </motion.p>
       </section>
       <section className={styles.sectionTwo}>
         <div className="contentContainer">
@@ -39,18 +42,17 @@ export const AboutUs = () => {
                 solidifying its place as a beloved fixture in the community.
               </p>
             </Reveal>
-            <p>
-              <Reveal direction="right">
-                <p>
-                  {' '}
-                  Fueled by their entrepreneurial spirit, the Rothschilds extended
-                  their reach, establishing a series of restaurants and catering
-                  businesses on the outskirts of Philadelphia. Each venue exuded a
-                  unique charm, blending their distinctive tastes with warm
-                  hospitality. sed.
-                </p>
-              </Reveal>
-            </p>
+
+            <Reveal direction="right">
+              <p>
+                {' '}
+                Fueled by their entrepreneurial spirit, the Rothschilds extended
+                their reach, establishing a series of restaurants and catering
+                businesses on the outskirts of Philadelphia. Each venue exuded a
+                unique charm, blending their distinctive tastes with warm
+                hospitality. sed.
+              </p>
+            </Reveal>
             <br />
             <button className={styles.learnButton}>Learn More</button>
           </div>
