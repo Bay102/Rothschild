@@ -56,7 +56,7 @@
 @media (max-width: 800px) {
   .heroImg p {
     font-size: 60px;
-    padding-top: 30px;
+    padding-top: 0;
   }
 }
 
@@ -65,10 +65,10 @@
     background-position: 50% 60%;
     height: 570px;
   }
-  
+
   .heroImg p {
     font-size: 45px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .sectionTwo {

@@ -16,6 +16,8 @@
 
 .heroSection p {
   padding-top: 25px;
+  text-align: center;
+  margin: auto;
 }
 
 .sectionTwo {
@@ -32,6 +34,7 @@
 }
 
 .visionImg {
+
 }
 
 .whoWeAreContainer {

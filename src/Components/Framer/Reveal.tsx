@@ -8,7 +8,7 @@ interface Props {
 
 export const Reveal = ({ children, direction }: Props) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false });
+  const isInView = useInView(ref, { once: false, amount: 0.175 });
 
   const mainControls = useAnimation();
 
@@ -18,13 +18,18 @@ export const Reveal = ({ children, direction }: Props) => {
       opacity: 1,
       y: 0,
       x: 0,
-      transition: { duration: 1.25, delay: .25 , mass: 0.4, when: 'beforeChildren' },
+      transition: {
+        duration: 1,
+        // delay: 0.25,
+        // mass: 0.4,
+        // when: 'beforeChildren',
+      },
     },
   };
 
   useEffect(() => {
     if (isInView) {
-      mainControls.start('visible');  //> starts animation 
+      mainControls.start('visible'); //> starts animation
     }
   }, [isInView]);
 

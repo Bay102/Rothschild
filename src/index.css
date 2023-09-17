@@ -27,6 +27,10 @@ body {
   margin: auto;
 }
 
+p {
+  margin: 0;
+}
+
 button {
   color: white;
   border-radius: 5px;

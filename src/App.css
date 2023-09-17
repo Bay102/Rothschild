@@ -14,7 +14,7 @@
   background-size: auto;
   background-repeat: no-repeat;
   /* height: 760px; */
-  height: 90vh;
+  /* height: 90vh; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -94,8 +94,8 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  width: 820px;
-  gap: 20px;
+  /* width: 820px; */
+  gap: 70px;
 }
 
 .cardContainer {

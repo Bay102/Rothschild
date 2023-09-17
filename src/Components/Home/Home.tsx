@@ -17,9 +17,9 @@ export const Home = () => {
             <br /> Building a better you.
           </h2>
           <p>
-            The Rothschild Trust is committed to supporting individuals and groups
-            who strive to positively impact their communities through innovation and
-            service.
+            The Rothschild Trust is committed to supporting individuals and
+            groups who strive to positively impact their communities through
+            innovation and service.
           </p>
           <div className={styles.buttons}>
             <button style={{ background: '#CE392C' }}>Donate</button>
@@ -28,10 +28,13 @@ export const Home = () => {
         </div>
       </section>
       <section className={styles.ourMissionContainer}>
-        {/* <Reveal> */}
         <div className="contentContainer">
           <div className={`${styles.missionImg} imgWrapper`}>
-            <img className="contentImg" src="Rectangle22.png" alt="MissionPic" />
+            <img
+              className="contentImg"
+              src="Rectangle22.png"
+              alt="MissionPic"
+            />
           </div>
           <div className="contentText">
             <h3>Our Mission</h3>
@@ -40,33 +43,35 @@ export const Home = () => {
                 The Rothschild Trust is committed to supporting individuals and
                 groups who strive to positively impact their communities through
                 innovation and service. With a firm belief in the power of
-                groundbreaking ideas, we diligently identify and nurture projects
-                that address social challenges and yield significant outcomes.
+                groundbreaking ideas, we diligently identify and nurture
+                projects that address social challenges and yield significant
+                outcomes.
               </p>
             </Reveal>
             <Reveal>
               <p>
                 {' '}
-                By leveraging their expertise and experience, we aim to amplify their
-                efforts and collectively drive meaningful change on a larger scale.
-                Our funding initiatives empower recipients to bring their dreams to
-                life and make a lasting difference. By launching new ventures or
-                expanding existing efforts, our grants enable individuals and
-                organizations to tackle critical issues across various sectors,
-                including health, education, environment, and community development.
+                By leveraging their expertise and experience, we aim to amplify
+                their efforts and collectively drive meaningful change on a
+                larger scale. Our funding initiatives empower recipients to
+                bring their dreams to life and make a lasting difference. By
+                launching new ventures or expanding existing efforts, our grants
+                enable individuals and organizations to tackle critical issues
+                across various sectors, including health, education,
+                environment, and community development.
               </p>
             </Reveal>
             <Reveal direction="right">
               <p>
                 {' '}
-                We are proud to support transformative projects and initiatives that
-                have the potential to change communities worldwide.
+                We are proud to support transformative projects and initiatives
+                that have the potential to change communities worldwide.
               </p>
             </Reveal>
             <button className="donateButton">Learn More</button>
           </div>
         </div>
-        {/* </Reveal> */}
+
         <div className="iconContainer">
           <h3>Our Focus</h3>
           <div className="iconCards">
@@ -116,22 +121,23 @@ export const Home = () => {
             <h3>Support Us</h3>
             <Reveal>
               <p>
-                Join our passionate journey to make a meaningful impact on society
-                through targeted philanthropy. At the heart of our mission is a
-                deep-seated commitment to creating positive change in communities
-                around the globe. Our sophisticated approach to grant-making, driven
-                by strategic partnerships with our grantees, allows us to unlock
-                opportunities and empower underserved populations.
+                Join our passionate journey to make a meaningful impact on
+                society through targeted philanthropy. At the heart of our
+                mission is a deep-seated commitment to creating positive change
+                in communities around the globe. Our sophisticated approach to
+                grant-making, driven by strategic partnerships with our
+                grantees, allows us to unlock opportunities and empower
+                underserved populations.
               </p>
             </Reveal>
             <Reveal direction="right">
               <p>
-                As a catalyst for social impact, we take immense pride in our role as
-                change-makers. We are dedicated to incubating impactful initiatives
-                that not only address pressing issues but also pave the way for a
-                brighter future. Your support is the driving force behind our
-                endeavors, and together, we can continue to uplift, inspire, and
-                transform countless lives.
+                As a catalyst for social impact, we take immense pride in our
+                role as change-makers. We are dedicated to incubating impactful
+                initiatives that not only address pressing issues but also pave
+                the way for a brighter future. Your support is the driving force
+                behind our endeavors, and together, we can continue to uplift,
+                inspire, and transform countless lives.
               </p>
             </Reveal>
 
@@ -145,8 +151,8 @@ export const Home = () => {
         <div className={styles.newsLetterContainer}>
           <h3>Join Our Newsletter</h3>
           <p>
-            Subscribe to our newsletter to stay up-to-date with the latest news and
-            exclusive offers.
+            Subscribe to our newsletter to stay up-to-date with the latest news
+            and exclusive offers.
           </p>
           <input type="text" name="" id="" />
           <input type="text" name="" id="" />

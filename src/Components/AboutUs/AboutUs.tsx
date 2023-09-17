@@ -1,26 +1,25 @@
 import '/src/App.css';
-import { motion } from 'framer-motion';
 import styles from './aboutUs.module.css';
 import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import { Reveal } from '../Framer/Reveal';
+import { ZoomInText } from '../Framer/ZoomInText';
 
 export const AboutUs = () => {
   return (
     <div className={styles.container}>
       <Navbar />
       <section className={`${styles.heroSection} hero`}>
-        <motion.p
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 1 }}
-        >
-          {' '}
-          The Rothschild Trust envisions a world where the service industry is
-          celebrated for its contributions to society. Creativity, healing, and
-          innovation are at the forefront of its mission.
-        </motion.p>
+        <ZoomInText>
+          <p>
+            <q>
+              The Rothschild Trust envisions a world where the service industry
+              is celebrated for its contributions to society. Creativity,
+              healing, and innovation are at the forefront of its mission.
+            </q>
+          </p>
+        </ZoomInText>
       </section>
       <section className={styles.sectionTwo}>
         <div className="contentContainer">
@@ -31,18 +30,18 @@ export const AboutUs = () => {
             <h3>Our Story</h3>
             <Reveal>
               <p>
-                Larry and Rhoda Rothschild embarked on a gastronomic adventure driven
-                by their desire to share their culinary creativity with the
-                community. Their journey began humbly with a Jewish deli, embodying
-                the essence of tradition, quality, and community connection.
-                Initially a local establishment, it delighted patrons with classic
-                Jewish delicacies like corned beef and pastrami sandwiches, matzo
-                ball soup, and hoagies. Through the years, its reputation grew
-                through word-of-mouth and the unwavering excellence of its offerings,
-                solidifying its place as a beloved fixture in the community.
+                Larry and Rhoda Rothschild embarked on a gastronomic adventure
+                driven by their desire to share their culinary creativity with
+                the community. Their journey began humbly with a Jewish deli,
+                embodying the essence of tradition, quality, and community
+                connection. Initially a local establishment, it delighted
+                patrons with classic Jewish delicacies like corned beef and
+                pastrami sandwiches, matzo ball soup, and hoagies. Through the
+                years, its reputation grew through word-of-mouth and the
+                unwavering excellence of its offerings, solidifying its place as
+                a beloved fixture in the community.
               </p>
             </Reveal>
-
             <Reveal direction="right">
               <p>
                 {' '}
@@ -63,31 +62,33 @@ export const AboutUs = () => {
             <Reveal>
               <p>
                 {' '}
-                The Rothschild Trust envisions a world where the service industry is
-                celebrated for its contributions to society, and creativity, healing,
-                and innovation are at the forefront of its mission. The Trust sees a
-                future where individuals within the service industry are empowered,
-                equipped, and supported to thrive in their craft and make meaningful
-                contributions to their community.
+                The Rothschild Trust envisions a world where the service
+                industry is celebrated for its contributions to society, and
+                creativity, healing, and innovation are at the forefront of its
+                mission. The Trust sees a future where individuals within the
+                service industry are empowered, equipped, and supported to
+                thrive in their craft and make meaningful contributions to their
+                community.
               </p>
             </Reveal>
             <Reveal direction="right">
               <p>
                 {' '}
-                The Trust's vision is deeply rooted in the Rothschilds' commitment to
-                community service and empowerment. Just as the Rothschilds used their
-                gastronomic ventures to create local jobs, serve locally sourced
-                ingredients, and foster personalized, community-oriented service, the
-                Trust seeks to empower individuals within the service industry to be
-                pioneers of change, making an impact both in and outside their field.
+                The Trust's vision is deeply rooted in the Rothschilds'
+                commitment to community service and empowerment. Just as the
+                Rothschilds used their gastronomic ventures to create local
+                jobs, serve locally sourced ingredients, and foster
+                personalized, community-oriented service, the Trust seeks to
+                empower individuals within the service industry to be pioneers
+                of change, making an impact both in and outside their field.
               </p>
             </Reveal>
             <Reveal>
               <p>
                 {' '}
-                The Trust's vision is anchored in its five cardinal values: Service,
-                Hospitality, Passion, Fun, and Integrity. These values reflect the
-                Rothschilds' ethos of selfless giving,
+                The Trust's vision is anchored in its five cardinal values:
+                Service, Hospitality, Passion, Fun, and Integrity. These values
+                reflect the Rothschilds' ethos of selfless giving,
               </p>
             </Reveal>
             {/* <button className={styles.donateButton}>Learn More</button> */}
