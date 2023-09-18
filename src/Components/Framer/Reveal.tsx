@@ -1,4 +1,9 @@
-import { motion, useAnimation, useInView } from 'framer-motion';
+import {
+  motion,
+  useAnimation,
+  useInView,
+  AnimatePresence,
+} from 'framer-motion';
 import { useEffect, useRef } from 'react';
 
 interface Props {
@@ -8,7 +13,7 @@ interface Props {
 
 export const Reveal = ({ children, direction }: Props) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, amount: 0.175 });
+  const isInView = useInView(ref, { once: false });
 
   const mainControls = useAnimation();
 
@@ -25,25 +30,30 @@ export const Reveal = ({ children, direction }: Props) => {
         // when: 'beforeChildren',
       },
     },
+    exit: { amount: -2, x: direction === 'right' ? -300 : +300 },
   };
 
   useEffect(() => {
     if (isInView) {
-      mainControls.start('visible'); //> starts animation
+      mainControls.start('visible');
+    } else {
+      mainControls.start('exit');
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
 
   return (
     <>
-      <div ref={ref} style={{ position: 'relative', overflow: 'hidden' }}>
-        <motion.div
-          variants={animationVariants}
-          initial="hidden"
-          animate={mainControls}
-        >
-          {children}
-        </motion.div>
-      </div>
+      <AnimatePresence>
+        <div ref={ref} style={{ position: 'relative', overflow: 'hidden' }}>
+          <motion.div
+            variants={animationVariants}
+            initial="hidden"
+            animate={mainControls}
+          >
+            {children}
+          </motion.div>
+        </div>
+      </AnimatePresence>
     </>
   );
 };

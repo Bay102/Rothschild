@@ -1,11 +1,11 @@
 .heroImg {
   background-image: url('/getInvolved.png');
-  /* height: 675px; */
+  height: 650px;
 }
 
 .heroImg p {
   font-size: 80px;
-  padding-top: 20px;
+  /* padding-top: 20px; */
 }
 
 .sectionTwo {

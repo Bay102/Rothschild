@@ -1,11 +1,9 @@
-import { motion, useAnimation } from 'framer-motion';
-
+import { motion } from 'framer-motion';
 interface Props {
   children: JSX.Element;
 }
 
 export const ZoomInText = ({ children }: Props) => {
-
   const animationVariants = {
     hidden: { opacity: 0, scale: 0 },
     visible: {
