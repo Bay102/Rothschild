@@ -5,26 +5,34 @@
 }
 
 .heroImg p {
-  font-size: 78px;
+  font-size: 90px;
 }
 
-.heroImg q { 
+.heroImg q {
   background: rgba(54, 52, 52, 0.873);
 }
 
 .iconWrapper {
   padding-bottom: 40px;
-  
 }
 
 .cards {
-display: flex;
-flex-wrap: wrap;
-height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  height: max-content;
 }
 
+@media (max-width: 1220px) {
+  .heroImg p {
+    font-size: 78px;
+  }
+}
 
 @media (max-width: 1024px) {
+  .heroImg p {
+    font-size: 78px;
+    padding-top: 40px;
+  }
 }
 
 @media (max-width: 800px) {
@@ -33,12 +41,12 @@ height: max-content;
   }
 
   .heroImg p {
-    font-size: 60px;
+    font-size: 70px;
   }
 }
 
 @media (max-width: 425px) {
   .heroImg p {
-    font-size: 50px;
+    font-size: 48px;
   }
 }

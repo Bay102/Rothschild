@@ -94,18 +94,15 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  /* width: 820px; */
-  gap: 70px;
+  gap: 50px;
 }
 
 .cardContainer {
-  width: 250px;
+  width: 290px;
   height: 300px;
   color: black;
   text-align: center;
   font-size: 15px;
-  margin: 20px auto;
-  gap: 40px;
 }
 
 .grantCards {

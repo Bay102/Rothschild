@@ -3,19 +3,23 @@ import styles from './grants.module.css';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import { CardItem } from '../CardItem/CardItem';
+import { RouteReveal } from '../Framer/RouteReveal';
 
 export const Grants = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <section className={`${styles.heroImg} hero`}>
-        <p className="animate__animated animate__slideInRight">
-          <q>
-            Unlock opportunities and amplify your impact with our comprehensive
-            grants program designed to fuel your innovative initiatives.
-          </q>
-        </p>
-      </section>
+      <RouteReveal>
+        <section className={`${styles.heroImg} hero`}>
+          <p className="animate__animated animate__slideInRight">
+            <q>
+              Unlock opportunities and amplify your impact with our
+              comprehensive grants program designed to fuel your innovative
+              initiatives.
+            </q>
+          </p>
+        </section>
+      </RouteReveal>
       <section className={`iconContainer ${styles.iconWrapper}`}>
         <h3>Our Process</h3>
         <div className={`${styles.cards}`}>

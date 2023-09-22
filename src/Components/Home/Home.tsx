@@ -1,32 +1,34 @@
-// import { NavLink } from 'react-router-dom';
 import '/src/App.css';
 import styles from './home.module.css';
 import { Navbar } from '../Navbar/Navbar';
 import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
 import { Reveal } from '../Framer/Reveal';
+import { RouteReveal } from '../Framer/RouteReveal';
 
 export const Home = () => {
   return (
     <div className={styles.homeContainer}>
       <Navbar />
-      <section className={`${styles.heroImg}`}>
-        <div className={`${styles.intro}`}>
-          <h2>
-            Creating stronger communities.
-            <br /> Building a better you.
-          </h2>
-          <p>
-            The Rothschild Trust is committed to supporting individuals and
-            groups who strive to positively impact their communities through
-            innovation and service.
-          </p>
-          <div className={styles.buttons}>
-            <button style={{ background: '#CE392C' }}>Donate</button>
-            <button style={{ background: '#ED8042' }}>Learn More</button>
+      <RouteReveal>
+        <section className={`${styles.heroImg}`}>
+          <div className={`${styles.intro}`}>
+            <h2>
+              Creating stronger communities.
+              <br /> Building a better you.
+            </h2>
+            <p>
+              The Rothschild Trust is committed to supporting individuals and
+              groups who strive to positively impact their communities through
+              innovation and service.
+            </p>
+            <div className={styles.buttons}>
+              <button style={{ background: '#CE392C' }}>Donate</button>
+              <button style={{ background: '#ED8042' }}>Learn More</button>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </RouteReveal>
       <section className={styles.ourMissionContainer}>
         <div className="contentContainer">
           <div className={`${styles.missionImg} imgWrapper`}>

@@ -1,26 +1,24 @@
 import '/src/App.css';
-import { motion } from 'framer-motion';
 import styles from './getInvolved.module.css';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import { Reveal } from '../Framer/Reveal';
+import { RouteReveal } from '../Framer/RouteReveal';
 
 export const GetInvolved = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <section className={`${styles.heroImg} hero`}>
-        <motion.p
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.75 }}
-        >
-          <q>
-            We are committed to driving transformative change by fostering
-            innovation and incubating ideas that make a real difference.
-          </q>
-        </motion.p>
-      </section>
+      <RouteReveal>
+        <section className={`${styles.heroImg} hero`}>
+          <p>
+            <q>
+              We are committed to driving transformative change by fostering
+              innovation and incubating ideas that make a real difference.
+            </q>
+          </p>
+        </section>
+      </RouteReveal>
       <section className={styles.sectionTwo}>
         <div className={`${styles.support} contentContainer`}>
           <div className="contentText">

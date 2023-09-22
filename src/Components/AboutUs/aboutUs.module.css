@@ -9,9 +9,9 @@
 
 .heroSection {
   background-image: url('/aboutHero.png');
-  height: 650px;
+  height: 700px;
   box-sizing: border-box;
-  font-size: 72px;
+  font-size: 75px;
 }
 
 .heroSection p {
@@ -34,7 +34,6 @@
 }
 
 .visionImg {
-
 }
 
 .whoWeAreContainer {

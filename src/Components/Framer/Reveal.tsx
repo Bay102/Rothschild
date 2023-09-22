@@ -25,12 +25,12 @@ export const Reveal = ({ children, direction }: Props) => {
       x: 0,
       transition: {
         duration: 1,
-        // delay: 0.25,
+        delay: 0.25,
         // mass: 0.4,
         // when: 'beforeChildren',
       },
     },
-    exit: { amount: -2, x: direction === 'right' ? -300 : +300 },
+    exit: { x: direction === 'right' ? -300 : +300, opacity: 0 },
   };
 
   useEffect(() => {

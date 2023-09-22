@@ -21,9 +21,9 @@ export const Navbar = () => {
     <nav className={`${styles.navContainer}`}>
       <div className={`${styles.navList}`}>
         <motion.div
-          initial={{ y: -50 }}
+          initial={{ y: -65 }}
           animate={{ y: 0 }}
-          transition={{ delay: 0, type: 'spring', stiffness: 60 }}
+          transition={{ delay: 0, type: 'spring', stiffness: 80 }}
           className={styles.logo}
         >
           THE ROTHSCHILD TRUST

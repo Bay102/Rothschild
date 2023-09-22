@@ -4,14 +4,15 @@ import { CardItem } from '../CardItem/CardItem';
 import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import { Reveal } from '../Framer/Reveal';
-import { ZoomInText } from '../Framer/ZoomInText';
+import { RouteReveal } from '../Framer/RouteReveal';
 
 export const AboutUs = () => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <section className={`${styles.heroSection} hero`}>
-        <ZoomInText>
+      <RouteReveal>
+        <section className={`${styles.heroSection} hero`}>
+          {/* <ZoomInText> */}
           <p>
             <q>
               The Rothschild Trust envisions a world where the service industry
@@ -19,8 +20,9 @@ export const AboutUs = () => {
               healing, and innovation are at the forefront of its mission.
             </q>
           </p>
-        </ZoomInText>
-      </section>
+          {/* </ZoomInText> */}
+        </section>
+      </RouteReveal>
       <section className={styles.sectionTwo}>
         <div className="contentContainer">
           <div className={`${styles.storyImg} imgWrapper`}>
