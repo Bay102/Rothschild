@@ -1,4 +1,12 @@
+import { NavLink } from 'react-router-dom';
 import styles from './footer.module.css';
+
+const handleClick = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+};
 
 export const Footer = () => {
   return (
@@ -10,15 +18,47 @@ export const Footer = () => {
         </p>
       </div>
       <div className={styles.two}>
-        <li>Home</li>
-        <li>About</li>
-        <li>Our Work</li>
-        <li>Grants</li>
-        <li>Get Involved</li>
-        <li>News</li>
-        <li>Contact Us</li>
+        <NavLink to={'/'} onClick={handleClick} className={styles.navLink}>
+          {' '}
+          Home
+        </NavLink>
+        <NavLink
+          to={'/about-us'}
+          onClick={handleClick}
+          className={styles.navLink}
+        >
+          {' '}
+          About
+        </NavLink>
+        <NavLink
+          to={'/grants'}
+          onClick={handleClick}
+          className={styles.navLink}
+        >
+          {' '}
+          Grants
+        </NavLink>
+        <NavLink
+          to={'/get-involved'}
+          onClick={handleClick}
+          className={styles.navLink}
+        >
+          {' '}
+          Get Involved
+        </NavLink>
+        <NavLink to={'/news'} onClick={handleClick} className={styles.navLink}>
+          {' '}
+          News
+        </NavLink>
+        <NavLink to={'{}'} onClick={handleClick} className={styles.navLink}>
+          {' '}
+          Contact Us
+        </NavLink>
+        <NavLink to={'{}'} onClick={handleClick} className={styles.navLink}>
+          {' '}
+          Privacy Policy
+        </NavLink>
         {/* <li>Terms and Service</li> */}
-        <li>Privacy Policy</li>
       </div>
       <div className={styles.three}>
         <button className={styles.donateButton}>Donate</button>

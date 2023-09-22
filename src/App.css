@@ -13,8 +13,6 @@
 .hero {
   background-size: auto;
   background-repeat: no-repeat;
-  /* height: 760px; */
-  /* height: 90vh; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -24,7 +22,6 @@
 
 .hero p {
   font-weight: 500;
-  /* padding-top: 20px; */
   font-family: 'Oswald', sans-serif;
   margin: 0;
   width: 90%;
@@ -69,7 +66,6 @@
 .contentImg {
   width: 100%;
   min-height: 350px;
-  max-width: 350px;
   border-radius: 5px;
   background-repeat: no-repeat;
 }
@@ -148,7 +144,6 @@
   }
 
   .hero p {
-    /* font-size: 26px; */
     padding: 50px 0;
     width: 95%;
   }
@@ -165,8 +160,8 @@
   }
 
   .contentImg {
-    /* width: 95%; */
     min-width: 90%;
+    max-width: 350px;
     margin: auto;
     height: 473px;
     background-repeat: no-repeat;

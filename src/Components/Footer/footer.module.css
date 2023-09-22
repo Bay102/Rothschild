@@ -6,6 +6,15 @@
   justify-content: center;
 }
 
+.navLink {
+  color: white;
+  font-size: 18px;
+  width: 250px;
+}
+.navLink:hover {
+  color: rgb(237, 128, 66);
+}
+
 .one {
   width: 30%;
 }
@@ -28,14 +37,15 @@
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  justify-content: center;
+  /* justify-content: center; */
   align-content: center;
 }
 
-.two li {
+.two .navLink {
   width: 215px;
   font-size: 15px;
   margin: 20px auto;
+  border-bottom: none;
 }
 
 .three {

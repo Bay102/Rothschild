@@ -51,11 +51,11 @@ export const AboutUs = () => {
                 their reach, establishing a series of restaurants and catering
                 businesses on the outskirts of Philadelphia. Each venue exuded a
                 unique charm, blending their distinctive tastes with warm
-                hospitality. sed.
+                hospitality.
               </p>
             </Reveal>
             <br />
-            <button className={styles.learnButton}>Learn More</button>
+            {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
         </div>
         <div className="contentContainer">
@@ -93,7 +93,7 @@ export const AboutUs = () => {
                 reflect the Rothschilds' ethos of selfless giving,
               </p>
             </Reveal>
-            {/* <button className={styles.donateButton}>Learn More</button> */}
+            <button className={styles.learnButton}>Learn More</button>
           </div>
           <div className={`${styles.visionImg} imgWrapper`}>
             <img className="contentImg" src="visionPic.png" alt="" />
