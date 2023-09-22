@@ -1,11 +1,12 @@
 .heroImg {
   background-image: url('/grantsHero.jpg');
   background-position: 50% 50%;
-  height: 700px;
+  height: max-content;
 }
 
 .heroImg p {
-  font-size: 90px;
+  font-size: 78px;
+  padding: 2% 0;
 }
 
 .heroImg q {
@@ -31,7 +32,6 @@
 @media (max-width: 1024px) {
   .heroImg p {
     font-size: 78px;
-    padding-top: 40px;
   }
 }
 
