@@ -22,7 +22,6 @@ a:hover {
 
 body {
   overflow-x: hidden;
-  /* overflow-y: hidden; */
   max-width: 1440px;
   margin: auto;
 }
@@ -53,7 +52,6 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-
   a:hover {
     color: rgb(237, 128, 66);
   }
