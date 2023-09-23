@@ -153,8 +153,8 @@ export const Home = () => {
         <div className={styles.newsLetterContainer}>
           <h3>Join Our Newsletter</h3>
           <p>
-            Subscribe to our newsletter to stay up-to-date with the latest news
-            and exclusive offers.
+            Subscribe to our newsletter to stay up-to-date with our latest
+            ventures
           </p>
           <input type="text" name="" id="" />
           <input type="text" name="" id="" />

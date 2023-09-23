@@ -14,7 +14,8 @@ export const Footer = () => {
       <div className={styles.one}>
         <div className={styles.logo}>THE ROTHSCHILD TRUST</div>
         <p>
-          Creating stronger communities. <br /> Building a better you
+          Creating stronger communities
+          <br /> Building a better you
         </p>
       </div>
       <div className={styles.two}>

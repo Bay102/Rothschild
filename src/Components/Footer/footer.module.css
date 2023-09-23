@@ -17,6 +17,10 @@
 
 .one {
   width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .one p {
@@ -29,7 +33,7 @@
   width: 240px;
   padding: 10px;
   text-align: center;
-  margin: 70px auto;
+  /* margin: auto; */
 }
 
 .two {
@@ -55,7 +59,7 @@
 
 .donateButton {
   background: rgb(206, 57, 44);
-  margin-bottom: 180px;
+  /* margin-bottom: 180px; */
   align-self: center;
 }
 
