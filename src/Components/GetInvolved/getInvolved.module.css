@@ -70,8 +70,8 @@
 
 @media (max-width: 425px) {
   .heroImg {
-    background-position: 50% 60%;
-    /* height: 570px; */
+    /* background-position: 50% 60%; */
+    height: 425px;
   }
 
   .heroImg p {
