@@ -10,15 +10,43 @@
 
 .heroSection {
   background-image: url('/aboutHero.png');
-  height: max-content;
+  height: 650px;
   box-sizing: border-box;
-  font-size: 75px;
+  position: relative;
 }
 
-.heroSection p {
-  padding: 2% 0;
-  text-align: center;
-  margin: auto;
+.intro {
+  width: 50%;
+  line-height: 1.4;
+  text-align: left;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  background-color: rgba(53, 50, 50, 0.841);
+  padding: 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.intro h2 {
+  font-size: 30px;
+  /* font-family: 'Source Serif 4', serif; */
+
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.intro p {
+  padding-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  border-radius: 2px;
 }
 
 .sectionTwo {
@@ -69,15 +97,27 @@
 }
 
 @media (max-width: 1024px) {
-  .heroSection {
-    font-size: 62px;
+  .intro {
+    width: 65%;
   }
 }
 
 @media (max-width: 800px) {
-  .heroSection p {
-    font-size: 54px;
-    width: 90%;
+  .heroSection {
+    height: 600px;
+  }
+
+  .intro {
+    top: 10%;
+    width: 70%;
+  }
+
+  .intro h2 {
+    font-size: 28px;
+  }
+
+  .intro p {
+    font-size: 23px;
   }
 
   .storyImg {
@@ -103,10 +143,26 @@
 @media (max-width: 425px) {
   .heroSection {
     background-position: 35% 20%;
+    height: 550px;
   }
 
-  .heroSection p {
-    font-size: 36px;
+  .intro {
+    position: initial;
+    width: 95%;
+    margin-top: 80px;
+    padding: 20px;
+  }
+
+  .intro h2 {
+    font-size: 27px;
+  }
+
+  .intro p {
+    font-size: 20px;
+  }
+
+  .buttons {
+    margin-top: 30px;
   }
 
   .sectionTwo {

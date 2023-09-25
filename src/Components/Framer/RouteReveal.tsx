@@ -7,12 +7,12 @@ export const RouteReveal = ({ children }: Props) => {
   const routeAnimation = {
     hidden: {
       // x: -1225,
-      opacity: 0.4,
+      opacity: 0.8,
     },
     visible: {
       x: 0,
       opacity: 1,
-      transition: { delay: 0, duration: 0.75, ease: 'easeIn' },
+      transition: { delay: 0, duration: 0.3, ease: 'easeIn' },
     },
     exit: {
       x: '-100vw',

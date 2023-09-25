@@ -1,20 +1,47 @@
 .heroImg {
-  background-image: url('/grantsHero.jpg');
-  background-position: 50% 50%;
-  height: max-content;
+  background-image: url('/grantsBlacks.jpeg');
+  /* background-position: center center; */
+  background-size: 100% auto;
+  height: 700px;
+  position: relative;
 }
 
-.heroImg p {
-  font-size: 78px;
-  padding: 2% 0;
+.intro {
+  width: 50%;
+  line-height: 1.4;
+  text-align: left;
+  position: absolute;
+  top: 17%;
+  right: 5%;
+  background-color: rgba(53, 50, 50, 0.841);
+  padding: 40px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
-.heroImg q {
-  background: rgba(54, 52, 52, 0.873);
+.intro h2 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.intro p {
+  padding-top: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  border-radius: 2px;
 }
 
 .iconWrapper {
   padding-bottom: 40px;
+  width: 100%;
+  background-color: #dfd8c8;
 }
 
 .cards {
@@ -24,29 +51,59 @@
 }
 
 @media (max-width: 1220px) {
-  .heroImg p {
-    font-size: 78px;
-  }
 }
 
 @media (max-width: 1024px) {
-  .heroImg p {
-    font-size: 78px;
+  .intro {
+    width: 65%;
   }
 }
 
 @media (max-width: 800px) {
   .heroImg {
     background-position: 20% 30%;
+    height: 570px;
   }
 
-  .heroImg p {
-    font-size: 70px;
+  .intro {
+    top: 10%;
+    width: 70%;
+  }
+
+  .intro h2 {
+    font-size: 28px;
+  }
+
+  .intro p {
+    font-size: 23px;
   }
 }
 
 @media (max-width: 425px) {
-  .heroImg p {
-    font-size: 48px;
+  .heroImg {
+    height: 100%;
+  }
+
+  .intro {
+    position: initial;
+    width: 95%;
+    /* margin-top: 80px; */
+    padding: 10px;
+  }
+
+  .intro h2 {
+    font-size: 20px;
+  }
+
+  .intro p {
+    font-size: 15px;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  .buttons {
+    /* margin-top: 30px; */
   }
 }

@@ -12,15 +12,22 @@ export const AboutUs = () => {
       <Navbar />
       <RouteReveal>
         <section className={`${styles.heroSection} hero`}>
-          {/* <ZoomInText> */}
-          <p>
-            <q>
-              The Rothschild Trust envisions a world where the service industry
-              is celebrated for its contributions to society. Creativity,
-              healing, and innovation are at the forefront of its mission.
-            </q>
-          </p>
-          {/* </ZoomInText> */}
+          <div className={`${styles.intro}`}>
+            <h2>
+              <q>
+                The Rothschild Trust envisions a world where the service
+                industry is celebrated for its contributions to society
+              </q>
+            </h2>
+            <p>
+              Where those in the service industry are recognized and valued for
+              their essential role in shaping our communities and improving
+              lives.
+            </p>
+            <div className={styles.buttons}>
+              <button style={{ background: '#CE392C' }}>Donate</button>
+            </div>
+          </div>
         </section>
       </RouteReveal>
       <section className={styles.sectionTwo}>

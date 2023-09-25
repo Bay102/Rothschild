@@ -11,12 +11,12 @@ export const GetInvolved = () => {
       <Navbar />
       <RouteReveal>
         <section className={`${styles.heroImg} hero`}>
-          <p>
+          {/* <p>
             <q>
               We are committed to driving transformative change by fostering
               innovation and incubating ideas that make a real difference.
             </q>
-          </p>
+          </p> */}
         </section>
       </RouteReveal>
       <section className={styles.sectionTwo}>
@@ -61,33 +61,32 @@ export const GetInvolved = () => {
           <div className="contentText">
             {' '}
             <h3>Our Vision</h3>
-            <Reveal direction="right">
-              <p>
-                {' '}
-                The Rothschild Trust envisions a world where the service
-                industry is celebrated for its contributions to society, and
-                creativity, healing, and innovation are at the forefront of its
-                mission. The Trust sees a future where individuals within the
-                service industry are empowered, equipped, and supported to
-                thrive in their craft and make meaningful contributions to their
-                community.
-              </p>
-            </Reveal>
-            <Reveal>
-              <p>
-                {' '}
-                The Trust's vision is deeply rooted in the Rothschilds'
-                commitment to community service and empowerment. Just as the
-                Rothschilds used their gastronomic ventures to create local
-                jobs, serve locally sourced ingredients, and foster
-                personalized, community-oriented service, the Trust seeks to
-                empower individuals within the service industry to be pioneers
-                of change, making an impact both in and outside their field. The
-                Trust's vision is anchored in its five cardinal values: Service,
-                Hospitality, Passion, Fun, and Integrity. These values reflect
-                the Rothschilds' ethos of selfless giving,
-              </p>
-            </Reveal>
+            {/* <Reveal direction="right"> */}
+            <p>
+              {' '}
+              The Rothschild Trust envisions a world where the service industry
+              is celebrated for its contributions to society, and creativity,
+              healing, and innovation are at the forefront of its mission. The
+              Trust sees a future where individuals within the service industry
+              are empowered, equipped, and supported to thrive in their craft
+              and make meaningful contributions to their community.
+            </p>
+            {/* </Reveal> */}
+            {/* <Reveal> */}
+            <p>
+              {' '}
+              The Trust's vision is deeply rooted in the Rothschilds' commitment
+              to community service and empowerment. Just as the Rothschilds used
+              their gastronomic ventures to create local jobs, serve locally
+              sourced ingredients, and foster personalized, community-oriented
+              service, the Trust seeks to empower individuals within the service
+              industry to be pioneers of change, making an impact both in and
+              outside their field. The Trust's vision is anchored in its five
+              cardinal values: Service, Hospitality, Passion, Fun, and
+              Integrity. These values reflect the Rothschilds' ethos of selfless
+              giving,
+            </p>
+            {/* </Reveal> */}
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
         </div>
@@ -136,33 +135,32 @@ export const GetInvolved = () => {
           </div>
           <div className={`contentText ${styles.careersText}`}>
             <h3>Careers</h3>
-            <Reveal direction="right">
-              <p>
-                We are committed to driving transformative change by fostering
-                innovation and incubating ideas that make a real difference.
-                We're seeking visionary leaders who are passionate about making
-                a lasting impact to join our esteemed Board. As a board member,
-                you'll play a crucial role in shaping our strategic direction,
-                influencing our funding decisions, and championing the
-                implementation of impactful projects. Our board members are more
-                than just figureheads; they're catalysts for change. With your
-                diverse experience, knowledge, and insights, you'll complement
-                our dynamic board, adding a unique perspective and helping us
-                steer our efforts toward the most promising, impactful
-                initiatives.
-              </p>
-            </Reveal>
-            <Reveal>
-              <p>
-                As part of The Rothschild Trust Board, you'll have the
-                opportunity to influence our mission on a larger scale, helping
-                us to incubate and foster ideas that will ignite meaningful
-                change. This is more than a position; it's a chance to be part
-                of a transformative journey. If you're inspired by our mission
-                and excited by the prospect of helping to shape the future, we
-                would love to hear from you.
-              </p>
-            </Reveal>
+            {/* <Reveal direction="right"> */}
+            <p>
+              We are committed to driving transformative change by fostering
+              innovation and incubating ideas that make a real difference. We're
+              seeking visionary leaders who are passionate about making a
+              lasting impact to join our esteemed Board. As a board member,
+              you'll play a crucial role in shaping our strategic direction,
+              influencing our funding decisions, and championing the
+              implementation of impactful projects. Our board members are more
+              than just figureheads; they're catalysts for change. With your
+              diverse experience, knowledge, and insights, you'll complement our
+              dynamic board, adding a unique perspective and helping us steer
+              our efforts toward the most promising, impactful initiatives.
+            </p>
+            {/* </Reveal> */}
+            {/* <Reveal> */}
+            <p>
+              As part of The Rothschild Trust Board, you'll have the opportunity
+              to influence our mission on a larger scale, helping us to incubate
+              and foster ideas that will ignite meaningful change. This is more
+              than a position; it's a chance to be part of a transformative
+              journey. If you're inspired by our mission and excited by the
+              prospect of helping to shape the future, we would love to hear
+              from you.
+            </p>
+            {/* </Reveal> */}
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
         </div>

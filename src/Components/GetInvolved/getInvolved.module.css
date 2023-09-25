@@ -1,6 +1,8 @@
 .heroImg {
-  background-image: url('/getInvolved.png');
-  height: max-content;
+  /* background-image: url('/getInvolved.png'); */
+  background-image: url('/grantsYellow.png');
+  background-size: 100% auto;
+  height: 700px;
 }
 
 .heroImg p {

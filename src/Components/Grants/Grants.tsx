@@ -11,13 +11,23 @@ export const Grants = () => {
       <Navbar />
       <RouteReveal>
         <section className={`${styles.heroImg} hero`}>
-          <p className="animate__animated animate__slideInRight">
-            <q>
-              Unlock opportunities and amplify your impact with our
-              comprehensive grants program designed to fuel your innovative
-              initiatives.
-            </q>
-          </p>
+          <div className={`${styles.intro}`}>
+            <h2>
+              <q>
+                Unlock opportunities and amplify your impact with our
+                comprehensive grants program designed to fuel your innovative
+                initiatives.
+              </q>
+            </h2>
+            <p>
+              Where those in the service industry are recognized and valued for
+              their essential role in shaping our communities and improving
+              lives.
+            </p>
+            <div className={styles.buttons}>
+              <button style={{ background: '#CE392C' }}>Donate</button>
+            </div>
+          </div>
         </section>
       </RouteReveal>
       <section className={`iconContainer ${styles.iconWrapper}`}>
