@@ -1,18 +1,18 @@
 .heroImg {
   background-image: url('/grantsBlacks.jpeg');
   /* background-position: center center; */
-  background-size: 100% auto;
-  height: 700px;
+  height: 650px;
+  min-width: 100%;
   position: relative;
 }
 
 .intro {
-  width: 50%;
+  width: 55%;
   line-height: 1.4;
   text-align: left;
   position: absolute;
-  top: 17%;
-  right: 5%;
+  top: 20%;
+  left: 10%;
   background-color: rgba(53, 50, 50, 0.841);
   padding: 40px;
   border-radius: 10px;
@@ -81,23 +81,24 @@
 
 @media (max-width: 425px) {
   .heroImg {
-    height: 315px;
+    background-position: 57% 40%;
+    height: 475px;
   }
 
   .intro {
     position: initial;
     width: 95%;
-    margin-top: 20px;
+    margin-top: 50px;
     padding: 10px;
     background-color: rgba(53, 50, 50, 0.71);
   }
 
   .intro h2 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .intro p {
-    font-size: 19px;
+    font-size: 22px;
   }
 
   h3 {
@@ -105,7 +106,7 @@
   }
 
   .buttons {
-    margin-top: 10px;
+    margin-top: 40px;
     justify-content: center;
   }
 }

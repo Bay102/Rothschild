@@ -14,10 +14,10 @@ export const AboutUs = () => {
         <section className={`${styles.heroSection} hero`}>
           <div className={`${styles.intro}`}>
             <h2>
-              <q>
-                The Rothschild Trust envisions a world where the service
-                industry is celebrated for its contributions to society
-              </q>
+              {/* <q> */}
+              The Rothschild Trust Envisions A World Where The Service Industry
+              Is Celebrated For Its Contributions To Society
+              {/* </q> */}
             </h2>
             <p>
               Where those in the service industry are recognized and valued for
