@@ -60,7 +60,11 @@ export const Footer = () => {
             {' '}
             Contact Us
           </NavLink>
-          <NavLink to={'{}'} onClick={handleClick} className={styles.navLink}>
+          <NavLink
+            to={'/privacy-policy'}
+            onClick={handleClick}
+            className={styles.navLink}
+          >
             {' '}
             Privacy Policy
           </NavLink>

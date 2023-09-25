@@ -8,6 +8,7 @@ import { OurWork } from './Components/OurWork/OurWork';
 import { GetInvolved } from './Components/GetInvolved/GetInvolved';
 import { News } from './Components/News/News';
 import { Grants } from './Components/Grants/Grants';
+import { PrivacyPolicy } from './Components/PrivacyPolicy/PrivacyPolicy';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route index path="/grants" element={<Grants />} />
             <Route index path="/get-involved" element={<GetInvolved />} />
             <Route index path="/news" element={<News />} />
+            <Route index path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </BrowserRouter>
       </AppProvider>

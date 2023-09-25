@@ -1,0 +1,23 @@
+.privacyContainer {
+  color: black;
+  padding: 100px;
+  font-size: 16px;
+  background-color: rgb(221, 217, 212);
+}
+
+.close {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .privacyContainer {
+    padding: 20px;
+  }
+
+  .privacyContainer h3 {
+    margin-top: 20px;
+  }
+}
