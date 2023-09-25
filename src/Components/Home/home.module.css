@@ -138,10 +138,16 @@
 
   .intro {
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: initial;
+    height: max-content;
+    /* top: 0; */
+    /* left: 0; */
     text-align: center;
+    margin: auto;
+  }
+
+  .intro h2 {
+    font-size: 38px;
   }
 
   .intro p {
@@ -150,10 +156,18 @@
   }
 
   .buttons {
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     margin-top: auto;
-    padding-top: 50px;
+    padding-top: 2%;
     justify-content: center;
+  }
+
+  .buttons button {
+    width: 200px;
+    height: 60px;
+    margin: auto;
   }
 
   .newsLetterContainer {
