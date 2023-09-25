@@ -4,6 +4,7 @@ import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import { Reveal } from '../Framer/Reveal';
 import { RouteReveal } from '../Framer/RouteReveal';
+import { RevealHeader } from '../Framer/RevealHeader';
 
 export const GetInvolved = () => {
   return (
@@ -34,6 +35,7 @@ export const GetInvolved = () => {
                 role in the success of our incubator projects.
               </p>
             </Reveal>
+            <br />
             <Reveal direction="right">
               <p>
                 This distinctive model enables us to remain adaptable and
@@ -56,12 +58,15 @@ export const GetInvolved = () => {
 
         <div className="contentContainer">
           <div className={`${styles.mentoringImg} imgWrapper`}>
+            {/* <Reveal direction="right"> */}
             <img className="contentImg" src="visionPic.png" alt="" />
+            {/* </Reveal> */}
           </div>
           <div className="contentText">
             {' '}
-            <h3>Our Vision</h3>
-            {/* <Reveal direction="right"> */}
+            <RevealHeader>
+              <h3>Our Vision</h3>
+            </RevealHeader>
             <p>
               {' '}
               The Rothschild Trust envisions a world where the service industry
@@ -71,8 +76,7 @@ export const GetInvolved = () => {
               are empowered, equipped, and supported to thrive in their craft
               and make meaningful contributions to their community.
             </p>
-            {/* </Reveal> */}
-            {/* <Reveal> */}
+            <br />
             <p>
               {' '}
               The Trust's vision is deeply rooted in the Rothschilds' commitment
@@ -86,7 +90,6 @@ export const GetInvolved = () => {
               Integrity. These values reflect the Rothschilds' ethos of selfless
               giving,
             </p>
-            {/* </Reveal> */}
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
         </div>
@@ -107,6 +110,7 @@ export const GetInvolved = () => {
                 role in the success of our incubator projects.
               </p>
             </Reveal>
+            <br />
             <Reveal direction="right">
               <p>
                 {' '}
@@ -121,7 +125,6 @@ export const GetInvolved = () => {
                 innovation and driving sustainable and meaningful progress.
               </p>
             </Reveal>
-
             {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
           <div className={`${styles.joinImg} imgWrapper`}>
@@ -134,8 +137,9 @@ export const GetInvolved = () => {
             <img className="contentImg" src="careers.png" alt="" />
           </div>
           <div className={`contentText ${styles.careersText}`}>
-            <h3>Careers</h3>
-            {/* <Reveal direction="right"> */}
+            <RevealHeader>
+              <h3>Careers</h3>
+            </RevealHeader>
             <p>
               We are committed to driving transformative change by fostering
               innovation and incubating ideas that make a real difference. We're
@@ -149,8 +153,7 @@ export const GetInvolved = () => {
               dynamic board, adding a unique perspective and helping us steer
               our efforts toward the most promising, impactful initiatives.
             </p>
-            {/* </Reveal> */}
-            {/* <Reveal> */}
+            <br />
             <p>
               As part of The Rothschild Trust Board, you'll have the opportunity
               to influence our mission on a larger scale, helping us to incubate
@@ -160,7 +163,6 @@ export const GetInvolved = () => {
               prospect of helping to shape the future, we would love to hear
               from you.
             </p>
-            {/* </Reveal> */}
             {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
         </div>

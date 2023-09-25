@@ -13,11 +13,9 @@ export const Grants = () => {
         <section className={`${styles.heroImg} hero`}>
           <div className={`${styles.intro}`}>
             <h2>
-              {/* <q> */}
-              Unlock opportunities and amplify your impact with our
-              comprehensive grants program designed to fuel your innovative
-              initiatives.
-              {/* </q> */}
+              Unlock Opportunities and Amplify Your Impact With Our
+              Comprehensive Grants Program Designed To Fuel Your Innovative
+              Initiatives.
             </h2>
             <p>
               Where those in the service industry are recognized and valued for
