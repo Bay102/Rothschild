@@ -1,6 +1,6 @@
 .heroImg {
   background-image: url('/grantsBlacks.jpeg');
-  /* background-position: center center; */
+  background-position: center center;
   height: 650px;
   min-width: 100%;
   position: relative;
