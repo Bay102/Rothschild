@@ -24,7 +24,7 @@ export const Home = () => {
             </p>
             <div className={styles.buttons}>
               <button style={{ background: '#CE392C' }}>Donate</button>
-              <button style={{ background: '#ED8042' }}>Learn More</button>
+              <button style={{ background: '#ED8042' }}>Connect With Us</button>
             </div>
           </div>
         </section>

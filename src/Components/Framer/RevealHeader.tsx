@@ -25,9 +25,9 @@ export const RevealHeader = ({ children }: Props) => {
       opacity: 1,
       scale: 1,
       x: 0,
-      transition: { duration: 1.2 },
+      transition: { duration: 1.25 },
     },
-    exit: { x: -600, opacity: 0 },
+    exit: { x: -900, opacity: 0 },
   };
 
   useEffect(() => {

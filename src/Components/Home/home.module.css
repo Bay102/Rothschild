@@ -119,6 +119,10 @@
 }
 
 @media (max-width: 800px) {
+  .heroImg {
+    background-position: 45% 30%;
+  }
+
   .intro {
     top: 15%;
     left: 17%;
