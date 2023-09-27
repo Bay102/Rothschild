@@ -50,6 +50,7 @@ export const Home = () => {
                 outcomes.
               </p>
             </Reveal>
+            <br />
             <Reveal>
               <p>
                 {' '}
@@ -63,6 +64,7 @@ export const Home = () => {
                 environment, and community development.
               </p>
             </Reveal>
+            <br />
             <Reveal direction="right">
               <p>
                 {' '}
@@ -132,6 +134,7 @@ export const Home = () => {
                 underserved populations.
               </p>
             </Reveal>
+            <br />
             <Reveal direction="right">
               <p>
                 As a catalyst for social impact, we take immense pride in our

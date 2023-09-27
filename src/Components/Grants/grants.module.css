@@ -1,6 +1,7 @@
 .heroImg {
   background-image: url('/grantsBlacks.jpeg');
   background-position: center center;
+  box-shadow: inset 0px 42px 115px 42px rgba(0, 0, 0, 1);
   height: 650px;
   min-width: 100%;
   position: relative;
@@ -61,7 +62,7 @@
 
 @media (max-width: 800px) {
   .heroImg {
-    background-position: 20% 30%;
+    background-position: 45% 30%;
     height: 570px;
   }
 

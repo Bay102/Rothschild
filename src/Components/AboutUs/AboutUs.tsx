@@ -51,6 +51,7 @@ export const AboutUs = () => {
                 a beloved fixture in the community.
               </p>
             </Reveal>
+            <br />
             <Reveal direction="right">
               <p>
                 {' '}
@@ -80,6 +81,7 @@ export const AboutUs = () => {
                 community.
               </p>
             </Reveal>
+            <br />
             <Reveal direction="right">
               <p>
                 {' '}
@@ -92,6 +94,7 @@ export const AboutUs = () => {
                 of change, making an impact both in and outside their field.
               </p>
             </Reveal>
+            <br />
             <Reveal>
               <p>
                 {' '}

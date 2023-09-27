@@ -13,6 +13,7 @@
   height: 650px;
   box-sizing: border-box;
   position: relative;
+  box-shadow: inset 0px 42px 115px 42px rgba(0, 0, 0, 1);
 }
 
 .intro {
@@ -97,6 +98,10 @@
 }
 
 @media (max-width: 1024px) {
+  .heroSection {
+    background-position: 70% 15%;
+  }
+
   .intro {
     width: 65%;
   }
