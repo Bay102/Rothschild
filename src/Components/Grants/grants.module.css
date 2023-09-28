@@ -75,7 +75,7 @@
 .iconWrapper {
   padding-bottom: 40px;
   width: 100%;
-  background-image: url('/public/brownBackground.svg');
+  background-image: url('/brownBackground.svg');
 }
 
 .cards {
