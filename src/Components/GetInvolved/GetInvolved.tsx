@@ -18,6 +18,10 @@ export const GetInvolved = () => {
               innovation and incubating ideas that make a real difference.
             </q>
           </p> */}
+          <div className={styles.buttons}>
+            <button style={{ background: '#CE392C' }}>Donate</button>
+            <button style={{ background: '#ED8042' }}>Connect With Us</button>
+          </div>
         </section>
       </RouteReveal>
       <section className={styles.sectionTwo}>

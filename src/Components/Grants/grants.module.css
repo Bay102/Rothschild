@@ -39,10 +39,43 @@
   border-radius: 2px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: max-content;
+  padding: 5% 15%;
+  color: black;
+  background-color: white;
+  /* text-align: center; */
+}
+
+.form h3 {
+  margin: 0;
+}
+
+.form p {
+  width: 50%;
+  text-align: center;
+}
+
+.form input {
+  height: 25px;
+  text-align: center;
+}
+
+.form button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(237, 128, 66);
+}
+
 .iconWrapper {
   padding-bottom: 40px;
   width: 100%;
-  background-color: #dfd8c8;
+  background-image: url('/public/brownBackground.svg');
 }
 
 .cards {

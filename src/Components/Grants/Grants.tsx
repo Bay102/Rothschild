@@ -28,6 +28,17 @@ export const Grants = () => {
           </div>
         </section>
       </RouteReveal>
+
+      <section className={styles.form}>
+        <h3>Join Our Newsletter</h3>
+        <p>
+          Subscribe to our newsletter to stay up-to-date with our latest grants
+          awarded.
+        </p>
+        <input placeholder="Email" type="email" />
+        <button>Sign Up</button>
+      </section>
+
       <section className={`iconContainer ${styles.iconWrapper}`}>
         <h3>Our Process</h3>
         <div className={`${styles.cards}`}>
