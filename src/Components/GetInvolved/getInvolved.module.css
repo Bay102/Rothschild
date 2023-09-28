@@ -18,9 +18,9 @@
   margin-top: 30px;
   border-radius: 2px;
   position: absolute;
-  bottom: 240px;
+  bottom: 35%;
+  left: 15%;
   background-color: #2b2b2bf2;
-  left: 200px;
   padding: 20px;
   border-radius: 7px;
 }
@@ -72,26 +72,29 @@
 @media (max-width: 1024px) {
   .heroImg p {
     font-size: 72px;
-    /* padding-top: 30px; */
   }
 }
 
 @media (max-width: 800px) {
   .heroImg p {
     font-size: 68px;
-    /* padding-top: 0; */
   }
 }
 
 @media (max-width: 425px) {
   .heroImg {
-    /* background-position: 50% 60%; */
     height: 356px;
   }
 
   .heroImg p {
     font-size: 45px;
-    /* padding-top: 10px; */
+  }
+
+  .buttons {
+    gap: 30px;
+    position: initial;
+    flex-direction: column;
+    margin-top: 171px;
   }
 
   .sectionTwo {

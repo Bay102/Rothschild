@@ -12,12 +12,6 @@ export const GetInvolved = () => {
       <Navbar />
       <RouteReveal>
         <section className={`${styles.heroImg} hero`}>
-          {/* <p>
-            <q>
-              We are committed to driving transformative change by fostering
-              innovation and incubating ideas that make a real difference.
-            </q>
-          </p> */}
           <div className={styles.buttons}>
             <button style={{ background: '#CE392C' }}>Donate</button>
             <button style={{ background: '#ED8042' }}>Connect With Us</button>

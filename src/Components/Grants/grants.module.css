@@ -135,6 +135,16 @@
     font-size: 22px;
   }
 
+  .form {
+    /* width: 90%; */
+    padding: 10px 20px;
+  }
+
+  .form p {
+    width: 95%;
+    font-size: 16px;
+  }
+
   h3 {
     margin: 0;
   }

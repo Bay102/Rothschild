@@ -103,7 +103,7 @@ export const AboutUs = () => {
                 reflect the Rothschilds' ethos of selfless giving,
               </p>
             </Reveal>
-            <button className={styles.learnButton}>Learn More</button>
+            <button className={styles.learnButton}>Donate</button>
           </div>
           <div className={`${styles.visionImg} imgWrapper`}>
             <img className="contentImg" src="visionPic.png" alt="" />

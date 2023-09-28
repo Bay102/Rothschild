@@ -30,10 +30,10 @@ export const Grants = () => {
       </RouteReveal>
 
       <section className={styles.form}>
-        <h3>Join Our Newsletter</h3>
+        <h3>Follow Us</h3>
         <p>
-          Subscribe to our newsletter to stay up-to-date with our latest grants
-          awarded.
+          Subscribe to our newsletter to stay up-to-date with our latest awarded
+          grants
         </p>
         <input placeholder="Email" type="email" />
         <button>Sign Up</button>
