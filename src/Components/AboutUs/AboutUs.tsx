@@ -158,7 +158,7 @@ export const AboutUs = () => {
             <div className={styles.personWrapper}>
               <img src="/Rectangle 112.png" alt="" />
               <h3>Frances Lopez</h3>
-              <p>General Council</p>
+              <p>General Counsel</p>
               <p>Board Member</p>
             </div>
             <div className={styles.personWrapper}>

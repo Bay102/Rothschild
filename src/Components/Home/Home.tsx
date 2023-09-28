@@ -14,8 +14,8 @@ export const Home = () => {
         <section className={`${styles.heroImg}`}>
           <div className={`${styles.intro}`}>
             <h2>
-              Creating stronger communities.
-              <br /> Building a better you.
+              Creating Stronger Communities.
+              <br /> Building a Better You.
             </h2>
             <p>
               The Rothschild Trust is committed to supporting individuals and
@@ -147,6 +147,7 @@ export const Home = () => {
             </Reveal>
 
             <br />
+            <button className="donateButton">Donate</button>
           </div>
           <div className={`${styles.supportImg} imgWrapper`}>
             <img className="contentImg" src="Rectangle75.png" alt="" />
