@@ -30,7 +30,7 @@ export const Reveal = ({ children, direction }: Props) => {
         // when: 'beforeChildren',
       },
     },
-    exit: { x: direction === 'right' ? -300 : +300, opacity: 0 },
+    // exit: { x: direction === 'right' ? -300 : +300, opacity: 0 },
   };
 
   useEffect(() => {

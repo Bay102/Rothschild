@@ -15,8 +15,8 @@ export const Footer = () => {
         <div className={styles.one}>
           <div className={styles.logo}>THE ROTHSCHILD TRUST</div>
           <p>
-            Creating stronger communities
-            <br /> Building a better you
+            Creating Stronger Communities
+            <br /> Building a Better You
           </p>
         </div>
         <div className={styles.two}>
@@ -71,7 +71,9 @@ export const Footer = () => {
           {/* <li>Terms and Service</li> */}
         </div>
         <div className={styles.three}>
-          <button className={styles.donateButton}>Donate</button>
+          <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+            <button className="donateButton">Donate</button>
+          </a>
         </div>
       </div>
       <div className={styles.footerBottom}>

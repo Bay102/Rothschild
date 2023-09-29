@@ -56,7 +56,6 @@
 }
 
 .missionImg {
-  /* background-image: url('/Rectangle22.png'); */
   order: 1;
 }
 
@@ -106,6 +105,7 @@
   margin: 10px auto;
   border-radius: 3px;
   border: 1px solid black;
+  text-align: center;
 }
 
 .newsLetterContainer button {

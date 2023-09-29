@@ -23,7 +23,9 @@ export const Grants = () => {
               lives.
             </p>
             <div className={styles.buttons}>
-              <button style={{ background: '#CE392C' }}>Donate</button>
+              <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+                <button className="donateButton">Donate</button>
+              </a>
             </div>
           </div>
         </section>

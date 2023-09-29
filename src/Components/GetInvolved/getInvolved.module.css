@@ -1,5 +1,4 @@
 .heroImg {
-  /* background-image: url('/getInvolved.png'); */
   background-image: url('/grantsYellow.png');
   background-size: 100% auto;
   box-shadow: inset 0px 42px 115px 42px rgba(0, 0, 0, 1);
@@ -15,7 +14,7 @@
 .buttons {
   display: flex;
   gap: 50px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   border-radius: 2px;
   position: absolute;
   bottom: 35%;

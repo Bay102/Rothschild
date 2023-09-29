@@ -13,8 +13,10 @@ export const GetInvolved = () => {
       <RouteReveal>
         <section className={`${styles.heroImg} hero`}>
           <div className={styles.buttons}>
-            <button style={{ background: '#CE392C' }}>Donate</button>
-            <button style={{ background: '#ED8042' }}>Connect With Us</button>
+            <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+              <button className="donateButton">Donate</button>
+            </a>
+            <button className="connectButton">Connect With Us</button>
           </div>
         </section>
       </RouteReveal>
@@ -45,9 +47,12 @@ export const GetInvolved = () => {
                 change. Whether it's a one-time gift or a planned contribution,
                 every donation propels us closer to our objectives, igniting
                 innovation and driving sustainable and meaningful progress.
+                <br />
+                <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+                  <button className="donateButton">Donate</button>
+                </a>
               </p>
             </Reveal>
-            <button className="donateButton">Donate</button>
           </div>
           <div className={`${styles.supportImg} imgWrapper`}>
             <img className="contentImg" src="Rectangle75.png" alt="" />
@@ -56,17 +61,13 @@ export const GetInvolved = () => {
 
         <div className="contentContainer">
           <div className={`${styles.mentoringImg} imgWrapper`}>
-            {/* <Reveal direction="right"> */}
             <img className="contentImg" src="visionPic.png" alt="" />
-            {/* </Reveal> */}
           </div>
           <div className="contentText">
-            {' '}
             <RevealHeader>
               <h3>Our Vision</h3>
             </RevealHeader>
             <p>
-              {' '}
               The Rothschild Trust envisions a world where the service industry
               is celebrated for its contributions to society, and creativity,
               healing, and innovation are at the forefront of its mission. The
@@ -76,7 +77,6 @@ export const GetInvolved = () => {
             </p>
             <br />
             <p>
-              {' '}
               The Trust's vision is deeply rooted in the Rothschilds' commitment
               to community service and empowerment. Just as the Rothschilds used
               their gastronomic ventures to create local jobs, serve locally
@@ -88,7 +88,6 @@ export const GetInvolved = () => {
               Integrity. These values reflect the Rothschilds' ethos of selfless
               giving,
             </p>
-            {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
         </div>
       </section>
@@ -125,7 +124,6 @@ export const GetInvolved = () => {
                 would love to hear from you.
               </p>
             </Reveal>
-            {/* <button className={styles.learnButton}>Learn More</button> */}
           </div>
           <div className={`${styles.joinImg} imgWrapper`}>
             <img className="contentImg" src="joinBoard.png" alt="" />
@@ -171,7 +169,6 @@ export const GetInvolved = () => {
               embark on a career with impact? Together, let's change the world,
               one project at a time.
             </p>
-            {/* <button className={styles.donateButton}>Learn More</button> */}
           </div>
         </div>
       </section>

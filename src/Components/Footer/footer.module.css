@@ -38,7 +38,6 @@
   width: 240px;
   padding: 10px;
   text-align: center;
-  /* margin: auto; */
 }
 
 .two {
@@ -103,6 +102,7 @@
 
   .three {
     width: 100%;
+    justify-content: center;
   }
 
   .donateButton {

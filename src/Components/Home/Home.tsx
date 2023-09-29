@@ -23,8 +23,11 @@ export const Home = () => {
               innovation and service.
             </p>
             <div className={styles.buttons}>
-              <button style={{ background: '#CE392C' }}>Donate</button>
-              <button style={{ background: '#ED8042' }}>Connect With Us</button>
+              <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+                <button className="donateButton">Donate</button>
+              </a>
+
+              <button className="connectButton">Connect With Us</button>
             </div>
           </div>
         </section>
@@ -72,7 +75,9 @@ export const Home = () => {
                 that have the potential to change communities worldwide.
               </p>
             </Reveal>
-            <button className="donateButton">Learn More</button>
+            {/* <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+              <button className="donateButton">Donate</button>
+            </a> */}
           </div>
         </div>
 
@@ -147,7 +152,9 @@ export const Home = () => {
             </Reveal>
 
             <br />
-            <button className="donateButton">Donate</button>
+            <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+              <button className="donateButton">Donate</button>
+            </a>
           </div>
           <div className={`${styles.supportImg} imgWrapper`}>
             <img className="contentImg" src="Rectangle75.png" alt="" />
@@ -160,8 +167,7 @@ export const Home = () => {
             Subscribe to our newsletter to stay up-to-date with our latest
             ventures
           </p>
-          <input type="text" name="" id="" />
-          <input type="text" name="" id="" />
+          <input placeholder="Email" type="email" name="" id="" />
           <button>Sign Up</button>
         </div>
       </section>

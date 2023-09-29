@@ -21,8 +21,15 @@
 }
 
 .donateButton {
-  margin-top: 15px;
+  margin-top: 10px;
   background: rgb(206, 57, 44);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.connectButton {
+  margin-top: 10px;
+  background: rgb(237, 128, 66);
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
 }
@@ -153,7 +160,7 @@
     min-width: 90%;
     max-width: 350px;
     margin: auto;
-    height: 473px;
+    height: 423px;
     background-repeat: no-repeat;
   }
 

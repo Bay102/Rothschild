@@ -127,6 +127,10 @@
     background-color: rgba(53, 50, 50, 0.71);
   }
 
+  .iconWrapper {
+    background-color: #dfd8c8;
+  }
+
   .intro h2 {
     font-size: 25px;
   }
@@ -136,8 +140,7 @@
   }
 
   .form {
-    /* width: 90%; */
-    padding: 10px 20px;
+    padding: 20px;
   }
 
   .form p {

@@ -25,7 +25,9 @@ export const AboutUs = () => {
               lives.
             </p>
             <div className={styles.buttons}>
-              <button style={{ background: '#CE392C' }}>Donate</button>
+              <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+                <button className="donateButton">Donate</button>
+              </a>
             </div>
           </div>
         </section>
@@ -103,7 +105,9 @@ export const AboutUs = () => {
                 reflect the Rothschilds' ethos of selfless giving,
               </p>
             </Reveal>
-            <button className={styles.learnButton}>Donate</button>
+            <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
+              <button className="donateButton">Donate</button>
+            </a>
           </div>
           <div className={`${styles.visionImg} imgWrapper`}>
             <img className="contentImg" src="visionPic.png" alt="" />
