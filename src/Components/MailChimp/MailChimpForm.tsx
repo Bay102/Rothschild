@@ -56,7 +56,9 @@ const CustomForm = ({ status, message, onValidated }: MailChimpFormTypes) => {
 };
 
 const MailChimpForm = () => {
-  const url = `abc`;
+  const url = `https://rothschildtrust.us21.list-manage.com/subscribe/post?u=${
+    import.meta.env.VITE_MAILCHIMP_U
+  }&id=${import.meta.env.VITE_MAILCHIMP_ID}`;
 
   return (
     <div className="">
