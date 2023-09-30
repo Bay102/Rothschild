@@ -56,8 +56,13 @@ export const Footer = () => {
             {' '}
             News
           </NavLink>
-          <NavLink to={'{}'} onClick={handleClick} className={styles.navLink}>
-            {' '}
+          <NavLink
+            to={
+              'https://us21.list-manage.com/contact-form?u=7cad91f31e2da880ec14378c5&form_id=85645ca2c39c60e399aa1fc9ace599dc'
+            }
+            onClick={handleClick}
+            className={styles.navLink}
+          >
             Contact Us
           </NavLink>
           <NavLink

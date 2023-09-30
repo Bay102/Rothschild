@@ -27,7 +27,7 @@ export const Home = () => {
               <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
                 <button className="donateButton">Donate</button>
               </a>
-              <a href="">
+              <a href="https://us21.list-manage.com/contact-form?u=7cad91f31e2da880ec14378c5&form_id=85645ca2c39c60e399aa1fc9ace599dc">
                 <button className="connectButton">Connect With Us</button>
               </a>
             </div>
