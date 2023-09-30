@@ -39,7 +39,7 @@ export const Home = () => {
           <div className={`${styles.missionImg} imgWrapper`}>
             <img
               className="contentImg"
-              src="Rectangle22.png"
+              src="/ourMissonHands.jpeg"
               alt="MissionPic"
             />
           </div>
@@ -70,16 +70,6 @@ export const Home = () => {
               </p>
             </Reveal>
             <br />
-            <Reveal direction="right">
-              <p>
-                {' '}
-                We are proud to support transformative projects and initiatives
-                that have the potential to change communities worldwide.
-              </p>
-            </Reveal>
-            {/* <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
-              <button className="donateButton">Donate</button>
-            </a> */}
           </div>
         </div>
 
@@ -152,7 +142,6 @@ export const Home = () => {
                 inspire, and transform countless lives.
               </p>
             </Reveal>
-
             <br />
             <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
               <button className="donateButton">Donate</button>

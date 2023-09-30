@@ -63,32 +63,34 @@ export const GetInvolved = () => {
 
         <div className="contentContainer">
           <div className={`${styles.mentoringImg} imgWrapper`}>
-            <img className="contentImg" src="visionPic.png" alt="" />
+            <img className="contentImg" src="/mentoring.png" alt="" />
           </div>
           <div className="contentText">
             <RevealHeader>
-              <h3>Our Vision</h3>
+              <h3>Mentoring</h3>
             </RevealHeader>
             <p>
-              The Rothschild Trust envisions a world where the service industry
-              is celebrated for its contributions to society, and creativity,
-              healing, and innovation are at the forefront of its mission. The
-              Trust sees a future where individuals within the service industry
-              are empowered, equipped, and supported to thrive in their craft
-              and make meaningful contributions to their community.
+              We believe in the power of collective wisdom. Our unique grant and
+              incubator structure facilitates a mentorship program that pairs
+              mentors with our grantees and partners. This pairing denotes a
+              valuable exchange of knowledge, insights, and experience. Mentors
+              provide subject matter expertise, strategic guidance, and
+              continual support, ensuring that our partners and grantees are
+              well-equipped to navigate the complexities of their projects. By
+              acting as a sounding board, mentors foster an environment that
+              encourages free thinking, creativity, and innovation. This
+              mentorship relationship significantly amplifies the likelihood of
+              success and yields more impactful outcomes.
             </p>
             <br />
             <p>
-              The Trust's vision is deeply rooted in the Rothschilds' commitment
-              to community service and empowerment. Just as the Rothschilds used
-              their gastronomic ventures to create local jobs, serve locally
-              sourced ingredients, and foster personalized, community-oriented
-              service, the Trust seeks to empower individuals within the service
-              industry to be pioneers of change, making an impact both in and
-              outside their field. The Trust's vision is anchored in its five
-              cardinal values: Service, Hospitality, Passion, Fun, and
-              Integrity. These values reflect the Rothschilds' ethos of selfless
-              giving,
+              If you are a seasoned professional, passionate about driving
+              change, and eager to share your knowledge and experience, we
+              invite you to join us in this transformative journey. As a mentor,
+              you will find the experience rewarding and fulfilling, knowing
+              that your guidance has the potential to ignite meaningful change.
+              Contact us at trust@rothschildlawrence.com to learn more about our
+              mentorship program and how you can make a difference.
             </p>
           </div>
         </div>
