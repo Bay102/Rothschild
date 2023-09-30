@@ -3,6 +3,8 @@ import styles from './mailChimp.module.css';
 import MailchimpSubscribe, { EmailFormFields } from 'react-mailchimp-subscribe';
 import { toast } from 'react-toastify';
 
+// Delete
+
 type MailChimpFormTypes = {
   status: 'success' | 'error' | 'sending' | null;
   message: string | Error | null;
