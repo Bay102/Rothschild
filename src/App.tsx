@@ -1,5 +1,7 @@
 import './App.css';
 import 'animate.css/animate.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AppProvider } from './Components/Providers/App.provider';
 import { Home } from './Components/Home/Home';
@@ -24,6 +26,7 @@ function App() {
             <Route index path="/news" element={<News />} />
             <Route index path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
+          <ToastContainer />
         </BrowserRouter>
       </AppProvider>
     </>

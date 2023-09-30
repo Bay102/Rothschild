@@ -5,6 +5,7 @@ import { Footer } from '../Footer/Footer';
 import { CardItem } from '../CardItem/CardItem';
 import { Reveal } from '../Framer/Reveal';
 import { RouteReveal } from '../Framer/RouteReveal';
+import MailChimpForm from '../MailChimp/MailChimpForm';
 
 export const Home = () => {
   return (
@@ -162,13 +163,7 @@ export const Home = () => {
         </div>
 
         <div className={styles.newsLetterContainer}>
-          <h3>Join Our Newsletter</h3>
-          <p>
-            Subscribe to our newsletter to stay up-to-date with our latest
-            ventures
-          </p>
-          <input placeholder="Email" type="email" name="" id="" />
-          <button>Sign Up</button>
+          <MailChimpForm />
         </div>
       </section>
       <Footer />

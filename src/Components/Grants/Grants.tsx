@@ -4,6 +4,7 @@ import { Footer } from '../Footer/Footer';
 import { Navbar } from '../Navbar/Navbar';
 import { CardItem } from '../CardItem/CardItem';
 import { RouteReveal } from '../Framer/RouteReveal';
+import MailChimpForm from '../MailChimp/MailChimpForm';
 
 export const Grants = () => {
   return (
@@ -32,13 +33,7 @@ export const Grants = () => {
       </RouteReveal>
 
       <section className={styles.form}>
-        <h3>Follow Us</h3>
-        <p>
-          Subscribe to our newsletter to stay up-to-date with our latest awarded
-          grants
-        </p>
-        <input placeholder="Email" type="email" />
-        <button>Sign Up</button>
+        <MailChimpForm />
       </section>
 
       <section className={`iconContainer ${styles.iconWrapper}`}>

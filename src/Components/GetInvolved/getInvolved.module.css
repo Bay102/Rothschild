@@ -92,8 +92,7 @@
   .buttons {
     gap: 30px;
     position: initial;
-    flex-direction: column;
-    margin-top: 171px;
+    margin-top: 190px;
   }
 
   .sectionTwo {
