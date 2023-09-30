@@ -21,8 +21,6 @@ const CustomForm = ({ status, message, onValidated }: MailChimpFormTypes) => {
       });
   };
 
-  console.log(status, message);
-
   useEffect(() => {
     if (status === 'success') {
       toast.success(`${message}`);
