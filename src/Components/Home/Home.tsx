@@ -148,7 +148,7 @@ export const Home = () => {
             </a>
           </div>
           <div className={`${styles.supportImg} imgWrapper`}>
-            <img className="contentImg" src="Rectangle75.png" alt="" />
+            <img className="contentImg" src="/supportHands.jpeg" alt="" />
           </div>
         </div>
 

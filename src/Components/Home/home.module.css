@@ -77,6 +77,10 @@
   align-items: center;
 }
 
+.supportImg img {
+  max-height: 650px;
+}
+
 .newsLetterContainer {
   display: flex;
   flex-direction: column;
