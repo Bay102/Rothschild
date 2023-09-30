@@ -77,10 +77,6 @@
   align-items: center;
 }
 
-.supportImg {
-  /* background-image: url('/Rectangle75.png'); */
-}
-
 .newsLetterContainer {
   display: flex;
   flex-direction: column;
