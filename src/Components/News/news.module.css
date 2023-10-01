@@ -31,3 +31,32 @@
   text-align: center;
   margin: 10px auto;
 }
+
+@media (max-width: 800px) {
+  .formWrapper {
+    width: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .background {
+    background-position: 50% 50%;
+    height: 550px;
+  }
+
+  .formWrapper {
+    width: 85%;
+  }
+}
+
+@media (max-width: 350px) {
+  .formWrapper h2 {
+    font-size: 25px;
+  }
+
+  .formWrapper p {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+  }
+}
