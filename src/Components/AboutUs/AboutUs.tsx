@@ -126,12 +126,6 @@ export const AboutUs = () => {
               className="cardContainer"
             />
             <CardItem
-              imageSrc="/Group 130.svg"
-              title="Hospitality"
-              description="Hospitality encompasses more than just courteousness and attentiveness; it involves creating a comfortable and welcoming atmosphere."
-              className="cardContainer"
-            />
-            <CardItem
               imageSrc="/Group 131.svg"
               title="Passion"
               description="Passion is the driving force that fuels the desire to create and innovate. It involves being authentic, driven and committed to one's craft."
@@ -141,6 +135,12 @@ export const AboutUs = () => {
               imageSrc="/Group 134.svg"
               title="Fun"
               description="Promoting a sense of playfulness and levity, creating an enjoyable and engaging environment is crucial in any line of work."
+              className="cardContainer"
+            />
+            <CardItem
+              imageSrc="/Group 130.svg"
+              title="Hospitality"
+              description="Hospitality encompasses more than just courteousness and attentiveness; it involves creating a comfortable and welcoming atmosphere."
               className="cardContainer"
             />
             <CardItem
