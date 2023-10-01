@@ -125,7 +125,7 @@
   .intro {
     position: initial;
     width: 95%;
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 10px;
     background-color: rgba(53, 50, 50, 0.71);
   }
@@ -135,7 +135,7 @@
   }
 
   .intro h2 {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .intro p {
