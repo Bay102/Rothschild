@@ -102,7 +102,7 @@ ul {
   .hamburger {
     display: block;
     position: absolute;
-    right: 15px;
+    right: 10px;
     font-size: 25px;
     cursor: pointer;
     z-index: 1;
@@ -160,7 +160,7 @@ ul {
 
 @media (max-width: 425px) {
   .logo {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .hamburger {

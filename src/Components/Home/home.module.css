@@ -57,6 +57,13 @@
 
 .missionImg {
   order: 1;
+  height: auto;
+  width: 45%;
+}
+
+.missionHands {
+  width: 100%;
+  margin-top: 50px;
 }
 
 .ourMissionContainer {
@@ -147,6 +154,14 @@
     height: max-content;
     text-align: center;
     margin: auto;
+  }
+
+  .missionImg {
+    width: 100%;
+  }
+
+  .missionHands {
+    margin-top: 0;
   }
 
   .intro h2 {

@@ -36,9 +36,9 @@ export const Home = () => {
       </RouteReveal>
       <section className={styles.ourMissionContainer}>
         <div className="contentContainer">
-          <div className={`${styles.missionImg} imgWrapper`}>
+          <div className={`${styles.missionImg}`}>
             <img
-              className="contentImg"
+              className={styles.missionHands}
               src="/ourMissonHands.jpeg"
               alt="MissionPic"
             />
