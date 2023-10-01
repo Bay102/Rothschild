@@ -91,9 +91,10 @@
 .newsLetterContainer {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 100%;
   color: black;
   text-align: center;
+  background-color: white;
 }
 
 .newsLetterContainer h3 {
@@ -113,13 +114,6 @@
   border-radius: 3px;
   border: 1px solid black;
   text-align: center;
-}
-
-.newsLetterContainer button {
-  width: 150px;
-  margin: 20px auto 80px auto;
-  background-color: #ce392c;
-  color: white;
 }
 
 @media (max-width: 1024px) {
