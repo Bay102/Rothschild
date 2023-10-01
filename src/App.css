@@ -145,6 +145,10 @@
     height: 500px;
   } */
 
+  .connectButton {
+    font-size: 16px;
+  }
+
   .contentContainer {
     height: max-content;
     width: 100%;

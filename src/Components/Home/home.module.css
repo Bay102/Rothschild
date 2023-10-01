@@ -145,14 +145,12 @@
     width: 100%;
     position: initial;
     height: max-content;
-    /* top: 0; */
-    /* left: 0; */
     text-align: center;
     margin: auto;
   }
 
   .intro h2 {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .intro p {

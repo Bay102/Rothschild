@@ -118,4 +118,10 @@
   .careersImg {
     display: none;
   }
+
+  @media (max-width: 320px) {
+    .sectionThree {
+      background-color: rgb(223 216 200);
+    }
+  }
 }
