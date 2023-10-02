@@ -31,11 +31,9 @@ export const Grants = () => {
           </div>
         </section>
       </RouteReveal>
-
       <section className={styles.form}>
         <MailChimpForm />
       </section>
-
       <section className={`iconContainer ${styles.iconWrapper}`}>
         <h3>Our Process</h3>
         <div className={`${styles.cards}`}>
