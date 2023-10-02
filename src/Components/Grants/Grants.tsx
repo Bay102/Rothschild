@@ -69,7 +69,7 @@ export const Grants = () => {
           />
           <CardItem
             imageSrc="/calendar.svg"
-            title="Decision making a board approved"
+            title="Board Approval"
             description="The grant proposal is presented to our board for final approval. Their decision is based on the project's merits, alignment with our goals, and potential for impactful change."
             className="grantCards"
           />

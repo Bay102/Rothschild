@@ -145,8 +145,8 @@ export const AboutUs = () => {
             />
             <CardItem
               imageSrc="/Group 133.svg"
-              title="integrity"
-              description="Honesty, transparency, and accountability are the cornerstones of our work. The Rothschilds had a reputation for being forthright and ethical."
+              title="Integrity"
+              description="Honesty, transparency, and accountability are the cornerstones of our work. The Rothschilds have a reputation for being forthright and ethical."
               className="cardContainer"
             />
           </div>
