@@ -113,6 +113,9 @@
   .heroSection {
     height: 600px;
     background-position: 70% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .intro {
@@ -136,6 +139,7 @@
   .sectionThree {
     height: max-content;
     background-image: none;
+    padding: 0;
   }
 
   .peoplePicsContainer {
@@ -157,7 +161,7 @@
   .intro {
     position: initial;
     width: 95%;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     padding: 20px;
   }
 

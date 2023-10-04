@@ -13,10 +13,10 @@
 }
 
 .form p {
+  text-align: center;
 }
 
 .form button {
-  /* margin-top: 20px; */
   background-color: rgb(237, 128, 66);
   filter: drop-shadow(2px 2px 1px rgb(59, 57, 57));
 }
