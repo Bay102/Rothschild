@@ -44,31 +44,28 @@ export const Home = () => {
             />
           </div>
           <div className="contentText">
-            <h3>Our Mission</h3>
-            <Reveal direction="right">
-              <p>
-                The Rothschild Trust is committed to supporting individuals and
-                groups who strive to positively impact their communities through
-                innovation and service. With a firm belief in the power of
-                groundbreaking ideas, we diligently identify and nurture
-                projects that address social challenges and yield significant
-                outcomes.
-              </p>
-            </Reveal>
-            <br />
             <Reveal>
-              <p>
-                {' '}
-                By leveraging their expertise and experience, we aim to amplify
-                their efforts and collectively drive meaningful change on a
-                larger scale. Our funding initiatives empower recipients to
-                bring their dreams to life and make a lasting difference. By
-                launching new ventures or expanding existing efforts, our grants
-                enable individuals and organizations to tackle critical issues
-                across various sectors, including health, education,
-                environment, and community development.
-              </p>
+              <h3>Our Mission</h3>
             </Reveal>
+            <p>
+              The Rothschild Trust is committed to supporting individuals and
+              groups who strive to positively impact their communities through
+              innovation and service. With a firm belief in the power of
+              groundbreaking ideas, we diligently identify and nurture projects
+              that address social challenges and yield significant outcomes.
+            </p>
+            <br />
+            <p>
+              {' '}
+              By leveraging their expertise and experience, we aim to amplify
+              their efforts and collectively drive meaningful change on a larger
+              scale. Our funding initiatives empower recipients to bring their
+              dreams to life and make a lasting difference. By launching new
+              ventures or expanding existing efforts, our grants enable
+              individuals and organizations to tackle critical issues across
+              various sectors, including health, education, environment, and
+              community development.
+            </p>
             <br />
           </div>
         </div>
@@ -119,29 +116,28 @@ export const Home = () => {
       <section className={styles.supportUsContainer}>
         <div className="contentContainer">
           <div className="contentText">
-            <h3>Support Us</h3>
             <Reveal>
-              <p>
-                Join our passionate journey to make a meaningful impact on
-                society through targeted philanthropy. At the heart of our
-                mission is a deep-seated commitment to creating positive change
-                in communities around the globe. Our sophisticated approach to
-                grant-making, driven by strategic partnerships with our
-                grantees, allows us to unlock opportunities and empower
-                underserved populations.
-              </p>
+              <h3>Support Us</h3>
             </Reveal>
+            <p>
+              Join our passionate journey to make a meaningful impact on society
+              through targeted philanthropy. At the heart of our mission is a
+              deep-seated commitment to creating positive change in communities
+              around the globe. Our sophisticated approach to grant-making,
+              driven by strategic partnerships with our grantees, allows us to
+              unlock opportunities and empower underserved populations.
+            </p>
             <br />
-            <Reveal direction="right">
-              <p>
-                As a catalyst for social impact, we take immense pride in our
-                role as change-makers. We are dedicated to incubating impactful
-                initiatives that not only address pressing issues but also pave
-                the way for a brighter future. Your support is the driving force
-                behind our endeavors, and together, we can continue to uplift,
-                inspire, and transform countless lives.
-              </p>
-            </Reveal>
+
+            <p>
+              As a catalyst for social impact, we take immense pride in our role
+              as change-makers. We are dedicated to incubating impactful
+              initiatives that not only address pressing issues but also pave
+              the way for a brighter future. Your support is the driving force
+              behind our endeavors, and together, we can continue to uplift,
+              inspire, and transform countless lives.
+            </p>
+
             <br />
             <a href="https://pages.donately.com/rothschildtrustcorp/form/frm_c23e2080004f">
               <button className="donateButton">Donate</button>
